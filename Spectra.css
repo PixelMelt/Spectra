@@ -1,4 +1,102 @@
-.newMessagesBar-265mhP {
+.botTagRegular-2HEhHi {
+    background: #fdd651;
+    color: #212d38;
+}
+
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp, .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp {
+    background-color: #212d38;
+    color: #fdd651;
+}
+
+.da-live {
+	background-color: #1F2933!important;
+}
+
+.live-vBWnV6 {
+	color: #ffe89b;
+}
+
+.avatarSpeaking-2IGMRN {
+    -webkit-box-shadow: inset 0 0 0 2px #ffe89b,inset 0 0 0 3px var(--background-secondary);
+    box-shadow: inset 0 0 0 2px #ffe89b,inset 0 0 0 3px var(--background-secondary);
+}
+
+.avatarSpeaking-2c8-9i {
+    -webkit-box-shadow: inset 0 0 0 2px #ffe89b,inset 0 0 0 3px var(--background-secondary);
+    box-shadow: inset 0 0 0 2px #ffe89b,inset 0 0 0 3px var(--background-secondary);
+    border-radius: 50%;
+}
+
+.subtext-3CDbHg {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #E7C553;
+    line-height: 13px;
+}
+
+.circleIconButton-1QV--U {
+    color: #a98e38;
+    background-color: #1F2933;
+}
+
+.circleIconButton-1QV--U.selected-1JjBPm {
+    color: #36393f;
+    background-color: #ffe89b;
+}
+
+.numberBadge-2s8kKX {
+    color: #36393f;
+    background-color: #c7ad59!important;
+}
+
+.childWrapper-anI2G9:hover{
+    background-color: #efbe1c !important;
+}
+
+.selected-3s45Ha.item-PXvHYJ, .selected-3s45Ha.item-PXvHYJ:hover {
+    cursor: default;
+    color: #efbe1c;
+}
+
+.top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active {
+    border-bottom-color: #ffe89b;
+}
+
+.mention-1f5kbO {
+    background-color: #efbe1c;
+    opacity: .9;
+}
+
+.lookBlank-3eh9lL {
+    background: transparent;
+    color: #eac342;
+}
+
+.theme-light .root-1gCeng {
+    background: #1F2933;
+}
+
+.theme-dark .footer-2gL1pp {
+    background-color: #24303c;
+    box-shadow: inset 0 1px 0 #202225;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
+    --color: #f1e1ad;
+    --background-color: #283644;
+}
+
+.theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV {
+    --color: #f1e1ad;
+    --background-color: #283644;
+}
+
+ .theme-light {
+ 	--background-modifier-accent: rgb(199, 171, 12);
+}
+
+ .newMessagesBar-265mhP {
     top: 0;
     border-radius: 0 0 8px 8px;
     background-color: #283644;
@@ -66,26 +164,7 @@
     margin-left: 8px;
 }
 
-.circleIconButton-1QV--U {
-    cursor: pointer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 48px;
-    height: 48px;
-    -webkit-transition: color 999999999999s ease-out,background-color 999999999999s ease-out;
-    transition: color 999999999999s ease-out,background-color 999999999999s ease-out;
-    color: #c39a0e;
-    background-color: var(--background-primary);
-}
+
 
 .lookInverted-2D7oAl.colorGreen-29iAKY {
     color: #1f2933;
