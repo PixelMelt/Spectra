@@ -1,3 +1,92 @@
+.newMessagesBar-265mhP {
+    top: 0;
+    border-radius: 0 0 8px 8px;
+    background-color: #283644;
+    -webkit-box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-low);
+}
+
+.barButtonBase-2uLO1z {
+    text-align: left;
+    background: none;
+    color: #f1e1ad;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-weight: 500;
+    padding: 0 12px;
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.search-1iTphC .searchBox-2_mAlO:focus, .search-1iTphC .searchBox-2_mAlO:focus-within {
+    -webkit-box-shadow: 0 0 0 1px #5b43f0, 0 0 0 2px #bdb3f9, 0 0 0 3px #bdb3f9;
+    box-shadow: 0 0 0 1px #5b43f0, 0 0 0 2px #bdb3f9, 0 0 0 3px #bdb3f9;
+    border-color: #202225;
+}
+
+.search-1iTphC .searchBox-2_mAlO {
+    z-index: 2;
+    border-radius: 8px;
+    background-color: #f1e1ad;
+    padding-right: 8px;
+}
+
+.searchBox-3Y2Vi7 .searchBoxInput-uJtBcv {
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px;
+    background: #f1e1ad;
+    height: auto;
+}
+
+.search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng {
+    font-size: 16px;
+    padding: 8px;
+    color: #1f2933;
+}
+
+.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
+    background-color: #eac444;
+}
+
+.categoryItem-1QIroW {
+    color: #eac444;
+    margin-left: 8px;
+}
+
+.circleIconButton-1QV--U {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    -webkit-transition: color 999999999999s ease-out,background-color 999999999999s ease-out;
+    transition: color 999999999999s ease-out,background-color 999999999999s ease-out;
+    color: #c39a0e;
+    background-color: var(--background-primary);
+}
+
 .lookInverted-2D7oAl.colorGreen-29iAKY {
     color: #1f2933;
     background-color: #ffe89b;
