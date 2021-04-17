@@ -1,3 +1,30 @@
+.unread-2lAfLh {
+    background-color: #FFE89B;
+}
+
+.unread-1xRYoj {
+    background-color: #283644;
+    opacity: .9;
+}
+
+.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+    background-color: #283644;
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j {
+    background-color: #283644;
+    color: #fff;
+}
+
+.theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+    background-color: #b18b4c;
+}
+
+.theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV {
+    color: #f1e1ad;
+    background-color: #283644;
+}
+
 .botTagRegular-2HEhHi {
     background: #fdd651;
     color: #212d38;
