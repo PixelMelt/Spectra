@@ -50,8 +50,14 @@
     background-color: #c7ad59!important;
 }
 
-.childWrapper-anI2G9:hover{
-    background-color: #efbe1c !important;
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    color: #efbe1c;
+    background-color: #212d38;
+}
+
+.childWrapper-anI2G9:hover {
+    color: #efbe1c;
+    background-color: #212D38;
 }
 
 .selected-3s45Ha.item-PXvHYJ, .selected-3s45Ha.item-PXvHYJ:hover {
