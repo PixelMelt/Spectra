@@ -1,0 +1,298 @@
+.lookInverted-2D7oAl.colorGreen-29iAKY {
+    color: #1f2933;
+    background-color: #ffe89b;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+	color: #1f2933;
+    background-color: #ffe89b;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    color: #1f2933;
+    background-color: #ffe89b;
+}
+
+.topSectionPlaying-1J5E4n {
+    background: #1f2933;
+}
+
+.topSectionXbox-3fWLjS {
+    background: #1f2933;
+}
+
+.membershipDialogHouse2-35h9SY {
+    background-color: #1f2933;
+}
+
+.membershipDialog-rVL-t_:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-image: url(/assets/c48ff25….svg); */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    opacity: .15;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.bd-addon-views .bd-view-button.selected {
+    background-color: #ffe89b;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    color: #1b2229;
+    background-color: #b18b0e;
+}
+
+.clickable-1JJAn8.container-2Pjhx-:active, .highlighted-1gWxXa.container-2Pjhx-, .selected-aXhQR6.container-2Pjhx- {
+    color: #3e5165;
+}
+
+.modeConnected-3IsKId .name-23GUGE, .modeConnected-3IsKId:hover .name-23GUGE, .modeSelected-346R90 .name-23GUGE, .modeSelected-346R90:hover .name-23GUGE, .modeUnread-1qO3K1 .name-23GUGE, .modeUnread-1qO3K1:hover .name-23GUGE, .notInteractive-1X92pj.modeConnected-3IsKId .name-23GUGE, .notInteractive-1X92pj.modeSelected-346R90 .name-23GUGE {
+    color: #3e5165;
+}
+
+.bd-button.bd-button-danger {
+    background-color: #bf5e1a;
+}
+
+.bd-addon-views .bd-view-button.selected svg {
+    fill: #1b2229;
+}
+
+.bd-switch {
+    background-color: #e2b725;
+    border-radius: 14px;
+    width: 42px;
+    height: 24px;
+    opacity: 1;
+    overflow: hidden;
+    user-select: none;
+    position: relative;
+    display: block;
+    flex: 0 0 auto;
+    transition: background .15s ease-in-out,box-shadow .15s ease-in-out,border .15s ease-in-out,opacity .15s ease-in-out;
+    margin-left: 10px;
+    box-shadow: inset 0 1px 1px rgba(125, 48, 48, 0.15);
+}
+
+.bd-switch::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #1f2933;;
+    z-index: 1;
+    width: 18px;
+    margin: 3px;
+    border-radius: 9px;
+    height: 18px;
+    left: 0;
+    transition: transform .15s ease-in-out,width .1s ease-in-out,left .1s ease-in-out;
+}
+
+.bd-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0b848;
+    color: #5d4a0d;
+    border-radius: 3px;
+    padding: 4px 8px;
+    transition: background-color .17s ease,color .17s ease,opacity 250ms ease;
+}
+
+.item-2hkk8m {
+    position: absolute;
+    display: block;
+    width: 8px;
+    border-radius: 0 4px 4px 0;
+    margin-left: -4px;
+    background-color: #ffc400;
+}
+
+.cardPrimary-1Hv-to {
+	background-color: #1f2933;
+}
+
+.theme-dark .codeRedemptionRedirect-1wVR4b {
+	background-color: #1f2933;
+	color: #ffe89b;
+}
+
+
+.selected-1GqIat .icon-22AiRD {
+    color: #ffe89b;
+}
+
+.headerNormal-T_seeN .customStatus-1bh2V9 {
+    color: #efbe1c;
+}
+
+.customStatus-1bh2V9 {
+    color: #efbe1c;
+}
+
+.barInner-3NDaY_ {
+	background-color: #efbe1c;
+}
+
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+    color: #efbe1c;
+    border-color: #f1cd55;
+}
+
+.theme-dark .activityProfile-2bJRaP .content-3JfFJh, .theme-dark .activityProfile-2bJRaP .details-38sfDr, .theme-dark .activityProfile-2bJRaP .headerText-1HLrL7, .theme-dark .activityProfile-2bJRaP .name-29ETJS, .theme-dark .activityUserPopout-2yItg2 .content-3JfFJh, .theme-dark .activityUserPopout-2yItg2 .details-38sfDr, .theme-dark .activityUserPopout-2yItg2 .headerText-1HLrL7, .theme-dark .activityUserPopout-2yItg2 .name-29ETJS, .theme-light .activityProfile-2bJRaP .content-3JfFJh, .theme-light .activityProfile-2bJRaP .details-38sfDr, .theme-light .activityProfile-2bJRaP .headerText-1HLrL7, .theme-light .activityProfile-2bJRaP .name-29ETJS, .theme-light .activityUserPopout-2yItg2 .content-3JfFJh, .theme-light .activityUserPopout-2yItg2 .details-38sfDr, .theme-light .activityUserPopout-2yItg2 .headerText-1HLrL7, .theme-light .activityUserPopout-2yItg2 .name-29ETJS {
+    color: #efbe1c;
+}
+
+.activityName-1IaRLn, .nameNormal-2lqVQK, .nameWrap-3Z4G_9 {
+    color: #efbe1c;
+}
+
+.headerTag-2pZJzA {
+	color: #f1cd55;
+}
+
+.headerName-fajvi9 {
+	color: #ffe89b;
+}
+
+.colorHeaderPrimary-26Jzh- {
+	color: #f1d98c;
+}
+
+.colorStandard-2KCXvj {
+	color: #f1cd55;
+}
+
+.container-UC8Ug1 {
+	background-color: #1f2933;
+}
+
+.theme-dark .pageWrapper-1PgVDX {
+	background-color: #232c35;
+}
+
+.content-1LAB8Z {
+	background-color: #1f2933;
+}
+
+.theme-dark .footer-2gL1pp {
+	background-color: #1f2933;
+}
+
+.theme-dark .footer-1FPmkC {
+	background-color: #1f2933;
+}
+
+.scroller-2hZ97C {
+	background-color: #1f2933;
+}
+
+.flex-1xMQg5 {
+	background-color: #1f2933;
+}
+
+.protip-YaFfgO {
+	color: #ffe89b;
+}
+
+.bodyTitle-Y0qMQz {
+	color: #ffe89b;
+}
+
+.headerNormal-T_seeN .headerTag-2pZJzA {
+	color: #f1cd55;
+}
+
+.roleColor-rz2vM0 {
+	color: #ffe89b;
+}
+
+.username-2b1r56 {
+	color: #ffe89b;
+}
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+	background-color: #2c3b4a;
+}
+
+.theme-dark .body-3iLsc4 {
+	background-color: #2c3b4a;
+}
+
+.bodyInnerWrapper-Z8WDxe {
+	background-color: #2c3b4a;
+}
+
+.activityUserPopout-2yItg2 {
+	background-color: #2c3b4a;
+}
+
+.text-3MU_QQ {
+	color: #fdd651;
+}
+
+.icon-22AiRD {
+	color: #fdd651;
+}
+
+.body-3iLsc4 {
+	background-color: #1F2933;
+}
+
+.addInputWrapper-1BOZ3d {
+	background-color: #1b2229;
+}
+
+.friendsEmpty-1K9B4k {
+	background-color: #1b2229;
+}
+
+.peopleListItem-2nzedh {
+	background-color: #1b2229;
+}
+
+.peopleList-3c4jOR {
+	background-color: #1b2229;
+}
+
+.colorHeaderSecondary-3Sp3Ft {
+	color: #f1cd55;
+}
+
+.closedFolderIconWrapper-2sTcE6 {
+	background-color: #212d38;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+	background-color: #212d38;
+	color: #FDD651;
+}
+
+.h5-18_1nd {
+	color: #FFE89B;
+}
+
+.theme-dark {
+    --header-primary: #ffe89b;
+    --text-normal: #efbe1c;
+    --background-primary: #1b2229;
+    --background-secondary: #171D23;
+    --background-tertiary: #13181d;
+    --text-muted: #c39a13;
+    --interactive-hover: #3e5165;
+    --channels-default: #FDD651;
+    --text-link: #457587;
+    --channeltextarea-background: #1f2933;
+    --background-secondary-alt: #1f2933;
+    --interactive-normal: #ffe89b;
+    --scrollbar-auto-track: #2a333c;
+    --scrollbar-auto-thumb: #384963;
+}
+
