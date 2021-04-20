@@ -1,3 +1,155 @@
+/* remove nitro */
+
+/* -- Deleting everything mouhahaha -- */
+[href="/store"],
+.buttons-3JBrkn > .button-38aScr:nth-child(2) {display: none}
+[aria-controls="Discord Nitro-tab"],
+[aria-controls="Billing-tab"],
+[aria-controls="Nitro Server Boost-tab"],
+#guild-header-popout > div > .separator-2I32lJ:nth-child(2),
+.shinyButton-3uFlM-,
+.emojiSection-3Fb9ix > .flex-1xMQg5 > .size14-e6ZScH,
+.emojiSection-3Fb9ix > .flex-1xMQg5 > .flex-1xMQg5 > .size14-e6ZScH,
+.emptyStateSubtext-2hdA9c, 
+.content-2c3hgM, 
+.wrapper-1hrFc0, 
+.wrapper-3nSjSv, 
+.divider-Uf0Wob,
+.perksModalContentWrapper-2HU6uL > .content-2qfHzC:nth-child(3),
+.guildsBlurb-2AgVCC,
+.marketingHeader-d16BX1,
+.content-3BhRLj > div:not(.marketingLogo-1D8DV6), .content-3BhRLj > h3,
+.subscribeTooltipWrapper-1JoUuw,
+.headerBlurb-1GxBrq,
+.giftAction-yhDLaW,
+.tierMarkerLabelContainer-1qM0Ak
+{ display: none;}
+
+/* -- Repairing the damages -- */
+
+/* Emote information popup */
+.emojiSection-3Fb9ix > .flex-1xMQg5, .popoutContainer-1MXdqN > .flex-1xMQg5 { 
+  flex-direction: column;
+  align-items: center;
+}
+.emojiSection-3Fb9ix > .flex-1xMQg5 > .flex-1xMQg5,
+.popoutContainer-1MXdqN > .flex-1xMQg5 > .flex-1xMQg5 { margin-left: 0px; }
+.primaryEmoji-3LinDq { margin: 0px 0px 12px 0; }
+.popoutContainer-1MXdqN { width: auto; }
+
+/* Server Boost */
+.ctaBar-2UsjF2 { margin: auto;}
+
+/* remove nitro */
+
+.link-3dHnkW {
+    color: #ffe89b;
+}
+
+.gradientContainer-10lXLB {
+    background-image: linear-gradient(#1F2933,#1F2933 19%,#1F2933 34%,#1F2933 47%,#1F2933 56.5%,rgba(0, 0, 0, 0) 65%,rgba(0, 0, 0, 0) 73%,rgba(0, 0, 0, 0) 80.2%,rgba(0, 0, 0, 0) 86.1%,rgba(0, 0, 0, 0) 91%,rgba(0, 0, 0, 0) 95.2%,rgba(0, 0, 0, 0) 98.2%,transparent);
+}
+
+.colorable-1bkp8v.primaryDark-3mSFDl.active-1QRrIS, .colorable-1bkp8v.primaryDark-3mSFDl:hover {
+    background: #2a3744;
+}
+
+.colorable-1bkp8v.white-3GPOIp.active-1QRrIS, .colorable-1bkp8v.white-3GPOIp:hover {
+    background: #2a3744;
+}
+
+.colorable-1bkp8v.red-33-Lnk.active-1QRrIS, .colorable-1bkp8v.red-33-Lnk:hover {
+    background: #2a3744;
+}
+
+.colorable-1bkp8v.primaryDark-3mSFDl, .colorable-1bkp8v.primaryDark-3mSFDl .centerIcon-2G6o-T {
+    color: #ffe89b;
+}
+
+.colorable-1bkp8v.primaryDark-3mSFDl {
+    background: #354758;
+}
+
+.slash-33-IMF {
+    color: #6685a5;
+}
+
+.colorable-1bkp8v.white-3GPOIp {
+    background: #354758;
+}
+
+.colorable-1bkp8v.white-3GPOIp, .colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T {
+    color: #ffe89b;
+}
+
+.colorable-1bkp8v.red-33-Lnk {
+    background: #354758;
+}
+
+.colorable-1bkp8v.red-33-Lnk, .colorable-1bkp8v.red-33-Lnk .centerIcon-2G6o-T {
+    color: #ffe89b;
+}
+
+.button-3HqqDX {
+    background-color: #293644;
+    color: #f7d35c;
+}
+
+.header-2Zv56X {
+    color: #ffe89b;
+}
+
+.tile-2naSqK {
+    background-color: #1F2933;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    background-color: #fdd651;
+    color: #1F2933;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    background-color: #fdd651;
+}
+
+.lookOutlined-3sRXeN.colorGreen-29iAKY {
+    color: #fdd651;
+    border-color: #fdd651;
+}
+
+.button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:hover, .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp:hover {
+    background-color: #fdd651;
+}
+
+.controlIcon-35oS15 {
+    color: #fdd651;
+}
+
+.theme-dark .container-2x5lvQ .header-2C89wJ {
+    background-color: #1F2933;
+}
+
+.theme-dark .container-2x5lvQ section {
+    background-color: #1F2933;
+}
+
+.strikethrough-1n4ekb {
+    color: #6685a5;
+}
+
+.sampleLink-2NLvZg {
+    color: #fdd651;
+}
+
+.input-cIJ7To {
+    color: #fdd651;
+    background-color: #2e3b48;
+}
+
+.repliedMessage-VokQwo {
+    color: #fdd651;
+}
+
 .theme-dark .footer-3mqk7D {
     background-color: #263340;
 }
