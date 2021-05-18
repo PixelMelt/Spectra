@@ -1,53 +1,236 @@
-/* Userbg */
 @import url("https://pixelmelt.github.io/Spectra/cosmetics.css");
+@import url("https://raw.githack.com/NYRI4/Discolored/master/main.css");
 
-.userPopout-3XzG_A {
-    --user-popout-position: center;
+
+
+.theme-dark .keybindShortcut-1BD6Z1 span {
+    color: #ffe89b;
 }
-.userPopout-3XzG_A .header-2BwW8b {
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+
+.keybindShortcut-1BD6Z1 span {
+    background-color: #24303c;
 }
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
-    content: "";
-    position: fixed;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    pointer-events: none;
-    opacity: 0.5;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: var(--user-popout-position) center;
-    background-image: var(--user-background);
+
+.filled-1iCBCZ {
+    background-color: #1e252b;
 }
-.root-SR8cQa > div:not(.body-3ND3kc) {
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+
+.filled-1iCBCZ:hover {
+    background-color: #ffce29;
 }
-.root-SR8cQa > div:not(.body-3ND3kc) .header-QKLPzZ .wrapper-3t9DeA::after {
-    content: "";
-    position: fixed;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-    z-index: 0 !important;
-    pointer-events: none;
-    background: var(--user-background) center/cover no-repeat;
+
+.warning-3C2pOH {
+    background: #1e252b;
+    border: 1px solid #ffe89b6b;
+    color: #ffe89b;
 }
-.root-SR8cQa > div:not(.body-3ND3kc) .header-QKLPzZ .wrapper-3t9DeA svg {
-    z-index: 1;
-    position: relative;
+
+.warning-3C2pOH .icon-1jlFSw {
+    color: #ffe89b;
 }
-.root-SR8cQa > div:not(.body-3ND3kc) .headerInfo-30uryT, .root-SR8cQa > div:not(.body-3ND3kc) .tabBarItem-1b8RUP, .root-SR8cQa > div:not(.body-3ND3kc) .activity-1ythUs {
-    z-index: 1;
-    position: relative;
+
+.css-4h5swf-singleValue {
+    color: #ffce29;
 }
-/* Userbg */
+
+.css-1ba14n5-option {
+    color: #ffc70c;
+}
+
+.css-1yz4bi9-option {
+    color: #ffc70c;
+}
+
+.css-rzbxvl-option {
+    color: #ffc70c;
+}
+
+.css-3vaxre-menu {
+    background-color: #1f2933;
+    color: #ffe89b!important;
+    border-radius: 0px;
+}
+
+.css-17e1tep-control {
+    background-color: #1f2933;
+    color: #ffe89b!important;
+    border-color: #00000000;
+}
+
+.css-17e1tep-control::hover {
+    border-color: #00000000;
+}
+
+
+.theme-dark .focused-2bY0OD {
+    background-color: #182029;
+}
+
+.item-26Dhrx:hover:not([aria-checked=true]) {
+    background-color: #1f2933;
+}
+
+.item-26Dhrx[aria-checked=true] {
+    background-color: #1f2933;
+}
+
+.beta-3smTDE {
+    color: #ffc70c;
+}
+
+#app-mount .layer-3QrUeG[aria-label*=USER_SETTINGS] .previewOverlay-2O7_KC {
+    background-color: var(--background-secondary);
+    border-color: var(--background-tertiary);
+}
+
+#app-mount .layer-3QrUeG[aria-label*=USER_SETTINGS] .notches-1sAcEM {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%1f2933A'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
+}
+
+.theme-dark .progress-1IcQ3A {
+    background-color: #1f2933;
+}
+
+.checkbox-1ix_J3 {
+    border-color: #1f2933!important;
+    background-color: #e2b725!important;
+}
+
+.theme-dark .markDash-3hAolZ {
+    background: #212e42;
+}
+
+.theme-dark .markValue-2DwdXI {
+    color: #ffce29;
+}
+
+.theme-dark .bar-2Qqk5Z {
+    background: #212e42;
+}
+
+.grabber-3mFHz2 {
+    background-color: #2e3d4c;
+    border: 1px solid #ffffff00;
+}
+
+.defaultValue-3gC7yw .markValue-2DwdXI {
+    color: #ffe89b;
+}
+
+.barFill-23-gu- {
+    background: #ffe89b;
+}
+
+.theme-dark .activeBreadcrumb-p6aw-F {
+    color: #ffe281e0;
+}
+
+.theme-dark .breadcrumbWrapper-WmDjgG {
+    color: #ffe89b87;
+}
+
+.subscribeTooltipWrapper-1JoUuw {
+    background-color: #1f2933;
+}
+
+.base-1x0h_U.muted-3-7c5L {
+    color: #ffc25b;
+}
+
+.premiumTabItem-1QTfBr[aria-selected=true] {
+    color: #1f2933!important;
+    background-color: #ffe89b!important;
+}
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+    color: #ffdc65;
+    border-color: #ffe89b;
+}
+
+.container-3auIfb {
+    background-color: #2e3d4e!important
+}
+
+.container-3auIfb:not([style*="background-color: rgb(114, 118, 125);"]) { /*Checked buttons color*/
+    background-color: #e2b725!important;
+}
+.container-3auIfb:not([style*="background-color: rgb(114, 118, 125);"]) svg svg path { /*Changes the checkmark color*/
+    fill: #e2b725!important;
+}
+
+.item-26Dhrx[aria-checked=true] {
+    color: #ffcf2f;
+}
+
+.radioIconForeground-XwlXQN {
+    color: #ffe89b;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+    background-color: #141b21;
+}
+
+.theme-dark .subText-2Zhkkh, .theme-light .subText-2Zhkkh {
+    color: #ffe89b;
+}
+
+.theme-dark .emptyStateSubtext-2hdA9c {
+    color: #ffe89b;
+}
+
+.theme-dark .keybind-KpFkfr {
+    color: #ffe89b;
+}
+
+.theme-dark .closeButton-1tv5uR {
+    border-color: #ffe89b;
+}
+
+.theme-dark .emptyStateHeader-248f_b {
+    color: #ffe89b;
+}
+
+.card-3Qj_Yx a {
+    color: #ffd500;
+}
+
+.colorPremium-p4p7qO .icon-LYJorE {
+    color: #ffc400;
+}
+
+.icon-Zc-uZZ {
+    display: none;
+}
+
+.flowerStarContainer-3zDVtj {
+    display: none;
+}
+
+.expandedFolderIconWrapper-Huv7rA svg {
+  color: #ffe89b!important;
+}
+
+.jumpToPresentBar-G1R9s6 {
+    background-color: #181d23;
+}
+
+/* hide gift button */
+[aria-label="Send a gift"] {
+    display: none !important;
+}
+
+.theme-dark .friend-3KALPe {
+    color: #ffca18!important;
+}
+
+.theme-dark .checkbox-1ix_J3 {
+    border-color: #ffe89b;
+}
+
+.theme-dark .friendSelected-1sa4bG {
+    background-color: #1a2129;
+    color: #ffe89b;
+}
 
 .secondary-dIudih {
     color: var(--header-secondary);
@@ -123,8 +306,11 @@
     background: #1f2933;
 }
 
+.message-2qnXI6.ephemeral-1PsL1r.selected-2P5D_Z, .message-2qnXI6.replying-1x3H0T.selected-2P5D_Z, .mouse-mode.full-motion .ephemeral-1PsL1r:hover, .mouse-mode.full-motion .replying-1x3H0T:hover {
+    background-color: #ffe89b14;
+}
+
 .replying-1x3H0T {
-    position: relative;
     background-color: #ffe89b14;
 }
 
@@ -268,67 +454,6 @@
 .applicationName-1-Uq7y.clickable-1bVtEA:hover, .commandName-1klrjB.clickable-1bVtEA:hover, .username-1A8OIy.clickable-1bVtEA:hover {
     text-decoration: none;
 }
-
-/* make pix look cool */
-
-@keyframes pixbadge {
-  0%   {content: "</>"; font-family: "Courier New";}
-  10%  {content: "<G>";}
-  20%  {content: "<Ge>";}
-  30%  {content: "<Get>";}
-  40%  {content: "<Get_>";}
-  50%  {content: "<Get_L>";}
-  60%  {content: "<Get_Li>";}
-  70%  {content: "<Get_Lin>";}
-  80%  {content: "<Get_Linu>";}
-  90%  {content: "<Get_Linux>";}
-  100% {content: "<Get_Linux>";}
-}
-
-.avatar-1BDn8e[src*="583750578094735360"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "</>";
-  background-color: #1b2229;
-  color: #ffe89b;
-}
-.avatar-1BDn8e[src*="583750578094735360"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "<Get_Linux>";
-  background-color: #1b2229;
-  color: #ffe89b;
-  animation: pixbadge .5s linear 1;
-  transition: content 1s ease;
-  font-family: "Courier New", "monospace";
-}
-/* make pix look cool */
-/* make idcrly look cool */
-
-@keyframes idcbadge {
-  0%   {content: "</>"; font-family: "Courier New";}
-  10%  {content: "<I>";}
-  20%  {content: "<Im>";}
-  30%  {content: "<Im_>";}
-  40%  {content: "<Im_i>";}
-  50%  {content: "<Im_in>";}
-  60%  {content: "<Im_in_>";}
-  70%  {content: "<Im_in_p>";}
-  80%  {content: "<Im_in_pa>";}
-  90%  {content: "<Im_in_pai>";}
-  100% {content: "<Im_in_pain>";}
-}
-
-.avatar-1BDn8e[src*="419352542804312066"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  content: "</>";
-  background-color: #1b2229;
-  color: #ffe89b;
-}
-.avatar-1BDn8e[src*="419352542804312066"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  content: "<Im_in_pain>";
-  background-color: #1b2229;
-  color: #ffe89b;
-  animation: idcbadge .5s linear 1;
-  transition: content 1s ease;
-  font-family: "Courier New", "monospace";
-}
-/* make idcrly look cool */
 
 .mediaBarInteraction-37i2O4:hover .mediaBarGrabber-1FqnbN {
     background-color: #f9cf42;
@@ -525,48 +650,6 @@
 .topSectionNormal-2-vo2m .discriminator-xUhQkU {
     color: #f1cd55;
 }
-
-/* remove nitro */
-[href="/store"],
-.buttons-3JBrkn > .button-38aScr:nth-child(2) {display: none}
-[aria-controls="Discord Nitro-tab"],
-[aria-controls="Billing-tab"],
-[aria-controls="Nitro Server Boost-tab"],
-#guild-header-popout > div > .separator-2I32lJ:nth-child(2),
-.shinyButton-3uFlM-,
-.emojiSection-3Fb9ix > .flex-1xMQg5 > .size14-e6ZScH,
-.emojiSection-3Fb9ix > .flex-1xMQg5 > .flex-1xMQg5 > .size14-e6ZScH,
-.emptyStateSubtext-2hdA9c, 
-.content-2c3hgM, 
-.wrapper-1hrFc0, 
-.wrapper-3nSjSv, 
-.divider-Uf0Wob,
-.perksModalContentWrapper-2HU6uL > .content-2qfHzC:nth-child(3),
-.guildsBlurb-2AgVCC,
-.marketingHeader-d16BX1,
-.content-3BhRLj > div:not(.marketingLogo-1D8DV6), .content-3BhRLj > h3,
-.subscribeTooltipWrapper-1JoUuw,
-.headerBlurb-1GxBrq,
-.giftAction-yhDLaW,
-.tierMarkerLabelContainer-1qM0Ak
-{ display: none;}
-
-/* -- Repairing the damages -- */
-
-/* Emote information popup */
-.emojiSection-3Fb9ix > .flex-1xMQg5, .popoutContainer-1MXdqN > .flex-1xMQg5 { 
-  flex-direction: column;
-  align-items: center;
-}
-.emojiSection-3Fb9ix > .flex-1xMQg5 > .flex-1xMQg5,
-.popoutContainer-1MXdqN > .flex-1xMQg5 > .flex-1xMQg5 { margin-left: 0px; }
-.primaryEmoji-3LinDq { margin: 0px 0px 12px 0; }
-.popoutContainer-1MXdqN { width: auto; }
-
-/* Server Boost */
-.ctaBar-2UsjF2 { margin: auto;}
-
-/* remove nitro */
 
 .link-3dHnkW {
     color: #ffe89b;
@@ -787,7 +870,10 @@
 
 .mention-1f5kbO {
     background-color: #efbe1c;
-    opacity: .9;
+}
+
+.mention-1f5kbO:active {
+    background-color: #263340;
 }
 
 .lookBlank-3eh9lL {
@@ -805,20 +891,15 @@
 }
 
 .theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
-    --color: #f1e1ad;
-    --background-color: #283644;
+    color: #f1e1ad;
+    background-color: #283644;
 }
 
-.theme-light .lookFilled-1Gx00P.colorGrey-2DXtkV {
-    --color: #f1e1ad;
-    --background-color: #283644;
-}
-
- .theme-light {
+.theme-light {
  	--background-modifier-accent: rgb(199, 171, 12);
 }
 
- .newMessagesBar-265mhP {
+.newMessagesBar-265mhP {
     top: 0;
     border-radius: 0 0 8px 8px;
     background-color: #283644;
@@ -1147,7 +1228,7 @@
     --text-muted: #c39a13;
     --interactive-hover: #3e5165;
     --channels-default: #FDD651;
-    --text-link: #457587;
+    --text-link: #ffd500;
     --channeltextarea-background: #1f2933;
     --background-secondary-alt: #1f2933;
     --interactive-normal: #ffe89b;
