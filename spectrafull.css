@@ -1,7 +1,17 @@
 @import url("https://pixelmelt.github.io/Spectra/cosmetics.css");
 @import url("https://raw.githack.com/NYRI4/Discolored/master/main.css");
 
+.contentTitle-2tG_sM strong {
+    color: #ffe89b!important;
+}
 
+.colorInteractiveActive-3Ip9Eu {
+    color: #ffe89b;
+}
+
+.autocomplete-1vrmpx {
+    background-color: #2f3136;
+}
 
 .theme-dark .keybindShortcut-1BD6Z1 span {
     color: #ffe89b;
