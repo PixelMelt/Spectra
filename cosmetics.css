@@ -1,12 +1,23 @@
 /* define background location */
-.headerNormal-1l1Znk {
+
+/*new update fix*/
+.userPopout-3XzG_A[style*="--user-background"] .profileBanner-33-uE1 {
+    height: 120px;
+    background: var(--user-background) center / cover;
+}
+.userPopout-3XzG_A[style*="--user-background"] .avatarPositionNormal-1CZUPk {
+    top: 76px;
+}
+/*end fix*/
+
+.userPopout-3XzG_A {
     --user-popout-position: center;
 }
-.headerNormal-1l1Znk .header-2BwW8b {
+.userPopout-3XzG_A .header-2BwW8b {
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
 }
-.headerNormal-1l1Znk .wrapper-3t9DeA::after {
+.userPopout-3XzG_A .wrapper-3t9DeA::after {
     content: "";
     position: fixed;
     top: 0 !important;
@@ -53,14 +64,14 @@
 /*Pix#7008*/
 
 .root-SR8cQa [data-user-id="583750578094735360"],
-.headerNormal-1l1Znk [data-user-id="583750578094735360"] {
+.userPopout-3XzG_A [data-user-id="583750578094735360"] {
 	--user-background: url('https://i.imgur.com/cQFrU22.gif');
 }
 
 /*Macro#9389*/
 
 .root-SR8cQa [data-user-id="419352542804312066"],
-.headerNormal-1l1Znk [data-user-id="419352542804312066"] {
+.userPopout-3XzG_A [data-user-id="419352542804312066"] {
 	--user-background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.gfycat.com%2FFlakyTeemingFinch-small.gif&f=1&nofb=1');
 }
 
