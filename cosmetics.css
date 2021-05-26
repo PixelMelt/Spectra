@@ -1,12 +1,12 @@
 /* define background location */
-.userPopout-3XzG_A {
+.headerNormal-1l1Znk {
     --user-popout-position: center;
 }
-.userPopout-3XzG_A .header-2BwW8b {
+.headerNormal-1l1Znk .header-2BwW8b {
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
 }
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
+.headerNormal-1l1Znk .wrapper-3t9DeA::after {
     content: "";
     position: fixed;
     top: 0 !important;
@@ -53,14 +53,14 @@
 /*Pix#7008*/
 
 .root-SR8cQa [data-user-id="583750578094735360"],
-.userPopout-3XzG_A [data-user-id="583750578094735360"] {
+.headerNormal-1l1Znk [data-user-id="583750578094735360"] {
 	--user-background: url('https://i.imgur.com/cQFrU22.gif');
 }
 
 /*Macro#9389*/
 
 .root-SR8cQa [data-user-id="419352542804312066"],
-.userPopout-3XzG_A [data-user-id="419352542804312066"] {
+.headerNormal-1l1Znk [data-user-id="419352542804312066"] {
 	--user-background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.gfycat.com%2FFlakyTeemingFinch-small.gif&f=1&nofb=1');
 }
 
