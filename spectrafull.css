@@ -3,62 +3,16 @@
 @import url("https://pixelmelt.github.io/Spectra/cosmetics.css");
 @import url("https://raw.githack.com/NYRI4/Discolored/master/main.css");
 
+.activityUserPopout-2yItg2 {
+    background-color: #2c3b4a!important;
+}
+
 .headerNormal-1l1Znk .headerTag-nSOkYt {
     color: #ffd856;
 }
 
 .headerTop-2y3V6H {
     background-color: #2c3b4a;
-}
-
-.BDFDB_undefined-ZkCGbz, .nickname-322DbL.size20-2QkeeC, .headerTagNoNickname-3ak9o8.headerTag-nSOkYt.size14-3iUx6q.size20-2QkeeC {
-    display: block;
-}
-
-.userPopout-3XzG_A[style*="--user-background"] .profileBanner-33-uE1 {
-    height: 123px;
-    background: var(--user-background) center / cover;
-}
-.userPopout-3XzG_A[style*="--user-background"] .avatarPositionNormal-1CZUPk {
-    top: 76px;
-}
-
-.avatarWrapperNormal-2tu8Ts {
-  left: 32%;
-}
-
-.headerTop-2y3V6H > .profileBadges-1dm1_q {
-  display: none;
-}
-
-.userPopout-3XzG_A {
-    width: 250px!important
-}
-
-.headerTop-2y3V6H {
-    text-align: center;
-    padding: 24px 16px 6px;
-}
-
-.profileBanner-33-uE1 {
-    height: 113px;
-}
-
-.size20-2QkeeC {
-    font-size: 17px;
-}
-
-.userPopout-3XzG_A[style*="--user-background"] .avatarPositionNormal-1CZUPk {
-    top: 23px;
-}
-
-.avatar-22FtUu {
-    border: 0px solid;
-    background-color: #00000000;
-}
-
-.headerTop-2y3V6H {
-    border-bottom: 0px
 }
 
 .emojiItemDisabled-1FvFuF {
