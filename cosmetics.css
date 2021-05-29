@@ -99,13 +99,13 @@
 
 .avatar-1BDn8e[src*="583750578094735360"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "</>";
-  background-color: #1b2229;
-  color: #ffe89b;
+  background-color: #0000;
+  color: #ffffff;
 }
 .avatar-1BDn8e[src*="583750578094735360"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   content: "<Get_Linux>";
-  background-color: #1b2229;
-  color: #ffe89b;
+  background-color: #0000;
+  color: #ffffff;
   animation: pixbadge .5s linear 1;
   transition: content 1s ease;
   font-family: "Courier New", "monospace";
@@ -129,13 +129,13 @@
 
 .avatar-1BDn8e[src*="419352542804312066"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
   content: "</>";
-  background-color: #1b2229;
-  color: #ffe89b;
+  background-color: #0000;
+  color: #ffffff;
 }
 .avatar-1BDn8e[src*="419352542804312066"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   content: "<Im_in_pain>";
-  background-color: #1b2229;
-  color: #ffe89b;
+  background-color: #0000;
+  color: #ffffff;
   animation: idcbadge .5s linear 1;
   transition: content 1s ease;
   font-family: "Courier New", "monospace";
