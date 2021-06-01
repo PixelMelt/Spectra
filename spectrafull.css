@@ -1,7 +1,57 @@
 @import url('https://pixelmelt.github.io/Spectra/oldpop.css');
+@import url('https://pixelmelt.github.io/Spectra/roundite.css');
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 @import url("https://pixelmelt.github.io/Spectra/cosmetics.css");
 @import url("https://raw.githack.com/NYRI4/Discolored/master/main.css");
+
+:root {
+  --roundness: 15px;
+}
+
+.layer-3QrUeG.baseLayer-35bLyl {
+    background-color: #26303a;
+}
+
+.peopleColumn-29fq28 {
+    background-color: #1b2229;
+}
+
+.activityVoiceChannel-OPU-Fm .details-38sfDr {
+    color: #ffe89b;
+}
+
+.container-2dqNWc {
+    background-color: #1f2933;
+}
+
+.button-11zvza {
+    color: #ffe89b;
+}
+
+.theme-dark .path-92Hmty, .theme-dark .path2-1q7bG_ {
+    stroke: #ffe89b;
+}
+
+.theme-dark .wrapper-3WhCwL {
+    background: #24303c;
+    color: #fdd85e;
+}
+
+.premiumTabItemLink-3IZzin {
+    color: #ffd855!important;
+}
+
+.profileBanner-33-uE1 {
+    background-color: #3e4e5f!important;
+}
+
+.headerTop-2y3V6H {
+    background-color: #3e4e5f!important;
+}
+
+.title-30qZAO {
+    color: #ffe89b;
+}
 
 .activityUserPopout-2yItg2 {
     background-color: #2c3b4a!important;
@@ -1070,7 +1120,7 @@
 
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
     color: #1b2229;
-    background-color: #b18b0e;
+    background-color: #ffe89b;
 }
 
 .clickable-1JJAn8.container-2Pjhx-:active, .highlighted-1gWxXa.container-2Pjhx-, .selected-aXhQR6.container-2Pjhx- {
@@ -1287,5 +1337,6 @@
     --interactive-normal: #ffe89b;
     --scrollbar-auto-track: #2a333c;
     --scrollbar-auto-thumb: #384963;
+    --background-floating: #1f2933;
 }
 
