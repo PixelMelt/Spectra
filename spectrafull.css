@@ -8,6 +8,40 @@
   --roundness: 15px;
 }
 
+.dots-3Bkt3k {
+    color: #1f293300;
+}
+
+.theme-dark .rhshpe9-mfhl5sd {
+    border-color: #ffe89b;
+    color: #ffe89b;
+}
+
+.bd-button.bd-button-danger:hover {
+    background-color: #1a2129;
+}
+
+.bd-button:hover {
+    background-color: #b9a440;
+}
+
+.brand-1Zl8en.item-PXvHYJ:active, .themed-OHr7kt.item-PXvHYJ:active {
+    color: #ffd857;
+}
+
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span:after {
+    border-color: #1f2933;
+}
+
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
+    background-color: #ffe89b;
+    border-color: #ffe89b;
+}
+
+.base-1x0h_U {
+    color: #ffe89b;
+}
+
 .layer-3QrUeG.baseLayer-35bLyl {
     background-color: #26303a;
 }
@@ -1132,7 +1166,7 @@
 }
 
 .bd-button.bd-button-danger {
-    background-color: #bf5e1a;
+    background-color: #25303c;
 }
 
 .bd-addon-views .bd-view-button.selected svg {
@@ -1338,5 +1372,6 @@
     --scrollbar-auto-track: #2a333c;
     --scrollbar-auto-thumb: #384963;
     --background-floating: #1f2933;
+    --background-modifier-selected: #1f2933;
+    --background-modifier-hover: #1b232b;
 }
-
