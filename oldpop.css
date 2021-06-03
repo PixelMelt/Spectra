@@ -1,6 +1,22 @@
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 @import url('https://pixelmelt.github.io/Spectra/cosmetics.css');
 
+.nickname-2gQ76l {
+    font-size: 16px;
+}
+
+.profileBadges-3cJaE1 {
+    display: none;
+}
+
+.headerTop-2cWpdB {
+    background-color: #202225;
+}
+
+.userPopout-3XzG_A[style*="--user-background"] .headerTop-2cWpdB {
+    background-color: #00000000;
+}
+
 /*set colors to grey*/
 .profileBanner-33-uE1 {
     background-color: #202225!important
@@ -39,7 +55,7 @@
     width: 250px!important
 }
 
-.headerTop-2y3V6H {
+.headerTop-2cWpdB {
     text-align: center;
     padding: 0px 16px 24px;
     border-bottom: 0px
@@ -49,7 +65,7 @@
     height: 113px;
 }
 
-.size20-2QkeeC {
+.headerTagNoNickname-1VyQza {
     font-size: 15px;
 }
 
