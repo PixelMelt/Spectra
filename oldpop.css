@@ -1,6 +1,10 @@
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 @import url('https://pixelmelt.github.io/Spectra/cosmetics.css');
 
+.setIdentityLink-3lcnXW {
+    display: none
+}
+
 .nickname-2gQ76l {
     font-size: 16px;
 }
@@ -22,16 +26,16 @@
     background-color: #202225!important
     
 }
-.headerTop-2y3V6H {
+.headerTop-2cWpdB {
     background-color: #202225!important
 }
-.headerNormal-1l1Znk {
+.headerNormal-1mX3KY {
     background-color: #303136;
 }
-.footer-1fjuF6 {
+.footer-1N3bR3 {
     background-color: #303136;
 }
-.body-3iLsc4 {
+.body-3HBlXn {
     background-color: #303136;
 }
 
@@ -39,19 +43,19 @@
     display: block;
 }
 
-.userPopout-3XzG_A[style*="--user-background"] .avatarPositionNormal-1CZUPk {
+.userPopout-xaxa6l[style*="--user-background"] .avatarPositionNormal-1CZUPk {
     top: 76px;
 }
 
-.avatarWrapperNormal-2tu8Ts {
-  left: 34%;
+.avatarWrapperNormal-26WQIb {
+  left: 36%;
 }
 
-.headerTop-2y3V6H > .profileBadges-1dm1_q {
+.headerTop-2cWpdB > .profileBadges-1dm1_q {
   display: none;
 }
 
-.userPopout-3XzG_A {
+.userPopout-xaxa6l {
     width: 250px!important
 }
 
@@ -69,33 +73,33 @@
     font-size: 15px;
 }
 
-.userPopout-3XzG_A[style*="--user-background"] .avatarPositionNormal-1CZUPk {
+..userPopout-xaxa6l[style*="--user-background"] .avatarPositionNormal-1CZUPk {
     top: 23px;
 }
 
-.avatar-22FtUu {
+.avatar-37jOim {
     border: 0px solid;
     background-color: #00000000;
 }
 
-.userPopout-3XzG_A[style*="--user-background"] .headerNormal-1l1Znk {
+.userPopout-xaxa6l[style*="--user-background"] .headerNormal-1mX3KY {
     background: var(--user-background) center / cover;
 }
 
-.userPopout-3XzG_A[style*="--user-background"] .profileBanner-33-uE1 {
+.userPopout-xaxa6l[style*="--user-background"] .profileBanner-33-uE1 {
     background-color:  #0000!important
 }
 
-.userPopout-3XzG_A[style*="--user-background"] .headerTop-2y3V6H {
+.userPopout-xaxa6l[style*="--user-background"] .headerTop-2cWpdB {
     background-color:  #0000!important
 }
 
 
-.userPopout-3XzG_A[style*="--user-background"] .activityUserPopout-2yItg2 {
+.userPopout-xaxa6l[style*="--user-background"] .activityUserPopout-2yItg2 {
     background-color:  #303136
 }
 
-.avatarHint-1E3LMl {
+.avatarHint-2A3RNb {
     top: 0px;
     left: 0px;
 }
