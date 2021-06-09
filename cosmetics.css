@@ -1,7 +1,5 @@
 /* user tags */
 
-
-
 /* Pix#7008 */
 
 @keyframes pixbadge {
@@ -9,13 +7,13 @@
   10%  {content: "<G>";}
   20%  {content: "<Ge>";}
   30%  {content: "<Get>";}
-  40%  {content: "<Get_>";}
-  50%  {content: "<Get_L>";}
-  60%  {content: "<Get_Li>";}
-  70%  {content: "<Get_Lin>";}
-  80%  {content: "<Get_Linu>";}
-  90%  {content: "<Get_Linux>";}
-  100% {content: "<Get_Linux>";}
+  40%  {content: "<Get >";}
+  50%  {content: "<Get L>";}
+  60%  {content: "<Get Li>";}
+  70%  {content: "<Get Lin>";}
+  80%  {content: "<Get Linu>";}
+  90%  {content: "<Get Linux>";}
+  100% {content: "<Get Linux>";}
 }
 
 .avatar-1BDn8e[src*="583750578094735360"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
@@ -36,18 +34,18 @@
 
 /* Macro#9389 */
 
-@keyframes idcbadge {
+@keyframes macrobadge {
   0%   {content: "</>"; font-family: "Courier New";}
   10%  {content: "<I>";}
   20%  {content: "<Im>";}
-  30%  {content: "<Im_>";}
-  40%  {content: "<Im_i>";}
-  50%  {content: "<Im_in>";}
-  60%  {content: "<Im_in_>";}
-  70%  {content: "<Im_in_p>";}
-  80%  {content: "<Im_in_pa>";}
-  90%  {content: "<Im_in_pai>";}
-  100% {content: "<Im_in_pain>";}
+  30%  {content: "<Im >";}
+  40%  {content: "<Im i>";}
+  50%  {content: "<Im in>";}
+  60%  {content: "<Im in >";}
+  70%  {content: "<Im in p>";}
+  80%  {content: "<Im in pa>";}
+  90%  {content: "<Im in pai>";}
+  100% {content: "<Im in pain>";}
 }
 
 .avatar-1BDn8e[src*="419352542804312066"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
@@ -58,12 +56,154 @@
 }
 .avatar-1BDn8e[src*="419352542804312066"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   line-height: 1rem!important;
-  content: "<Im_in_pain>";
+  content: "<Im in pain>";
   background-color: #0000;
   color: #ffffff;
-  animation: idcbadge .5s linear 1;
+  animation: macrobadge .5s linear 1;
   transition: content 1s ease;
   font-family: "Courier New", "monospace";
 }
 
-/* user tags */
+/* Contributers */
+
+@keyframes contributorbadge {
+  0%   {content: "</>"; font-family: "Courier New";}
+  10%  {content: "<S>";}
+  20%  {content: "<Spe>";}
+  30%  {content: "<Spect>";}
+  40%  {content: "<Spectra>";}
+  50%  {content: "<Spectra C>";}
+  60%  {content: "<Spectra Con>";}
+  70%  {content: "<Spectra Contr>";}
+  80%  {content: "<Spectra Contrib";}
+  90%  {content: "<Spectra Contribut>";}
+  100% {content: "<Spectra Contributor>";}
+}
+
+.avatar-1BDn8e[src*="851952046327595068"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="851952046327595068"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Contributor>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: contributorbadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+
+.avatar-1BDn8e[src*="265924886461939712"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="265924886461939712"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Contributor>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: contributorbadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+
+/* Beta testers*/
+
+@keyframes betabadge {
+  0%   {content: "</>"; font-family: "Courier New";}
+  10%  {content: "<S>";}
+  20%  {content: "<Sp>";}
+  30%  {content: "<Spe>";}
+  40%  {content: "<Spec>";}
+  50%  {content: "<Spect>";}
+  60%  {content: "<Spectr>";}
+  70%  {content: "<Spectra B>";}
+  80%  {content: "<Spectra Be>";}
+  90%  {content: "<Spectra Bet>";}
+  100% {content: "<Spectra Beta>";}
+}
+
+.avatar-1BDn8e[src*="666443206434750475"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="666443206434750475"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+
+.avatar-1BDn8e[src*="751817881112543363"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="751817881112543363"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+
+.avatar-1BDn8e[src*="762060000159858728"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="762060000159858728"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+
+.avatar-1BDn8e[src*="522861437400645632"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="522861437400645632"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+
+.avatar-1BDn8e[src*="848061146555744286"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="848061146555744286"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
