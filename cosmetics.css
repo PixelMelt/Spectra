@@ -24,7 +24,7 @@
 }
 .avatar-1BDn8e[src*="583750578094735360"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   line-height: 1rem!important;
-  content: "<Get_Linux>";
+  content: "<Get Linux>";
   background-color: #0000;
   color: #ffffff;
   animation: pixbadge .5s linear 1;
@@ -80,13 +80,13 @@
   100% {content: "<Spectra Contributor>";}
 }
 
-.avatar-1BDn8e[src*="851952046327595068"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+.avatar-1BDn8e[src*="258731845267619840"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
   line-height: 1rem!important;
   content: "</>";
   background-color: #0000;
   color: #ffffff;
 }
-.avatar-1BDn8e[src*="851952046327595068"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+.avatar-1BDn8e[src*="258731845267619840"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   line-height: 1rem!important;
   content: "<Spectra Contributor>";
   background-color: #0000;
