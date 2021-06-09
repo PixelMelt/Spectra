@@ -127,14 +127,14 @@
   90%  {content: "<Spectra Bet>";}
   100% {content: "<Spectra Beta>";}
 }
-
-.avatar-1BDn8e[src*="666443206434750475"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+/* Achi™#9761 */
+.avatar-1BDn8e[src*="374700424462073857"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
   line-height: 1rem!important;
   content: "</>";
   background-color: #0000;
   color: #ffffff;
 }
-.avatar-1BDn8e[src*="666443206434750475"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+.avatar-1BDn8e[src*="374700424462073857"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   line-height: 1rem!important;
   content: "<Spectra Beta>";
   background-color: #0000;
@@ -143,7 +143,39 @@
   transition: content 1s ease;
   font-family: "Courier New", "monospace";
 }
-
+/* Skittles#8027 */
+.avatar-1BDn8e[src*="128707790016348160"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="128707790016348160"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+/* SatoruX#4065 */
+.avatar-1BDn8e[src*="556271703139811350"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="556271703139811350"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+/* Maxy_Zou#8281 */
 .avatar-1BDn8e[src*="751817881112543363"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
   line-height: 1rem!important;
   content: "</>";
@@ -159,23 +191,7 @@
   transition: content 1s ease;
   font-family: "Courier New", "monospace";
 }
-
-.avatar-1BDn8e[src*="762060000159858728"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  line-height: 1rem!important;
-  content: "</>";
-  background-color: #0000;
-  color: #ffffff;
-}
-.avatar-1BDn8e[src*="762060000159858728"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  line-height: 1rem!important;
-  content: "<Spectra Beta>";
-  background-color: #0000;
-  color: #ffffff;
-  animation: betabadge .5s linear 1;
-  transition: content 1s ease;
-  font-family: "Courier New", "monospace";
-}
-
+/* 【Люк】ルーク#3134 */
 .avatar-1BDn8e[src*="522861437400645632"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
   line-height: 1rem!important;
   content: "</>";
@@ -183,22 +199,6 @@
   color: #ffffff;
 }
 .avatar-1BDn8e[src*="522861437400645632"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
-  line-height: 1rem!important;
-  content: "<Spectra Beta>";
-  background-color: #0000;
-  color: #ffffff;
-  animation: betabadge .5s linear 1;
-  transition: content 1s ease;
-  font-family: "Courier New", "monospace";
-}
-
-.avatar-1BDn8e[src*="848061146555744286"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
-  line-height: 1rem!important;
-  content: "</>";
-  background-color: #0000;
-  color: #ffffff;
-}
-.avatar-1BDn8e[src*="848061146555744286"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   line-height: 1rem!important;
   content: "<Spectra Beta>";
   background-color: #0000;
