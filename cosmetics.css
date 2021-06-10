@@ -211,3 +211,20 @@
   transition: content 1s ease;
   font-family: "Courier New", "monospace";
 }
+
+/* Lloqd#5335 */
+.avatar-1BDn8e[src*="639826801493016576"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="639826801493016576"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
