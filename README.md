@@ -1,4 +1,4 @@
-# Spectra #
+# Spectra
 A better Discord Theme
 ---
 ## Installation Instructions ##
