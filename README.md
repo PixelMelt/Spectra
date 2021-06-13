@@ -1,3 +1,3 @@
 # Spectra
 ---
-![Example](assets/template.png)
+![Example](/assets/template.png)
