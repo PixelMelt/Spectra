@@ -6,5 +6,4 @@ A better Discord Theme
 2. Place the file in your ``themes`` folder
 3. Enable the theme in your settings
 ---
-> Theme Preview
 ![Preview](/assets/Template.png)
