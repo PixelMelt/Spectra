@@ -1,6 +1,6 @@
 # Spectra
 ### A better Discord Theme
-[![Version](https://img.shields.io/badge/Version-1.0-#fdc91e.svg)](https://shields.io/)
+[![Version](https://img.shields.io/badge/Version-1.0-fdc91e.svg)](https://shields.io/)
 ---
 ## Installation Instructions ##
 1. Download ``spectra.theme.css``
