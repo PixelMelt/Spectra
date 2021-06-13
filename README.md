@@ -1,3 +1,3 @@
 # Spectra
 ---
-![Example](/src/template.png)
+![Example](https://p0rtL6.github.io/Spectra/src/template.png)
