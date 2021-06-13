@@ -1,5 +1,5 @@
 # Spectra #
-** A better Discord Theme
+** A better Discord Theme **
 ---
 ## Installation Instructions ##
 1. Download ``spectra.theme.css``
