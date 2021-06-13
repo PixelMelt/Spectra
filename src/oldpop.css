@@ -1,0 +1,168 @@
+@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+@import url('https://pixelmelt.github.io/Spectra/cosmetics.css');
+
+.relationshipButtons-pUQVkf {
+    top: -50px;
+    right: 20px;
+    position: absolute;
+}
+
+.profileBannerPremium-35utuo {
+    height: 80px;
+    background-color: #00000000!important;
+}
+
+.profileBanner-33-uE1 {
+    background-color: #00000000!important;
+    height: 80px;
+}
+
+.avatar-AvHqJA {
+    border: 0px solid #00000000;
+    background-color: #00000000;
+}
+
+.applicationName-1-Uq7y.clickable-1bVtEA:hover, .commandName-1klrjB.clickable-1bVtEA:hover, .username-1A8OIy.clickable-1bVtEA:hover {
+    text-decoration: none;
+}
+
+.avatarPositionPremium-3We5Ho {
+    top: 20px;
+}
+
+.betaBadge-1Ve-yb {
+    display: none;
+}
+
+.profileBannerPremium-35utuo {
+    background-image: none!important;
+    background-color:  #202225;
+}
+
+.popoutBannerPremium-1n96gg {
+    background-image: none!important;
+    background-color:  #202225;
+}
+
+.aboutMeSection---MkQa {
+    background-color: #00000000;
+}
+
+.aboutMeTitle-2i3lnH {
+    display: block;
+}
+
+.topSection-y3p-_D {
+    background-color:  #303136;
+}
+
+.setIdentityLink-3lcnXW {
+    display: none
+}
+
+.nickname-2gQ76l {
+    font-size: 16px;
+}
+
+.profileBadges-3cJaE1 {
+    display: none;
+}
+
+.headerTop-2cWpdB {
+    background-color: #202225;
+}
+
+.userPopout-3XzG_A[style*="--user-background"] .headerTop-2cWpdB {
+    background-color: #00000000;
+}
+
+/*set colors to grey*/
+.popoutBanner-19WKGg {
+    background-color: #202225!important
+    
+}
+.headerTop-2cWpdB {
+    background-color: #202225!important
+}
+.headerNormal-1mX3KY {
+    background-color: #303136;
+}
+.footer-1N3bR3 {
+    background-color: #303136;
+}
+.body-3HBlXn {
+    background-color: #303136;
+}
+
+.BDFDB_undefined-ZkCGbz, .nickname-322DbL.size20-2QkeeC, .headerTagNoNickname-3ak9o8.headerTag-nSOkYt.size14-3iUx6q.size20-2QkeeC {
+    display: block;
+}
+
+.userPopout-xaxa6l[style*="--user-background"] .avatarPositionNormal-1CZUPk {
+    top: 76px;
+}
+
+.avatarWrapperNormal-26WQIb {
+  left: 34%;
+}
+
+.headerTop-2cWpdB > .profileBadges-1dm1_q {
+  display: none;
+}
+
+.userPopout-xaxa6l {
+    width: 250px!important
+}
+
+.headerTop-2cWpdB {
+    text-align: center;
+    padding: 0px 16px 24px;
+    border-bottom: 0px
+}
+
+.popoutBanner-19WKGg {
+    height: 113px;
+}
+
+.headerTagNoNickname-1VyQza {
+    font-size: 15px;
+}
+
+..userPopout-xaxa6l[style*="--user-background"] .avatarPositionNormal-1CZUPk {
+    top: 23px;
+}
+
+.avatar-37jOim {
+    border: 0px solid;
+    background-color: #00000000;
+}
+
+.userPopout-xaxa6l[style*="--user-background"] .headerNormal-1mX3KY {
+    background: var(--user-background) center / cover;
+}
+
+.userPopout-xaxa6l[style*="--user-background"] .popoutBanner-19WKGg {
+    background-color:  #0000!important
+}
+
+.userPopout-xaxa6l[style*="--user-background"] .headerTop-2cWpdB {
+    background-color:  #0000!important
+}
+
+
+.userPopout-xaxa6l[style*="--user-background"] .activityUserPopout-2yItg2 {
+    background-color:  #303136
+}
+
+.avatarHint-2A3RNb {
+    top: 0px;
+    left: 0px;
+}
+
+.root-SR8cQa[style*="--user-background"] .topSectionNormal-2-vo2m {
+    background: var(--user-background) center / cover;
+}
+
+.tabBarContainer-1s1u-z {
+    border-top: 0px
+}
