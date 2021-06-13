@@ -1,0 +1,230 @@
+.applicationName-1-Uq7y.clickable-1bVtEA:hover, .commandName-1klrjB.clickable-1bVtEA:hover, .username-1A8OIy.clickable-1bVtEA:hover {
+    text-decoration: none;
+}
+
+/* user tags */
+
+/* Pix#7008 */
+
+@keyframes pixbadge {
+  0%   {content: "</>"; font-family: "Courier New";}
+  10%  {content: "<G>";}
+  20%  {content: "<Ge>";}
+  30%  {content: "<Get>";}
+  40%  {content: "<Get >";}
+  50%  {content: "<Get L>";}
+  60%  {content: "<Get Li>";}
+  70%  {content: "<Get Lin>";}
+  80%  {content: "<Get Linu>";}
+  90%  {content: "<Get Linux>";}
+  100% {content: "<Get Linux>";}
+}
+
+.avatar-1BDn8e[src*="583750578094735360"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="583750578094735360"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Get Linux>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: pixbadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+
+/* Macro#9389 */
+
+@keyframes macrobadge {
+  0%   {content: "</>"; font-family: "Courier New";}
+  10%  {content: "<I>";}
+  20%  {content: "<Im>";}
+  30%  {content: "<Im >";}
+  40%  {content: "<Im i>";}
+  50%  {content: "<Im in>";}
+  60%  {content: "<Im in >";}
+  70%  {content: "<Im in p>";}
+  80%  {content: "<Im in pa>";}
+  90%  {content: "<Im in pai>";}
+  100% {content: "<Im in pain>";}
+}
+
+.avatar-1BDn8e[src*="419352542804312066"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="419352542804312066"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Im in pain>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: macrobadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+
+/* Contributers */
+
+@keyframes contributorbadge {
+  0%   {content: "</>"; font-family: "Courier New";}
+  10%  {content: "<S>";}
+  20%  {content: "<Spe>";}
+  30%  {content: "<Spect>";}
+  40%  {content: "<Spectra>";}
+  50%  {content: "<Spectra C>";}
+  60%  {content: "<Spectra Con>";}
+  70%  {content: "<Spectra Contr>";}
+  80%  {content: "<Spectra Contrib";}
+  90%  {content: "<Spectra Contribut>";}
+  100% {content: "<Spectra Contributor>";}
+}
+
+.avatar-1BDn8e[src*="258731845267619840"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="258731845267619840"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Contributor>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: contributorbadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+
+.avatar-1BDn8e[src*="265924886461939712"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="265924886461939712"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Contributor>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: contributorbadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+
+/* Beta testers*/
+
+@keyframes betabadge {
+  0%   {content: "</>"; font-family: "Courier New";}
+  10%  {content: "<S>";}
+  20%  {content: "<Sp>";}
+  30%  {content: "<Spe>";}
+  40%  {content: "<Spec>";}
+  50%  {content: "<Spect>";}
+  60%  {content: "<Spectr>";}
+  70%  {content: "<Spectra B>";}
+  80%  {content: "<Spectra Be>";}
+  90%  {content: "<Spectra Bet>";}
+  100% {content: "<Spectra Beta>";}
+}
+/* Achi™#9761 */
+.avatar-1BDn8e[src*="374700424462073857"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="374700424462073857"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+/* Skittles#8027 */
+.avatar-1BDn8e[src*="128707790016348160"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="128707790016348160"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+/* SatoruX#4065 */
+.avatar-1BDn8e[src*="556271703139811350"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="556271703139811350"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+/* Maxy_Zou#8281 */
+.avatar-1BDn8e[src*="751817881112543363"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="751817881112543363"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+/* 【Люк】ルーク#3134 */
+.avatar-1BDn8e[src*="522861437400645632"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="522861437400645632"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
+
+/* Lloqd#5335 */
+.avatar-1BDn8e[src*="639826801493016576"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  line-height: 1rem!important;
+  content: "</>";
+  background-color: #0000;
+  color: #ffffff;
+}
+.avatar-1BDn8e[src*="639826801493016576"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  line-height: 1rem!important;
+  content: "<Spectra Beta>";
+  background-color: #0000;
+  color: #ffffff;
+  animation: betabadge .5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
+}
