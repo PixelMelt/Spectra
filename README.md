@@ -2,7 +2,7 @@
 ### A better Discord Theme
 [![Version](https://img.shields.io/badge/Version-1.0-fdc91e.svg)](https://shields.io/)
 [![GitHub issues](https://img.shields.io/github/issues/PixelMelt/Spectra.svg)](https://GitHub.com/PixelMelt/Spectra/issues/)
-[![File Size](https://badge-size.herokuapp.com/PixelMelt/Spectra/master/spectra.theme.css)](https://github.com/Naereen/StrapDown.js/blob/master/strapdown.min.js)
+[![File Size](https://badge-size.herokuapp.com/PixelMelt/p0rtl6/master/src/spectrafull.css)](https://github.com/Naereen/StrapDown.js/blob/master/strapdown.min.js)
 [![Only 32 Kb](https://badge-size.herokuapp.com/Naereen/StrapDown.js/master/strapdown.min.js)](https://github.com/Naereen/StrapDown.js/blob/master/strapdown.min.js)
 [![Download](https://img.shields.io/badge/Download--lime.svg)](https://downgit.github.io/#/home?url=https://github.com/PixelMelt/Spectra/blob/main/spectra.theme.css)
 ---
