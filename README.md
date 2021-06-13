@@ -7,7 +7,8 @@
 ---
 ## Installation Instructions ##
 1. Click the download button above to get the theme file
-2. Place the file in your ``themes`` folder
-3. Enable the theme in your settings
+2. Unzip the file
+3. Place the `spectra.theme.css` file in your `themes` folder
+4. Enable the theme in your settings
 ---
 ![Preview](/assets/Template.png)
