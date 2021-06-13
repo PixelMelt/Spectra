@@ -1,2 +1,3 @@
 # Spectra
-A beautiful collection of BD themes.
+---
+![Example](/src/template.png)
