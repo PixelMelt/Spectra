@@ -7,12 +7,25 @@
 @import url('https://p0rtl6.github.io/BD-AnimatedSpeakingRings/src/voiceconnectedpanel.css'); /* The voice connected panel */
 @import url('https://p0rtl6.github.io/BD-AnimatedSpeakingRings/src/bigusers.css'); /* The fullscreen user panels */
 
-:root{
-  --gradient1:  var(--SecondaryText);
-  --gradient2:  var(--PrimaryAccent);
-  --gradientangle: 45deg;
-  --dmvoicebgcolor: var(--SecondaryAccent);
-  --roundness: 15px;
+:root {
+	--gradient1:  var(--SecondaryText);
+	--gradient2:  var(--PrimaryAccent);
+	--gradientangle: 45deg;
+	--dmvoicebgcolor: var(--SecondaryAccent);
+	--roundness: 15px;
+	--PrimaryText: #ffd855;
+	--SecondaryText: #ffe89b;
+	--ActiveText: #324252;
+	--PrimaryAccent: #ffd500;
+	--SecondaryAccent: #d0b848;
+	--TertiaryAccent: #5d4a0d;
+	--PrimaryBackground: #1b2229;
+	--SecondaryBackground: #13181d;
+	--TertiaryBackground: #24303c;
+	--ActiveBackground: #e2af5a;
+	--PrimaryMisc: #bdb3f9;
+	--SecondaryMisc: #6685a5;
+	--TertiaryMisc: #5b43f0;
 }
 
 .closeButton-3cJIM4:hover {
