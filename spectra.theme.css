@@ -2,7 +2,7 @@
  * @name         Spectra
  * @description  A dark theme letting the light shine through! Spectra is a visability focused theme that is still light on your eyes.
  * @author       Pix
- * @version      1.0
+ * @version      1.1
  * @website      http://pixelmelt.xyz
  * @source       https://github.com/PixelMelt/Spectra
  * @invite       2MucdZyQsb
@@ -12,6 +12,24 @@
 
 @import url("https://pixelmelt.github.io/Spectra/spectrafull.css");
 
+:root {
+	--PrimaryText: #ffd855;
+	--SecondaryText: #ffe89b;
+	--ActiveText: #324252;
+	--PrimaryAccent: #ffd500;
+	--SecondaryAccent: #d0b848;
+	--TertiaryAccent: #5d4a0d;
+	--PrimaryBackground: #1b2229;
+	--SecondaryBackground: #13181d;
+	--TertiaryBackground: #24303c;
+	--ActiveBackground: #e2af5a;
+	--PrimaryMisc: #bdb3f9;
+	--SecondaryMisc: #6685a5;
+	--TertiaryMisc: #5b43f0;
+}
+
 /* Hello Friends! Enjoy my theme! */
 /* Feel free to message me if you have any issues */
 /* Pix#7008 */
+
+/* p0rtL#6592 was here :) */
