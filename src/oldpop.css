@@ -1,5 +1,9 @@
 @import url('https://pixelmelt.github.io/Spectra/src/cosmetics.css');
 
+.aboutMeSection-1Fw5Ia {
+    margin-top: 8px;
+}
+
 .customStatus-oN4ZZY {
     padding-bottom: 8px;
 }
@@ -8,20 +12,17 @@
     padding: 0px!important;
 }
 
-.divider-ewBQKj {
-    padding-left: 8px;
-}
-
 .aboutMeSection-1Fw5Ia {
-    padding-left: 8px;
+    padding-left: 12px;
 }
 
 .bodyInnerWrapper-26fQXj {
-    padding: 8px;
+    padding: 15px;
 }
 
 .note-1oo11U {
-    padding: 8px;
+    padding: 5px;
+    padding-bottom: 3px;
 }
 
 .banner-2QYc2d:hover .bannerOverlay-1uIerX, .banner-2QYc2d:hover .pencilIcon-XSi-VE {
