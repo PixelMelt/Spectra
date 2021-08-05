@@ -1,3 +1,4 @@
+@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css'); /* animated badges */
 @import url('https://pixelmelt.github.io/Spectra/src/oldpop.css'); /* old user popouts */
 @import url('https://pixelmelt.github.io/Spectra/src/roundite.css'); /* rounded gui */
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css'); /* user backgrounds */
@@ -15,6 +16,35 @@
     
    /*Roundite*/
   --roundness: 15px;
+
+  /* animated badges */
+  --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
+  --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
+  --badges-everywhere-size: 15px; /*default = 15px*/
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    background-color: #fdd651;
+}
+
+.theme-dark .inviteRowName-1tVaxu {
+    color: #ffe89b;
+}
+
+.theme-dark .inviteRow-2L02ae:hover {
+    background-color: #1c242d;
+}
+
+.contents-18-Yxp {
+    color: #ffe89b;
+}
+
+.cooldownWrapper-3joyFc {
+    color: #ffe89b;
+}
+
+.discrimBase-24vY8o {
+    color: #ffd23a;
 }
 
 .popoutBannerPremium-1n96gg {
@@ -27,7 +57,7 @@
     background-color: #3e4e5f!important;
 }
 .customStatus-oN4ZZY{
-    background-color: #3e4e5f!important;
+    background-color: #2c3b4a!important;
 }
 
 
