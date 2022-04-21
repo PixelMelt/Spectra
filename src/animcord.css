@@ -1,77 +1,63 @@
-.membersWrap-2h-GB4 {
+.membersWrap-3NUR2t {
   min-width: unset;
 }
-.membersWrap-2h-GB4 .members-1998pB {
-  max-width: 65px;
-  min-width: 65px;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
-}
-.membersWrap-2h-GB4 .members-1998pB:hover {
-  max-width: 240px;
-  min-width: 240px;
-}
-.membersWrap-2h-GB4 .members-1998pB .content-3YMskv:not(:hover) {
-  padding-top: 10px;
-  background-color: var(--darkplus-bg);
-}
 
-.content-1Wq3SX:hover {
+.content-1Tgc42:hover {
     transition: all 0.5s;
     -webkit-transform: translateX(-5px);
             transform: translateX(-5px);
 }
 
-.content-1Wq3SX {
+.content-1Tgc42 {
     transition: all 0.3s;
     -webkit-transform: translateX(0);
             transform: translateX(0);
 }
 
-.clickable-3rdHwn:hover {
+.clickable-ZD7xvu:hover {
     animation-name: swing;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
-.layout-2DM8Md {
+.layout-1qmrhw {
     transition: all 0.3s;
     -webkit-transform: translateX(0);
             transform: translateX(0);
 }
 
-.layout-2DM8Md:hover {
+.layout-1qmrhw:hover {
     transition: all 0.5s;
     -webkit-transform: translateX(-5px);
             transform: translateX(-5px);
 }
 
-.mainContent-u_9PKf {
+.mainContent-20q_Hp {
     transition: all 0.3s;
     -webkit-transform: translateX(0);
             transform: translateX(0);
 }
 
-.mainContent-u_9PKf:hover {
+.mainContent-20q_Hp:hover {
     transition: all 0.5s;
     -webkit-transform: translateX(-5px);
             transform: translateX(-5px);
 }
 
 
-[aria-label="Mute"] .contents-18-Yxp:hover {
+[aria-label="Mute"] .contents-3ca1mk:hover {
     animation-name: shakeX;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
-[aria-label="User Settings"] .contents-18-Yxp:hover {
+[aria-label="User Settings"] .contents-3ca1mk:hover {
     animation-name: rotate;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
-[aria-label="Deafen"] .contents-18-Yxp:hover {
+[aria-label="Deafen"] .contents-3ca1mk:hover {
     animation-name: swing;
     animation-duration: 1s;
     animation-iteration-count: infinite;
