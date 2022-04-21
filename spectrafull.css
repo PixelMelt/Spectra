@@ -24,6 +24,11 @@
   --badges-everywhere-size: 15px; /*default = 15px*/
 }
 
+/* hide nitro bs*/
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div.content-1jQy2l > main > form > div > div > div > div.scrollableContainer-15eg7h.webkit-QgSAqd > div > div.buttons-uaqb-5 > button{
+	display: none;
+}
+
 .lookFilled-yCfaCM.colorGreen-3y-Z79:hover {
     background-color: #fdd651;
 }
