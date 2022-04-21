@@ -15,7 +15,7 @@
 @import url("https://pixelmelt.github.io/Spectra/spectrafull.css"); /* the theme */
 
 @import url('https://mr-miner1.github.io/Better-Badges/src/badges.css'); /* animated badges */
-@import url('https://pixelmelt.github.io/Spectra/src/oldpop.css'); /* old user popouts */
+/*@import url('https://pixelmelt.github.io/Spectra/src/oldpop.css'); /*old user popouts <- kinda dead but sorta works */
 @import url('https://pixelmelt.github.io/Spectra/src/animcord.css'); /* extra animations */
 @import url('https://pixelmelt.github.io/Spectra/src/roundite.css'); /* rounded gui */
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css'); /* user backgrounds */
