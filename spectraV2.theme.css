@@ -9,7 +9,7 @@
  * @authorId     583750578094735360
  */
 @import url("https://pixelmelt.github.io/Spectra/spectrafullV2.css");
-@import url('https://pixelmelt.github.io/Spectra/src/oldpop.css'); /* old user popouts */
+/* @import url('https://pixelmelt.github.io/Spectra/src/oldpop.css'); old user popouts - broken! */
 @import url('https://pixelmelt.github.io/Spectra/src/roundite.css'); /* rounded gui */
 @import url("https://pixelmelt.github.io/Spectra/src/cosmetics.css"); /* user cosmetics */
 @import url("https://raw.githack.com/NYRI4/Discolored/master/main.css"); /* colored discord SVGs */
