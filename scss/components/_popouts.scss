@@ -1,0 +1,42 @@
+@use "../functions" as *;
+
+.quickswitcher_ac6cb0 .input_ac6cb0 {
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px;
+    background: v(cream);
+    color: v(bg-3);
+}
+
+.container__16eb0 {
+    .groupHeader__971b5 {
+        color: v(gold-5);
+    }
+
+    .item__971b5 {
+        color: v(gold-5);
+
+        .nonText__971b5,
+        strong {
+            color: v(gold-4);
+        }
+
+        &:hover,
+        &[aria-selected="true"] {
+            background-color: v(bg-2);
+        }
+    }
+
+    .filterPill__971b5,
+    .answerPill__971b5 {
+        color: v(gold-5);
+        background-color: v(bg-4);
+    }
+}
+
+.tabBar__06f80 .tab__06f80.selected_aa8da2 {
+    color: v(bg-0);
+    background-color: v(gold-5);
+}
