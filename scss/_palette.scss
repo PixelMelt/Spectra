@@ -4,35 +4,52 @@
 
 // Slate backgrounds, darkest to lightest
 $bg: (
-  0: #12171c, // app frame, server list
-  1: #161c22, // sidebars
-  2: #1b2229, // chat
-  3: #1f2933, // cards, inputs, popouts
-  4: #2c3a48, // raised / selected
-  5: #3e4e5f, // banners, strong borders
+    // app frame, server list
+    0: #12171c,
+    // sidebars
+    1: #161c22,
+    // chat
+    2: #1b2229,
+    // cards, inputs, popouts
+    3: #1f2933,
+    // raised / selected
+    4: #2c3a48,
+    // banners, strong borders
+    5: #3e4e5f
 );
 
 // Gold text and accents, dimmest to brightest
 $gold: (
-  1: #7a6010, // faint
-  2: #c39a13, // muted
-  3: #efbe1c, // body text
-  4: #fdd651, // accent
-  5: #ffe89b, // headings, strong
+    // faint
+    1: #7a6010,
+    // muted
+    2: #c39a13,
+    // body text
+    3: #efbe1c,
+    // accent
+    4: #fdd651,
+    // headings, strong
+    5: #ffe89b
 );
 
 $status: (
-  danger: #f47171,
-  success: #5fcf86,
-  info: #6cb4ee,
+    danger: #f47171,
+    success: #5fcf86,
+    info: #6cb4ee,
 );
 
 // Emits the palette as --spectra-* custom properties
 @mixin custom-properties {
-  @each $k, $v in $bg { --spectra-bg-#{$k}: #{$v}; }
-  @each $k, $v in $gold { --spectra-gold-#{$k}: #{$v}; }
-  @each $k, $v in $status { --spectra-#{$k}: #{$v}; }
-  --spectra-accent: var(--spectra-gold-4);
-  --spectra-radius: 12px;
-  --spectra-gap: 8px;
+    @each $k, $v in $bg {
+        --spectra-bg-#{$k}: #{$v};
+    }
+    @each $k, $v in $gold {
+        --spectra-gold-#{$k}: #{$v};
+    }
+    @each $k, $v in $status {
+        --spectra-#{$k}: #{$v};
+    }
+    --spectra-accent: var(--spectra-gold-4);
+    --spectra-radius: 12px;
+    --spectra-gap: 8px;
 }

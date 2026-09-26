@@ -8,5 +8,5 @@
 @use "components/chat";
 
 :root {
-  @include palette.custom-properties;
+    @include palette.custom-properties;
 }

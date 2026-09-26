@@ -5,51 +5,85 @@ $nudge: -5px;
 
 // Hover nudge for list rows
 $rows: (
-  ".link__2ea32", // channel list
-  ".dm__972a0 .layout__20a53", // DM list
-  ".memberInner__5d473", // member list
-  ".peopleListItem_cc6179", // friends list
+    // channel list
+    ".link__2ea32",
+    // DM list
+    ".dm__972a0 .layout__20a53",
+    // member list
+    ".memberInner__5d473",
+    // friends list
+    ".peopleListItem_cc6179"
 );
 
 // User panel button wiggles, keyed by aria-label
 $panel-buttons: (
-  "Mute": shake-x,
-  "Unmute": shake-x,
-  "Deafen": swing,
-  "Undeafen": swing,
-  "User Settings": spin,
+    "Mute": shake-x,
+    "Unmute": shake-x,
+    "Deafen": swing,
+    "Undeafen": swing,
+    "User Settings": spin,
 );
 
 @media (prefers-reduced-motion: no-preference) {
-  @each $row in $rows {
-    #{$row} {
-      transition: transform 0.3s;
-      &:hover { transform: translateX($nudge); }
+    @each $row in $rows {
+        #{$row} {
+            transition: transform 0.3s;
+            &:hover {
+                transform: translateX($nudge);
+            }
+        }
     }
-  }
 
-  @each $label, $anim in $panel-buttons {
-    .panels__5e434 [aria-label="#{$label}"]:hover .contents__201d5 {
-      animation: $anim 1s infinite;
+    @each $label, $anim in $panel-buttons {
+        .panels__5e434 [aria-label="#{$label}"]:hover .contents__201d5 {
+            animation: $anim 1s infinite;
+        }
     }
-  }
 }
 
 @keyframes swing {
-  20% { transform: rotate(15deg); }
-  40% { transform: rotate(-10deg); }
-  60% { transform: rotate(5deg); }
-  80% { transform: rotate(-5deg); }
-  to { transform: rotate(0deg); }
+    20% {
+        transform: rotate(15deg);
+    }
+    40% {
+        transform: rotate(-10deg);
+    }
+    60% {
+        transform: rotate(5deg);
+    }
+    80% {
+        transform: rotate(-5deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes shake-x {
-  0%, to { transform: translateX(0); }
-  10%, 30%, 50%, 70%, 90% { transform: translateX(-1px); }
-  20%, 40%, 60%, 80% { transform: translateX(1px); }
+    0%,
+    to {
+        transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-1px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(1px);
+    }
 }
 
 @keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(180deg); }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
 }

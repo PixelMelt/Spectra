@@ -1,0 +1,25 @@
+{
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": false,
+    "printWidth": 200,
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "endOfLine": "lf",
+    "bracketSameLine": true,
+    "overrides": [
+        {
+            "files": ["*.ts", "*.tsx"],
+            "options": {
+                "parser": "typescript"
+            }
+        },
+        {
+            "files": ["src/vm/runtime/handlers/*.ts"],
+            "options": {
+                "printWidth": 300
+            }
+        }
+    ]
+}
