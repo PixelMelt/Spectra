@@ -223,11 +223,11 @@ $primary: (
     --checkbox-icon-active: #{v(bg-3)};
     --badge-background-brand: #{v(gold-5)};
     --badge-text-brand: #{v(bg-3)};
-    --scrollbar-auto-thumb: #{v(bg-5)};
-    --scrollbar-auto-track: #{v(bg-4)};
-    --scrollbar-auto-scrollbar-color-thumb: #{v(bg-5)};
-    --scrollbar-auto-scrollbar-color-track: #{v(bg-4)};
-    --scrollbar-thin-thumb: #{v(bg-5)};
+    --scrollbar-auto-thumb: #{v(scroll)};
+    --scrollbar-auto-track: #{v(bg-1)};
+    --scrollbar-auto-scrollbar-color-thumb: #{v(scroll)};
+    --scrollbar-auto-scrollbar-color-track: #{v(bg-1)};
+    --scrollbar-thin-thumb: #{v(scroll)};
     --scrollbar-thin-track: transparent;
     --bd-brand: #{v(gold-3)};
 }

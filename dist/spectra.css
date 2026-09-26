@@ -226,11 +226,11 @@
   --checkbox-icon-active: var(--spectra-bg-3);
   --badge-background-brand: var(--spectra-gold-5);
   --badge-text-brand: var(--spectra-bg-3);
-  --scrollbar-auto-thumb: var(--spectra-bg-5);
-  --scrollbar-auto-track: var(--spectra-bg-4);
-  --scrollbar-auto-scrollbar-color-thumb: var(--spectra-bg-5);
-  --scrollbar-auto-scrollbar-color-track: var(--spectra-bg-4);
-  --scrollbar-thin-thumb: var(--spectra-bg-5);
+  --scrollbar-auto-thumb: var(--spectra-scroll);
+  --scrollbar-auto-track: var(--spectra-bg-1);
+  --scrollbar-auto-scrollbar-color-thumb: var(--spectra-scroll);
+  --scrollbar-auto-scrollbar-color-track: var(--spectra-bg-1);
+  --scrollbar-thin-thumb: var(--spectra-scroll);
   --scrollbar-thin-track: transparent;
   --bd-brand: var(--spectra-gold-3);
 }
@@ -1245,18 +1245,19 @@
 
 :root {
   --spectra-bg-0: #13181d;
-  --spectra-bg-1: #171d23;
+  --spectra-bg-1: #181f26;
   --spectra-bg-2: #1b2229;
   --spectra-bg-3: #1f2933;
   --spectra-bg-4: #2a3744;
   --spectra-bg-5: #3e4e5f;
+  --spectra-scroll: #343a40;
   --spectra-steel: #6685a5;
   --spectra-khaki: #737066;
   --spectra-cream: #f1e1ad;
   --spectra-gold-1: #796d0f;
   --spectra-gold-2: #c39a13;
   --spectra-gold-3: #efbe1c;
-  --spectra-gold-4: #fdd651;
+  --spectra-gold-4: #fdd653;
   --spectra-gold-5: #ffe89b;
   --spectra-gold-vivid: #ffc914;
   --spectra-accent: var(--spectra-gold-4);
