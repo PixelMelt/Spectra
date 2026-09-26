@@ -4,6 +4,13 @@
 @use "components/guilds";
 @use "components/channels";
 @use "components/chat";
+@use "components/controls";
+@use "components/expressions";
+@use "components/members";
+@use "components/panels";
+@use "components/friends";
+@use "components/profiles";
+@use "components/misc";
 
 :root {
     @include palette.custom-properties;

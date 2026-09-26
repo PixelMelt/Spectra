@@ -44,10 +44,6 @@ $round: v(roundness);
     margin: 5px;
 }
 
-.noticeWrapper__35939 {
-    background-color: var(--background-primary);
-}
-
 .notice_c5cd6a {
     border-radius: $round;
     margin: 10px 10px 5px;
@@ -91,4 +87,14 @@ $round: v(roundness);
 
 .bg__960e4 {
     background-color: v(bg-3);
+}
+
+.searchBar_e6b769 .button_a22cb0 {
+    background-color: var(--background-tertiary);
+    color: var(--text-muted);
+}
+
+.membersWrap_c8ffbb,
+.members_c8ffbb {
+    background-color: var(--background-secondary);
 }

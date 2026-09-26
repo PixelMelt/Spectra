@@ -1,0 +1,64 @@
+@use "../functions" as *;
+
+.theme-dark .activeButton_d6b206,
+.theme-dark .activeButton_d6b206:hover {
+    color: v(bg-3);
+    background-color: v(gold-5);
+}
+.brand_aa8da2.item_aa8da2:hover,
+.themed_aa8da2.item_aa8da2:hover {
+    color: v(gold-3);
+}
+.brand_aa8da2.item_aa8da2:active,
+.themed_aa8da2.item_aa8da2:active {
+    color: v(gold-4);
+}
+.top_aa8da2 .selected_aa8da2.themed_aa8da2.item_aa8da2,
+.top_aa8da2 .themed_aa8da2.item_aa8da2:active {
+    border-bottom-color: v(gold-5);
+}
+.selected_aa8da2.item_aa8da2,
+.selected_aa8da2.item_aa8da2:hover {
+    cursor: default;
+    color: v(gold-3);
+}
+.peopleColumn__133bf {
+    background-color: v(bg-2);
+}
+.activityVoiceChannel__2ef49 .details__2ef49 {
+    color: v(gold-5);
+}
+.theme-dark .activityStreamPreview__2ef49 .activityName__2ef49,
+.theme-dark .activityStreamPreview__2ef49 .content__2ef49,
+.theme-dark .activityStreamPreview__2ef49 .details__2ef49,
+.theme-dark .activityStreamPreview__2ef49 .name__2ef49,
+.theme-dark .activityStreamPreview__2ef49 .nameNormal__2ef49 {
+    color: v(gold-5);
+}
+.activityName__2ef49,
+.nameNormal__2ef49,
+.nameWrap__2ef49 {
+    color: v(gold-3);
+}
+.theme-dark .emptyStateSubtext__7641b {
+    color: v(gold-5);
+}
+.theme-dark .emptyStateHeader__7641b {
+    color: v(gold-5);
+}
+.theme-dark .friend_bbd192 {
+    color: v(gold-vivid) !important;
+}
+.theme-dark .friendSelected_bbd192 {
+    background-color: v(bg-2);
+    color: v(gold-5);
+}
+.friendsEmpty_c7ea19 {
+    background-color: v(bg-2);
+}
+.peopleListItem_cc6179 {
+    background-color: v(bg-2);
+}
+.peopleList__5ec2f {
+    background-color: v(bg-2);
+}

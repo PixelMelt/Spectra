@@ -1,0 +1,10 @@
+@use "../functions" as *;
+
+.clickable__91a9d:active .layout__91a9d {
+    background-color: v(bg-3);
+}
+.clickable__91a9d.container__91a9d:active,
+.highlighted__91a9d.container__91a9d,
+.selected__91a9d.container__91a9d {
+    color: v(bg-5);
+}

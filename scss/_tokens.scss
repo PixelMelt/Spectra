@@ -105,7 +105,7 @@ $primary: (
     --channeltextarea-background: #{v(bg-3)};
     --user-profile-toolbar-background: #{v(bg-4)};
     --user-profile-toolbar-border: transparent;
-    --spoiler-hidden-background: #{v(bg-4)};
+    --spoiler-hidden-background: #{v(gold-2)};
     --spoiler-hidden-background-hover: #{v(bg-5)};
     --spoiler-revealed-background: #{v(bg-3)};
 
@@ -229,6 +229,7 @@ $primary: (
     --scrollbar-auto-scrollbar-color-track: #{v(bg-4)};
     --scrollbar-thin-thumb: #{v(bg-5)};
     --scrollbar-thin-track: transparent;
+    --bd-brand: #{v(gold-3)};
 }
 
 :root,

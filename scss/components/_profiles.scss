@@ -1,0 +1,22 @@
+@use "../functions" as *;
+
+.headerTop_f602ce {
+    background-color: v(bg-5) !important;
+}
+.discriminator__0a06e {
+    color: v(gold-4);
+}
+.username__05e81 {
+    color: v(gold-5);
+}
+.text__19b6d {
+    color: v(gold-4);
+}
+
+:is(.user-profile-popout, .user-profile-modal, .user-profile-sidebar):not(.custom-user-profile-theme) {
+    background-color: v(bg-4);
+}
+
+.banner__68edb {
+    background-color: v(bg-5) !important;
+}

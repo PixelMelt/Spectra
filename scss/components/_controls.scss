@@ -1,0 +1,251 @@
+@use "../functions" as *;
+
+.lookFilled__201d5.colorGreen__201d5:hover {
+    background-color: v(khaki);
+}
+.theme-dark .lookFilled__201d5.colorPrimary__201d5:active,
+.theme-dark .lookFilled__201d5.colorPrimary__201d5:hover {
+    background-color: v(gold-2);
+}
+.lookOutlined__201d5.colorBrand__201d5 {
+    color: v(gold-4);
+    border-color: v(gold-5);
+}
+.lookFilled__201d5.colorBrand__201d5:disabled {
+    background-color: v(bg-4);
+}
+.lookLink__201d5.colorBrand__201d5 {
+    color: v(gold-3);
+}
+.lookFilled__201d5.colorRed__201d5:hover {
+    color: v(bg-4);
+    background-color: v(gold-4);
+}
+.theme-dark .lookLink__201d5.colorPrimary__201d5 {
+    color: v(gold-5);
+}
+.lookFilled__201d5.colorRed__201d5 {
+    background-color: v(bg-4);
+    color: v(gold-4);
+}
+.lookFilled__201d5.colorBrand__201d5:hover {
+    background-color: v(gold-4);
+    color: v(bg-3);
+}
+.lookOutlined__201d5.colorGreen__201d5 {
+    color: v(gold-4);
+    border-color: v(gold-4);
+}
+.lookBlank__201d5 {
+    background: transparent;
+    color: v(gold-3);
+}
+.lookFilled__201d5.colorGreen__201d5 {
+    color: v(bg-3);
+    background-color: v(khaki);
+}
+.theme-dark .lookFilled__201d5.colorPrimary__201d5 {
+    color: v(bg-2);
+    background-color: v(khaki);
+}
+.lookOutlined__201d5.colorWhite__201d5 {
+    color: v(gold-3);
+    border-color: v(gold-4);
+}
+.lookFilled__201d5.colorBrand__201d5 {
+    background-color: v(bg-3);
+    color: v(gold-4);
+}
+.colorInfo__6e2b9 .button__6e2b9:hover {
+    color: v(gold-4);
+}
+.theme-dark .button__6e2b9:hover {
+    border-color: v(bg-3);
+    background-color: v(bg-3);
+}
+.button__6e2b9 {
+    color: v(gold-4);
+}
+.theme-dark .button__6e2b9 {
+    border-color: v(gold-4);
+    background-color: transparent;
+}
+.colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4) {
+    background-color: v(bg-1);
+    color: v(gold-5);
+}
+.colorPremium_c1e9c4 .icon_c1e9c4 {
+    color: v(gold-vivid);
+}
+.colorDefault_c1e9c4.focused_c1e9c4 {
+    background-color: v(bg-4);
+    color: v(gold-vivid);
+}
+.colorDanger_c1e9c4,
+.colorDanger_c1e9c4 .checkbox_c1e9c4,
+.colorDanger_c1e9c4 .radioSelection_c1e9c4 {
+    color: v(gold-vivid);
+}
+.colorDefault_c1e9c4 .checkbox_c1e9c4,
+.colorDefault_c1e9c4 .radioSelection_c1e9c4 {
+    color: v(gold-3);
+}
+.menu_c1e9c4 {
+    background: v(bg-2);
+}
+.theme-dark .keybindShortcut_ea79f0 span {
+    color: v(gold-5);
+}
+.keybindShortcut_ea79f0 span {
+    background-color: v(bg-4);
+}
+.theme-dark .markDash__4c059 {
+    background: v(bg-3);
+}
+.theme-dark .markValue__4c059 {
+    color: v(gold-vivid);
+}
+.grabber__4c059 {
+    background-color: v(bg-4);
+    border: 1px solid transparent;
+}
+.defaultValue__4c059 .markValue__4c059 {
+    color: v(gold-5);
+}
+.barFill__4c059 {
+    background: v(gold-5);
+}
+.radioIconForeground__88a69 {
+    color: v(gold-5);
+}
+.theme-dark .keybind_c2b141 {
+    color: v(gold-5);
+}
+.theme-dark .closeButton_c2b141 {
+    border-color: v(gold-5);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--selected:hover,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day:hover {
+    color: v(bg-3);
+    background-color: v(gold-5);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--selected:after {
+    background-color: v(gold-5);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker__navigation.react-datepicker__navigation--next,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__navigation.react-datepicker__navigation--previous {
+    border-color: v(gold-5);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: v(bg-4);
+    color: v(gold-5);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day--disabled,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day--outside-month {
+    background-color: v(bg-4);
+    color: v(gold-5);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day-name {
+    color: v(gold-5);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker__header {
+    background-color: v(bg-3);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker__current-month {
+    border-bottom-color: alpha(v(gold-5), 18%);
+    color: v(gold-5);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker {
+    background-color: v(bg-3);
+}
+.input__0ed4f.focused__0ed4f,
+.input__0ed4f:focus {
+    border-color: v(gold-5);
+}
+.input__0ed4f {
+    color: v(gold-4);
+    background-color: v(bg-3);
+}
+.circleIconButton__5bc7e {
+    color: v(gold-2);
+    background-color: v(bg-3);
+}
+.circleIconButton__5bc7e.selected__5bc7e {
+    color: v(bg-4);
+    background-color: v(gold-5);
+}
+.barInner_c8b06d {
+    background-color: v(gold-3);
+}
+
+.switchIndicator_a28278 {
+    background-color: v(bg-4) !important;
+}
+
+.container_a28278:has(input:checked) .switchIndicator_a28278 {
+    background-color: v(gold-3) !important;
+}
+
+.item__88a69 {
+    &:hover:not([aria-checked="true"]),
+    &[aria-checked="true"] {
+        background-color: v(bg-3);
+    }
+
+    &[aria-checked="true"] {
+        color: v(gold-vivid);
+    }
+}
+
+.select_a16aea {
+    background-color: v(bg-3);
+    color: v(gold-5) !important;
+    border-color: transparent;
+
+    &:hover {
+        border-color: transparent;
+    }
+}
+
+.popout_a16aea {
+    background-color: v(bg-3);
+    color: v(gold-5) !important;
+    border-radius: 0;
+}
+
+.value_a16aea {
+    color: v(gold-vivid);
+}
+
+.option_a16aea {
+    color: v(gold-vivid);
+}
+
+.bd-switch-body {
+    --switch-color: #{v(bg-1)};
+}
+
+.bd-switch input:checked + .bd-switch-body {
+    --switch-color: #{v(gold-3)};
+}
+
+.bd-button.bd-button-filled.bd-button-color-brand {
+    background-color: v(gold-3);
+    color: v(gold-1);
+    transition:
+        background-color 0.17s ease,
+        color 0.17s ease;
+
+    &:hover {
+        background-color: v(gold-2);
+    }
+}
+
+.bd-button.bd-button-filled.bd-button-color-red {
+    background-color: v(bg-4);
+
+    &:hover {
+        background-color: v(bg-2);
+    }
+}
