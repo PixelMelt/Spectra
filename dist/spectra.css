@@ -1079,6 +1079,10 @@
   background-color: var(--spectra-bg-2);
 }
 
+.addFriendInputWrapper__72ba7 {
+  background-color: var(--spectra-bg-2);
+}
+
 .headerTop_f602ce {
   background-color: var(--spectra-bg-5) !important;
 }
@@ -1217,6 +1221,23 @@
 
 .footer__49fc1 {
   background-color: var(--spectra-bg-3);
+}
+
+.notice_c5cd6a {
+  color: var(--spectra-gold-4);
+}
+
+.theme-dark .breadcrumbWrapper__75013 {
+  color: color-mix(in oklab, var(--spectra-gold-5) 53%, transparent);
+}
+
+.required_b717a1,
+.required__5a838 {
+  color: var(--spectra-gold-5);
+}
+
+.root__49fc1 {
+  border-radius: var(--spectra-roundness);
 }
 
 :root {
