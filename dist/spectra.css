@@ -95,6 +95,8 @@
   --background-modifier-hover: var(--spectra-bg-2);
   --background-modifier-selected: var(--spectra-bg-3);
   --background-modifier-active: var(--spectra-bg-3);
+  --background-scrim: color-mix(in oklab, var(--spectra-bg-0) 85%, transparent);
+  --background-scrim-lightbox: color-mix(in oklab, var(--spectra-bg-0) 92%, transparent);
   --background-mod-subtle: var(--spectra-bg-2);
   --background-mod-muted: var(--spectra-bg-3);
   --background-mod-normal: var(--spectra-bg-3);
@@ -288,19 +290,17 @@
   background-color: var(--spectra-bg-4);
 }
 
-.button__6e2b9 {
-  color: var(--spectra-gold-4);
+.notice__6e2b9 {
+  --custom-notice-text: var(--spectra-gold-4);
+  border-radius: var(--spectra-roundness);
+  margin: 10px;
 }
+
 .theme-dark .button__6e2b9 {
-  border-color: var(--spectra-gold-4);
   background-color: transparent;
 }
 .theme-dark .button__6e2b9:hover {
-  border-color: var(--spectra-bg-3);
   background-color: var(--spectra-bg-3);
-}
-.colorInfo__6e2b9 .button__6e2b9:hover {
-  color: var(--spectra-gold-4);
 }
 
 .container_a2f514 {
@@ -782,9 +782,12 @@
   background-color: var(--spectra-bg-3);
 }
 
-.live_a7acae,
-.iconLive__46869 {
+.live_a7acae {
   color: var(--spectra-gold-5);
+}
+
+.iconLive__46869 {
+  --green-360: var(--spectra-gold-5);
 }
 
 .quickswitcher_ac6cb0 .input_ac6cb0 {
@@ -1053,10 +1056,6 @@
 
 .selectorButtonSelected__0907c {
   background-color: var(--spectra-khaki);
-}
-
-.backdrop_f8afe2 {
-  background: var(--spectra-bg-0);
 }
 
 .root__49fc1 {

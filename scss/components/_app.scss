@@ -55,21 +55,19 @@ $round: v(roundness);
     background-color: v(bg-4);
 }
 
-.button__6e2b9 {
-    color: v(gold-4);
+.notice__6e2b9 {
+    --custom-notice-text: #{v(gold-4)};
+    border-radius: $round;
+    margin: 10px;
+}
 
+.button__6e2b9 {
     .theme-dark & {
-        border-color: v(gold-4);
         background-color: transparent;
 
         &:hover {
-            border-color: v(bg-3);
             background-color: v(bg-3);
         }
-    }
-
-    .colorInfo__6e2b9 &:hover {
-        color: v(gold-4);
     }
 }
 

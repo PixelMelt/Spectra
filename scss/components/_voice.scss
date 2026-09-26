@@ -38,7 +38,10 @@
     background-color: v(bg-3);
 }
 
-.live_a7acae,
-.iconLive__46869 {
+.live_a7acae {
     color: v(gold-5);
+}
+
+.iconLive__46869 {
+    --green-360: #{v(gold-5)};
 }

@@ -83,6 +83,9 @@ $primary: (
     --background-modifier-selected: #{v(bg-3)};
     --background-modifier-active: #{v(bg-3)};
 
+    --background-scrim: #{alpha(v(bg-0), 85%)};
+    --background-scrim-lightbox: #{alpha(v(bg-0), 92%)};
+
     --background-mod-subtle: #{v(bg-2)};
     --background-mod-muted: #{v(bg-3)};
     --background-mod-normal: #{v(bg-3)};
