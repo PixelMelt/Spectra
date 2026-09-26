@@ -1,47 +1,94 @@
 @use "../functions" as *;
 
-$gap: v(gap);
-$radius: v(radius);
+$round: v(roundness);
 
 .base__5e434 {
-    background: v(bg-0);
+    background-color: v(bg-4);
+}
+
+.bar_c38106 {
+    background-color: v(bg-3);
+}
+
+.guilds__5e434 {
+    border: 2px solid v(bg-0);
+    margin: 5px;
+    margin-right: -1px;
+    border-radius: $round;
+    background-color: v(bg-0);
 }
 
 .sidebarList__5e434 {
-    margin: 0 0 $gap $gap;
-    border-radius: $radius;
-    overflow: hidden;
-    background: v(bg-1);
+    border-radius: $round;
+    margin: 5px 0 5px 10px;
+    background-color: v(bg-1);
     border: none;
 }
 
 .page__5e434 {
     width: auto;
     height: auto;
-    margin: 0 $gap $gap;
-    border-radius: $radius;
+    border-radius: $round;
+    margin: 5px 10px;
     overflow: hidden;
-    background: v(bg-2);
     border: none;
 }
 
 .panels__5e434 {
-    border-radius: $radius;
-    background: v(bg-3);
-    border: 1px solid alpha(v(bg-5), 50%);
+    border-radius: $round;
+    background-color: v(bg-3);
 }
 
-.container_c8ffbb,
-.membersWrap_c8ffbb,
 .members_c8ffbb {
-    background: v(bg-1);
+    border-radius: $round;
+    margin: 5px;
 }
 
-.title_f75fb0 {
-    background: v(bg-2);
-    border-bottom: 1px solid alpha(v(bg-5), 50%);
+.noticeWrapper__35939 {
+    background-color: var(--background-primary);
 }
 
-.channelTextArea_f75fb0 {
-    border-radius: $radius;
+.notice_c5cd6a {
+    border-radius: $round;
+    margin: 10px 10px 5px;
+}
+
+.scrollableContainer__74017,
+.searchBarComponent_e6b769,
+.listRow__1add6,
+.contentWrapper__08434,
+.categoryItemDefaultCategory_b9ee0c,
+.children__9293f {
+    border-radius: $round;
+}
+
+.attachButtonInner__0923f {
+    margin-left: -4px;
+}
+
+.sansAttachButton__74017 {
+    margin-left: 10px;
+    padding: 4px;
+}
+
+.searchResultsWrap_a98f3b {
+    border-radius: $round;
+    margin: 5px 5px 5px 0;
+}
+
+.container__133bf {
+    border-radius: $round;
+    margin: 5px;
+}
+
+.scroller__7d20c {
+    border-left: 0;
+}
+
+.layer__960e4.baseLayer__960e4 {
+    background-color: v(bg-4);
+}
+
+.bg__960e4 {
+    background-color: v(bg-3);
 }

@@ -81,8 +81,8 @@
   --background-base-lower: var(--spectra-bg-1);
   --background-base-low: var(--spectra-bg-2);
   --background-surface-high: var(--spectra-bg-3);
-  --background-surface-higher: color-mix(in oklab, var(--spectra-bg-3), white 4%);
-  --background-surface-highest: var(--spectra-bg-4);
+  --background-surface-higher: var(--spectra-bg-3);
+  --background-surface-highest: var(--spectra-bg-3);
   --bg-surface-raised: var(--spectra-bg-3);
   --bg-surface-overlay: var(--spectra-bg-3);
   --background-brand: var(--spectra-accent);
@@ -91,186 +91,238 @@
   --background-secondary-alt: var(--spectra-bg-3);
   --background-tertiary: var(--spectra-bg-0);
   --background-floating: var(--spectra-bg-3);
-  --background-accent: var(--spectra-bg-4);
-  --background-mod-muted: color-mix(in oklab, var(--spectra-bg-5) 25%, transparent);
-  --background-mod-subtle: color-mix(in oklab, var(--spectra-bg-5) 40%, transparent);
-  --background-mod-normal: color-mix(in oklab, var(--spectra-bg-5) 55%, transparent);
-  --background-mod-strong: color-mix(in oklab, var(--spectra-bg-5) 75%, transparent);
+  --background-accent: var(--spectra-bg-1);
+  --background-modifier-hover: var(--spectra-bg-2);
+  --background-modifier-selected: var(--spectra-bg-3);
+  --background-modifier-active: var(--spectra-bg-3);
+  --background-mod-subtle: var(--spectra-bg-2);
+  --background-mod-muted: var(--spectra-bg-3);
+  --background-mod-normal: var(--spectra-bg-3);
+  --background-mod-strong: var(--spectra-bg-4);
   --chat-background: var(--spectra-bg-2);
   --chat-background-default: var(--spectra-bg-2);
-  --chat-border: color-mix(in oklab, var(--spectra-bg-5) 50%, transparent);
+  --chat-border: var(--spectra-bg-0);
   --home-background: var(--spectra-bg-2);
   --panel-bg: var(--spectra-bg-1);
-  --modal-background: var(--spectra-bg-2);
-  --modal-footer-background: var(--spectra-bg-1);
+  --modal-background: var(--spectra-bg-3);
+  --modal-footer-background: var(--spectra-bg-3);
   --card-background-default: var(--spectra-bg-3);
-  --card-border-default: color-mix(in oklab, var(--spectra-bg-5) 50%, transparent);
+  --card-border-default: transparent;
   --card-secondary-bg: var(--spectra-bg-3);
-  --card-primary-pressed-bg: var(--spectra-bg-4);
-  --card-secondary-pressed-bg: var(--spectra-bg-4);
+  --card-primary-pressed-bg: var(--spectra-bg-2);
+  --card-secondary-pressed-bg: var(--spectra-bg-2);
   --embed-background: var(--spectra-bg-3);
   --embed-background-alternate: var(--spectra-bg-3);
   --channeltextarea-background: var(--spectra-bg-3);
-  --user-profile-toolbar-background: var(--spectra-bg-3);
-  --user-profile-toolbar-border: color-mix(in oklab, var(--spectra-bg-5) 50%, transparent);
+  --user-profile-toolbar-background: var(--spectra-bg-4);
+  --user-profile-toolbar-border: transparent;
   --spoiler-hidden-background: var(--spectra-bg-4);
   --spoiler-hidden-background-hover: var(--spectra-bg-5);
   --spoiler-revealed-background: var(--spectra-bg-3);
-  --border-muted: color-mix(in oklab, var(--spectra-bg-5) 25%, transparent);
-  --border-subtle: color-mix(in oklab, var(--spectra-bg-5) 50%, transparent);
-  --border-normal: color-mix(in oklab, var(--spectra-bg-5) 80%, transparent);
-  --border-strong: var(--spectra-bg-5);
-  --border-focus: var(--spectra-accent);
+  --border-muted: var(--spectra-bg-0);
+  --border-subtle: var(--spectra-bg-0);
+  --border-normal: var(--spectra-bg-0);
+  --border-strong: var(--spectra-bg-4);
+  --border-focus: var(--spectra-gold-5);
   --text-strong: var(--spectra-gold-5);
   --text-default: var(--spectra-gold-3);
-  --text-subtle: color-mix(in oklab, var(--spectra-gold-3), var(--spectra-gold-2));
+  --text-subtle: var(--spectra-gold-2);
   --text-muted: var(--spectra-gold-2);
-  --text-brand: var(--spectra-accent);
-  --text-link: var(--spectra-gold-5);
-  --text-invert: var(--spectra-bg-2);
+  --text-brand: var(--spectra-gold-5);
+  --text-link: var(--spectra-gold-4);
+  --text-invert: var(--spectra-bg-3);
   --text-normal: var(--spectra-gold-3);
   --header-primary: var(--spectra-gold-5);
-  --header-secondary: var(--spectra-gold-4);
-  --channels-default: var(--spectra-gold-2);
-  --channel-icon: var(--spectra-gold-2);
+  --header-secondary: var(--spectra-gold-5);
+  --channels-default: var(--spectra-gold-4);
+  --channel-icon: var(--spectra-gold-4);
   --chat-text-muted: var(--spectra-gold-2);
   --channel-text-area-placeholder: var(--spectra-gold-2);
   --textbox-markdown-syntax: var(--spectra-gold-2);
-  --text-feedback-critical: var(--spectra-danger);
-  --text-feedback-positive: var(--spectra-success);
-  --text-feedback-info: var(--spectra-info);
   --icon-strong: var(--spectra-gold-5);
-  --icon-default: var(--spectra-gold-3);
-  --icon-subtle: var(--spectra-gold-2);
+  --icon-default: var(--spectra-gold-5);
+  --icon-subtle: var(--spectra-gold-4);
   --icon-muted: var(--spectra-gold-2);
-  --icon-brand: var(--spectra-accent);
-  --icon-link: var(--spectra-gold-5);
-  --icon-invert: var(--spectra-bg-2);
-  --logo-primary: var(--spectra-accent);
-  --interactive-normal: var(--spectra-gold-3);
-  --interactive-hover: var(--spectra-gold-5);
+  --icon-brand: var(--spectra-gold-5);
+  --icon-link: var(--spectra-gold-4);
+  --icon-invert: var(--spectra-bg-3);
+  --logo-primary: var(--spectra-gold-5);
+  --interactive-normal: var(--spectra-gold-5);
+  --interactive-hover: var(--spectra-bg-5);
   --interactive-active: var(--spectra-gold-5);
   --interactive-muted: var(--spectra-gold-1);
-  --interactive-text-default: var(--spectra-gold-2);
-  --interactive-text-hover: var(--spectra-gold-4);
-  --interactive-text-active: var(--spectra-gold-5);
-  --interactive-icon-default: var(--spectra-gold-2);
-  --interactive-icon-hover: var(--spectra-gold-4);
-  --interactive-icon-active: var(--spectra-gold-5);
+  --interactive-text-default: var(--spectra-gold-4);
+  --interactive-text-hover: var(--spectra-bg-5);
+  --interactive-text-active: var(--spectra-bg-5);
+  --interactive-icon-default: var(--spectra-gold-4);
+  --interactive-icon-hover: var(--spectra-bg-5);
+  --interactive-icon-active: var(--spectra-bg-5);
   --interactive-background-default: transparent;
-  --interactive-background-hover: color-mix(in oklab, var(--spectra-bg-5) 35%, transparent);
-  --interactive-background-active: color-mix(in oklab, var(--spectra-bg-5) 60%, transparent);
-  --interactive-background-selected: color-mix(in oklab, var(--spectra-bg-5) 50%, transparent);
-  --interactive-accent-background-default: color-mix(in oklab, var(--spectra-accent) 12%, transparent);
-  --interactive-accent-background-hover: color-mix(in oklab, var(--spectra-accent) 20%, transparent);
-  --interactive-accent-background-active: color-mix(in oklab, var(--spectra-accent) 30%, transparent);
-  --interactive-accent-background-selected: color-mix(in oklab, var(--spectra-accent) 25%, transparent);
+  --interactive-background-hover: var(--spectra-bg-2);
+  --interactive-background-active: var(--spectra-bg-3);
+  --interactive-background-selected: var(--spectra-bg-3);
+  --interactive-accent-background-default: var(--spectra-bg-3);
+  --interactive-accent-background-hover: var(--spectra-gold-5);
+  --interactive-accent-background-active: var(--spectra-gold-5);
+  --interactive-accent-background-selected: var(--spectra-gold-5);
   --input-background-default: var(--spectra-bg-3);
-  --input-border-default: color-mix(in oklab, var(--spectra-bg-5) 60%, transparent);
-  --input-border-hover: var(--spectra-bg-5);
-  --input-border-active: var(--spectra-accent);
+  --input-border-default: transparent;
+  --input-border-hover: var(--spectra-bg-4);
+  --input-border-active: var(--spectra-gold-5);
   --input-text-default: var(--spectra-gold-4);
   --input-placeholder-text-default: var(--spectra-gold-2);
-  --input-icon-default: var(--spectra-gold-2);
-  --message-background-hover: color-mix(in oklab, var(--spectra-bg-5) 20%, transparent);
-  --message-highlight-background-default: color-mix(in oklab, var(--spectra-accent) 10%, transparent);
-  --message-highlight-background-hover: color-mix(in oklab, var(--spectra-accent) 8%, transparent);
-  --message-mentioned-background-default: color-mix(in oklab, var(--spectra-accent) 10%, transparent);
-  --message-mentioned-background-hover: color-mix(in oklab, var(--spectra-accent) 8%, transparent);
-  --mention-background: color-mix(in oklab, var(--spectra-accent) 20%, transparent);
+  --input-icon-default: var(--spectra-gold-4);
+  --message-background-hover: var(--spectra-bg-1);
+  --message-highlight-background-default: color-mix(in oklab, var(--spectra-gold-5) 8%, transparent);
+  --message-highlight-background-hover: color-mix(in oklab, var(--spectra-gold-5) 8%, transparent);
+  --message-mentioned-background-default: color-mix(in oklab, var(--spectra-gold-5) 8%, transparent);
+  --message-mentioned-background-hover: color-mix(in oklab, var(--spectra-gold-5) 8%, transparent);
+  --mention-background: color-mix(in oklab, var(--spectra-gold-5) 15%, transparent);
   --mention-foreground: var(--spectra-gold-5);
   --control-brand-foreground: var(--spectra-accent);
   --control-brand-foreground-new: var(--spectra-accent);
-  --control-primary-background-default: var(--spectra-accent);
-  --control-primary-background-hover: color-mix(in oklab, var(--spectra-accent), white 20%);
-  --control-primary-background-active: color-mix(in oklab, var(--spectra-accent), black 10%);
-  --control-primary-border-default: var(--spectra-accent);
-  --control-primary-border-hover: color-mix(in oklab, var(--spectra-accent), white 20%);
-  --control-primary-border-active: color-mix(in oklab, var(--spectra-accent), black 10%);
-  --control-primary-text-default: var(--spectra-bg-2);
-  --control-primary-text-hover: var(--spectra-bg-2);
-  --control-primary-text-active: var(--spectra-bg-2);
-  --control-primary-icon-default: var(--spectra-bg-2);
-  --control-primary-icon-hover: var(--spectra-bg-2);
-  --control-primary-icon-active: var(--spectra-bg-2);
-  --control-secondary-background-default: var(--spectra-bg-4);
-  --control-secondary-background-hover: color-mix(in oklab, var(--spectra-bg-4), white 8%);
-  --control-secondary-background-active: var(--spectra-bg-5);
-  --control-secondary-border-default: color-mix(in oklab, var(--spectra-bg-5) 60%, transparent);
-  --control-secondary-border-hover: var(--spectra-bg-5);
-  --control-secondary-border-active: var(--spectra-bg-5);
-  --control-secondary-text-default: var(--spectra-gold-4);
-  --control-secondary-text-hover: var(--spectra-gold-5);
-  --control-secondary-text-active: var(--spectra-gold-5);
-  --control-secondary-icon-default: var(--spectra-gold-4);
-  --control-secondary-icon-hover: var(--spectra-gold-5);
-  --control-secondary-icon-active: var(--spectra-gold-5);
-  --control-critical-primary-background-default: var(--spectra-danger);
-  --control-critical-primary-background-hover: color-mix(in oklab, var(--spectra-danger), white 15%);
-  --control-critical-primary-background-active: color-mix(in oklab, var(--spectra-danger), black 10%);
-  --control-icon-only-icon-default: var(--spectra-gold-3);
-  --control-icon-only-icon-hover: var(--spectra-gold-5);
-  --control-icon-only-icon-active: var(--spectra-gold-5);
-  --control-icon-only-background-hover: color-mix(in oklab, var(--spectra-bg-5) 40%, transparent);
-  --control-icon-only-background-active: color-mix(in oklab, var(--spectra-bg-5) 60%, transparent);
-  --checkbox-background-selected-default: var(--spectra-accent);
-  --checkbox-background-selected-hover: color-mix(in oklab, var(--spectra-accent), white 20%);
-  --checkbox-border-selected-default: var(--spectra-accent);
-  --checkbox-border-selected-hover: color-mix(in oklab, var(--spectra-accent), white 20%);
-  --checkbox-icon-active: var(--spectra-bg-2);
-  --badge-background-brand: var(--spectra-accent);
-  --badge-text-brand: var(--spectra-bg-2);
-  --badge-notification-background: var(--spectra-danger);
-  --status-danger: var(--spectra-danger);
+  --control-primary-background-default: var(--spectra-bg-3);
+  --control-primary-background-hover: var(--spectra-gold-4);
+  --control-primary-background-active: var(--spectra-gold-4);
+  --control-primary-border-default: transparent;
+  --control-primary-border-hover: transparent;
+  --control-primary-border-active: transparent;
+  --control-primary-text-default: var(--spectra-gold-4);
+  --control-primary-text-hover: var(--spectra-bg-3);
+  --control-primary-text-active: var(--spectra-bg-3);
+  --control-primary-icon-default: var(--spectra-gold-4);
+  --control-primary-icon-hover: var(--spectra-bg-3);
+  --control-primary-icon-active: var(--spectra-bg-3);
+  --control-secondary-background-default: var(--spectra-khaki);
+  --control-secondary-background-hover: var(--spectra-gold-2);
+  --control-secondary-background-active: var(--spectra-gold-2);
+  --control-secondary-border-default: transparent;
+  --control-secondary-border-hover: transparent;
+  --control-secondary-border-active: transparent;
+  --control-secondary-text-default: var(--spectra-bg-2);
+  --control-secondary-text-hover: var(--spectra-bg-2);
+  --control-secondary-text-active: var(--spectra-bg-2);
+  --control-secondary-icon-default: var(--spectra-bg-2);
+  --control-secondary-icon-hover: var(--spectra-bg-2);
+  --control-secondary-icon-active: var(--spectra-bg-2);
+  --control-critical-primary-background-default: var(--spectra-bg-4);
+  --control-critical-primary-background-hover: var(--spectra-gold-4);
+  --control-critical-primary-background-active: var(--spectra-gold-4);
+  --control-critical-primary-text-default: var(--spectra-gold-4);
+  --control-critical-primary-text-hover: var(--spectra-bg-4);
+  --control-critical-primary-text-active: var(--spectra-bg-4);
+  --control-critical-primary-icon-default: var(--spectra-gold-4);
+  --control-critical-primary-icon-hover: var(--spectra-bg-4);
+  --control-critical-primary-icon-active: var(--spectra-bg-4);
+  --control-icon-only-icon-default: var(--spectra-gold-4);
+  --control-icon-only-icon-hover: var(--spectra-bg-5);
+  --control-icon-only-icon-active: var(--spectra-bg-5);
+  --checkbox-background-default: var(--spectra-bg-3);
+  --checkbox-border-default: var(--spectra-gold-5);
+  --checkbox-background-selected-default: var(--spectra-gold-5);
+  --checkbox-background-selected-hover: var(--spectra-gold-5);
+  --checkbox-border-selected-default: var(--spectra-gold-5);
+  --checkbox-border-selected-hover: var(--spectra-gold-5);
+  --checkbox-icon-active: var(--spectra-bg-3);
+  --badge-background-brand: var(--spectra-gold-5);
+  --badge-text-brand: var(--spectra-bg-3);
   --scrollbar-auto-thumb: var(--spectra-bg-5);
-  --scrollbar-auto-track: var(--spectra-bg-1);
+  --scrollbar-auto-track: var(--spectra-bg-4);
   --scrollbar-auto-scrollbar-color-thumb: var(--spectra-bg-5);
-  --scrollbar-auto-scrollbar-color-track: var(--spectra-bg-1);
+  --scrollbar-auto-scrollbar-color-track: var(--spectra-bg-4);
   --scrollbar-thin-thumb: var(--spectra-bg-5);
   --scrollbar-thin-track: transparent;
 }
 
 .base__5e434 {
-  background: var(--spectra-bg-0);
+  background-color: var(--spectra-bg-4);
+}
+
+.bar_c38106 {
+  background-color: var(--spectra-bg-3);
+}
+
+.guilds__5e434 {
+  border: 2px solid var(--spectra-bg-0);
+  margin: 5px;
+  margin-right: -1px;
+  border-radius: var(--spectra-roundness);
+  background-color: var(--spectra-bg-0);
 }
 
 .sidebarList__5e434 {
-  margin: 0 0 var(--spectra-gap) var(--spectra-gap);
-  border-radius: var(--spectra-radius);
-  overflow: hidden;
-  background: var(--spectra-bg-1);
+  border-radius: var(--spectra-roundness);
+  margin: 5px 0 5px 10px;
+  background-color: var(--spectra-bg-1);
   border: none;
 }
 
 .page__5e434 {
   width: auto;
   height: auto;
-  margin: 0 var(--spectra-gap) var(--spectra-gap);
-  border-radius: var(--spectra-radius);
+  border-radius: var(--spectra-roundness);
+  margin: 5px 10px;
   overflow: hidden;
-  background: var(--spectra-bg-2);
   border: none;
 }
 
 .panels__5e434 {
-  border-radius: var(--spectra-radius);
-  background: var(--spectra-bg-3);
-  border: 1px solid color-mix(in oklab, var(--spectra-bg-5) 50%, transparent);
+  border-radius: var(--spectra-roundness);
+  background-color: var(--spectra-bg-3);
 }
 
-.container_c8ffbb,
-.membersWrap_c8ffbb,
 .members_c8ffbb {
-  background: var(--spectra-bg-1);
+  border-radius: var(--spectra-roundness);
+  margin: 5px;
 }
 
-.title_f75fb0 {
-  background: var(--spectra-bg-2);
-  border-bottom: 1px solid color-mix(in oklab, var(--spectra-bg-5) 50%, transparent);
+.noticeWrapper__35939 {
+  background-color: var(--background-primary);
 }
 
-.channelTextArea_f75fb0 {
-  border-radius: var(--spectra-radius);
+.notice_c5cd6a {
+  border-radius: var(--spectra-roundness);
+  margin: 10px 10px 5px;
+}
+
+.scrollableContainer__74017,
+.searchBarComponent_e6b769,
+.listRow__1add6,
+.contentWrapper__08434,
+.categoryItemDefaultCategory_b9ee0c,
+.children__9293f {
+  border-radius: var(--spectra-roundness);
+}
+
+.attachButtonInner__0923f {
+  margin-left: -4px;
+}
+
+.sansAttachButton__74017 {
+  margin-left: 10px;
+  padding: 4px;
+}
+
+.searchResultsWrap_a98f3b {
+  border-radius: var(--spectra-roundness);
+  margin: 5px 5px 5px 0;
+}
+
+.container__133bf {
+  border-radius: var(--spectra-roundness);
+  margin: 5px;
+}
+
+.scroller__7d20c {
+  border-left: 0;
+}
+
+.layer__960e4.baseLayer__960e4 {
+  background-color: var(--spectra-bg-4);
+}
+
+.bg__960e4 {
+  background-color: var(--spectra-bg-3);
 }
 
 .buttons__74017 > .container__5287f {
@@ -278,21 +330,21 @@
 }
 
 :root {
-  --spectra-bg-0: #12171c;
-  --spectra-bg-1: #161c22;
+  --spectra-bg-0: #13181d;
+  --spectra-bg-1: #171d23;
   --spectra-bg-2: #1b2229;
   --spectra-bg-3: #1f2933;
-  --spectra-bg-4: #2c3a48;
+  --spectra-bg-4: #2a3744;
   --spectra-bg-5: #3e4e5f;
-  --spectra-gold-1: #7a6010;
+  --spectra-steel: #6685a5;
+  --spectra-khaki: #737066;
+  --spectra-cream: #f1e1ad;
+  --spectra-gold-1: #796d0f;
   --spectra-gold-2: #c39a13;
   --spectra-gold-3: #efbe1c;
   --spectra-gold-4: #fdd651;
   --spectra-gold-5: #ffe89b;
-  --spectra-danger: #f47171;
-  --spectra-success: #5fcf86;
-  --spectra-info: #6cb4ee;
+  --spectra-gold-vivid: #ffc914;
   --spectra-accent: var(--spectra-gold-4);
-  --spectra-radius: 12px;
-  --spectra-gap: 8px;
+  --spectra-roundness: 15px;
 }
