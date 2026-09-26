@@ -234,6 +234,49 @@
   --scrollbar-thin-track: transparent;
 }
 
+.base__5e434 {
+  background: var(--spectra-bg-0);
+}
+
+.sidebarList__5e434 {
+  margin: 0 0 var(--spectra-gap) var(--spectra-gap);
+  border-radius: var(--spectra-radius);
+  overflow: hidden;
+  background: var(--spectra-bg-1);
+  border: none;
+}
+
+.page__5e434 {
+  width: auto;
+  height: auto;
+  margin: 0 var(--spectra-gap) var(--spectra-gap);
+  border-radius: var(--spectra-radius);
+  overflow: hidden;
+  background: var(--spectra-bg-2);
+  border: none;
+}
+
+.panels__5e434 {
+  border-radius: var(--spectra-radius);
+  background: var(--spectra-bg-3);
+  border: 1px solid color-mix(in oklab, var(--spectra-bg-5) 50%, transparent);
+}
+
+.container_c8ffbb,
+.membersWrap_c8ffbb,
+.members_c8ffbb {
+  background: var(--spectra-bg-1);
+}
+
+.title_f75fb0 {
+  background: var(--spectra-bg-2);
+  border-bottom: 1px solid color-mix(in oklab, var(--spectra-bg-5) 50%, transparent);
+}
+
+.channelTextArea_f75fb0 {
+  border-radius: var(--spectra-radius);
+}
+
 :root {
   --spectra-bg-0: #12171c;
   --spectra-bg-1: #161c22;
