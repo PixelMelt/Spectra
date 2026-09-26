@@ -1,29 +1,47 @@
 $nudge: -5px;
 
-$rows: (".link__2ea32", ".dm__972a0 .layout__20a53", ".memberInner__5d473", ".peopleListItem_cc6179");
+$nudge-rows: (".content__07f91", ".layout__91a9d", ".link__2ea32");
 
 $panel-buttons: (
-    "Mute": shake-x,
-    "Unmute": shake-x,
+    "Mute": shakeX,
+    "User Settings": rotate,
     "Deafen": swing,
-    "Undeafen": swing,
-    "User Settings": spin,
 );
 
+.membersWrap_c8ffbb {
+    min-width: unset;
+}
+
 @media (prefers-reduced-motion: no-preference) {
-    @each $row in $rows {
+    @each $row in $nudge-rows {
         #{$row} {
-            transition: transform 0.3s;
+            transition: all 0.3s;
+            transform: translateX(0);
+
             &:hover {
+                transition: all 0.5s;
                 transform: translateX($nudge);
             }
         }
     }
 
+    .clickable__9293f:hover {
+        animation: swing 1s infinite;
+    }
+
     @each $label, $anim in $panel-buttons {
-        .panels__5e434 [aria-label="#{$label}"]:hover .contents__201d5 {
+        [aria-label="#{$label}"] .contents__201d5:hover {
             animation: $anim 1s infinite;
         }
+    }
+}
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX($nudge);
     }
 }
 
@@ -45,31 +63,43 @@ $panel-buttons: (
     }
 }
 
-@keyframes shake-x {
+@keyframes shakeX {
     0%,
     to {
-        transform: translateX(0);
+        transform: translateZ(0);
     }
     10%,
     30%,
     50%,
     70%,
     90% {
-        transform: translateX(-1px);
+        transform: translate3d(-1px, 0, 0);
     }
     20%,
     40%,
     60%,
     80% {
-        transform: translateX(1px);
+        transform: translate3d(1px, 0, 0);
     }
 }
 
-@keyframes spin {
+@keyframes rotate {
     from {
         transform: rotate(0deg);
     }
     to {
         transform: rotate(180deg);
+    }
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(0, 2px);
+    }
+    100% {
+        transform: translate(0, 0);
     }
 }

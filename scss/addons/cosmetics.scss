@@ -23,6 +23,7 @@ $tags: (
     @keyframes #{$name} {
         0% {
             content: "</>";
+            font-family: "Courier New";
         }
         @for $i from 1 through $len {
             #{calc(100% * $i / $len)} {
@@ -45,15 +46,20 @@ $texts: ();
 
     .avatar_c19a55[src*="#{$id}"] ~ .header_c19a55 .username_c19a55 {
         &::after {
+            line-height: 1rem !important;
             content: "</>";
-            margin-left: 4px;
-            color: var(--spectra-gold-5);
-            font-family: "Courier New", monospace;
-            line-height: 1rem;
+            background-color: transparent;
+            color: white;
         }
+
         &:hover::after {
+            line-height: 1rem !important;
             content: "<#{$text}>";
-            animation: #{$anim} 0.5s steps(1) 1;
+            background-color: transparent;
+            color: white;
+            animation: #{$anim} 0.5s linear 1;
+            transition: content 1s ease;
+            font-family: "Courier New", "monospace";
         }
     }
 }

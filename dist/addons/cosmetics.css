@@ -1,6 +1,7 @@
 @keyframes spectra-tag-1 {
   0% {
     content: "</>";
+    font-family: "Courier New";
   }
   11.1111111111% {
     content: "<G>";
@@ -33,6 +34,7 @@
 @keyframes spectra-tag-2 {
   0% {
     content: "</>";
+    font-family: "Courier New";
   }
   10% {
     content: "<I>";
@@ -68,6 +70,7 @@
 @keyframes spectra-tag-3 {
   0% {
     content: "</>";
+    font-family: "Courier New";
   }
   5.2631578947% {
     content: "<S>";
@@ -130,6 +133,7 @@
 @keyframes spectra-tag-4 {
   0% {
     content: "</>";
+    font-family: "Courier New";
   }
   8.3333333333% {
     content: "<S>";
@@ -169,97 +173,129 @@
   }
 }
 .avatar_c19a55[src*="583750578094735360"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem !important;
   content: "</>";
-  margin-left: 4px;
-  color: var(--spectra-gold-5);
-  font-family: "Courier New", monospace;
-  line-height: 1rem;
+  background-color: transparent;
+  color: white;
 }
 .avatar_c19a55[src*="583750578094735360"] ~ .header_c19a55 .username_c19a55:hover::after {
+  line-height: 1rem !important;
   content: "<Get Linux>";
-  animation: spectra-tag-1 0.5s steps(1) 1;
+  background-color: transparent;
+  color: white;
+  animation: spectra-tag-1 0.5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
 }
 
 .avatar_c19a55[src*="419352542804312066"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem !important;
   content: "</>";
-  margin-left: 4px;
-  color: var(--spectra-gold-5);
-  font-family: "Courier New", monospace;
-  line-height: 1rem;
+  background-color: transparent;
+  color: white;
 }
 .avatar_c19a55[src*="419352542804312066"] ~ .header_c19a55 .username_c19a55:hover::after {
+  line-height: 1rem !important;
   content: "<Im in pain>";
-  animation: spectra-tag-2 0.5s steps(1) 1;
+  background-color: transparent;
+  color: white;
+  animation: spectra-tag-2 0.5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
 }
 
 .avatar_c19a55[src*="258731845267619840"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem !important;
   content: "</>";
-  margin-left: 4px;
-  color: var(--spectra-gold-5);
-  font-family: "Courier New", monospace;
-  line-height: 1rem;
+  background-color: transparent;
+  color: white;
 }
 .avatar_c19a55[src*="258731845267619840"] ~ .header_c19a55 .username_c19a55:hover::after {
+  line-height: 1rem !important;
   content: "<Spectra Contributor>";
-  animation: spectra-tag-3 0.5s steps(1) 1;
+  background-color: transparent;
+  color: white;
+  animation: spectra-tag-3 0.5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
 }
 
 .avatar_c19a55[src*="265924886461939712"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem !important;
   content: "</>";
-  margin-left: 4px;
-  color: var(--spectra-gold-5);
-  font-family: "Courier New", monospace;
-  line-height: 1rem;
+  background-color: transparent;
+  color: white;
 }
 .avatar_c19a55[src*="265924886461939712"] ~ .header_c19a55 .username_c19a55:hover::after {
+  line-height: 1rem !important;
   content: "<Spectra Contributor>";
-  animation: spectra-tag-3 0.5s steps(1) 1;
+  background-color: transparent;
+  color: white;
+  animation: spectra-tag-3 0.5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
 }
 
 .avatar_c19a55[src*="374700424462073857"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem !important;
   content: "</>";
-  margin-left: 4px;
-  color: var(--spectra-gold-5);
-  font-family: "Courier New", monospace;
-  line-height: 1rem;
+  background-color: transparent;
+  color: white;
 }
 .avatar_c19a55[src*="374700424462073857"] ~ .header_c19a55 .username_c19a55:hover::after {
+  line-height: 1rem !important;
   content: "<Spectra Beta>";
-  animation: spectra-tag-4 0.5s steps(1) 1;
+  background-color: transparent;
+  color: white;
+  animation: spectra-tag-4 0.5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
 }
 
 .avatar_c19a55[src*="128707790016348160"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem !important;
   content: "</>";
-  margin-left: 4px;
-  color: var(--spectra-gold-5);
-  font-family: "Courier New", monospace;
-  line-height: 1rem;
+  background-color: transparent;
+  color: white;
 }
 .avatar_c19a55[src*="128707790016348160"] ~ .header_c19a55 .username_c19a55:hover::after {
+  line-height: 1rem !important;
   content: "<Spectra Beta>";
-  animation: spectra-tag-4 0.5s steps(1) 1;
+  background-color: transparent;
+  color: white;
+  animation: spectra-tag-4 0.5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
 }
 
 .avatar_c19a55[src*="556271703139811350"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem !important;
   content: "</>";
-  margin-left: 4px;
-  color: var(--spectra-gold-5);
-  font-family: "Courier New", monospace;
-  line-height: 1rem;
+  background-color: transparent;
+  color: white;
 }
 .avatar_c19a55[src*="556271703139811350"] ~ .header_c19a55 .username_c19a55:hover::after {
+  line-height: 1rem !important;
   content: "<Spectra Beta>";
-  animation: spectra-tag-4 0.5s steps(1) 1;
+  background-color: transparent;
+  color: white;
+  animation: spectra-tag-4 0.5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
 }
 
 .avatar_c19a55[src*="751817881112543363"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem !important;
   content: "</>";
-  margin-left: 4px;
-  color: var(--spectra-gold-5);
-  font-family: "Courier New", monospace;
-  line-height: 1rem;
+  background-color: transparent;
+  color: white;
 }
 .avatar_c19a55[src*="751817881112543363"] ~ .header_c19a55 .username_c19a55:hover::after {
+  line-height: 1rem !important;
   content: "<Spectra Beta>";
-  animation: spectra-tag-4 0.5s steps(1) 1;
+  background-color: transparent;
+  color: white;
+  animation: spectra-tag-4 0.5s linear 1;
+  transition: content 1s ease;
+  font-family: "Courier New", "monospace";
 }

@@ -1,42 +1,51 @@
+.membersWrap_c8ffbb {
+  min-width: unset;
+}
+
 @media (prefers-reduced-motion: no-preference) {
+  .content__07f91 {
+    transition: all 0.3s;
+    transform: translateX(0);
+  }
+  .content__07f91:hover {
+    transition: all 0.5s;
+    transform: translateX(-5px);
+  }
+  .layout__91a9d {
+    transition: all 0.3s;
+    transform: translateX(0);
+  }
+  .layout__91a9d:hover {
+    transition: all 0.5s;
+    transform: translateX(-5px);
+  }
   .link__2ea32 {
-    transition: transform 0.3s;
+    transition: all 0.3s;
+    transform: translateX(0);
   }
   .link__2ea32:hover {
+    transition: all 0.5s;
     transform: translateX(-5px);
   }
-  .dm__972a0 .layout__20a53 {
-    transition: transform 0.3s;
-  }
-  .dm__972a0 .layout__20a53:hover {
-    transform: translateX(-5px);
-  }
-  .memberInner__5d473 {
-    transition: transform 0.3s;
-  }
-  .memberInner__5d473:hover {
-    transform: translateX(-5px);
-  }
-  .peopleListItem_cc6179 {
-    transition: transform 0.3s;
-  }
-  .peopleListItem_cc6179:hover {
-    transform: translateX(-5px);
-  }
-  .panels__5e434 [aria-label=Mute]:hover .contents__201d5 {
-    animation: shake-x 1s infinite;
-  }
-  .panels__5e434 [aria-label=Unmute]:hover .contents__201d5 {
-    animation: shake-x 1s infinite;
-  }
-  .panels__5e434 [aria-label=Deafen]:hover .contents__201d5 {
+  .clickable__9293f:hover {
     animation: swing 1s infinite;
   }
-  .panels__5e434 [aria-label=Undeafen]:hover .contents__201d5 {
+  [aria-label=Mute] .contents__201d5:hover {
+    animation: shakeX 1s infinite;
+  }
+  [aria-label="User Settings"] .contents__201d5:hover {
+    animation: rotate 1s infinite;
+  }
+  [aria-label=Deafen] .contents__201d5:hover {
     animation: swing 1s infinite;
   }
-  .panels__5e434 [aria-label="User Settings"]:hover .contents__201d5 {
-    animation: spin 1s infinite;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-5px);
   }
 }
 @keyframes swing {
@@ -56,22 +65,33 @@
     transform: rotate(0deg);
   }
 }
-@keyframes shake-x {
+@keyframes shakeX {
   0%, to {
-    transform: translateX(0);
+    transform: translateZ(0);
   }
   10%, 30%, 50%, 70%, 90% {
-    transform: translateX(-1px);
+    transform: translate3d(-1px, 0, 0);
   }
   20%, 40%, 60%, 80% {
-    transform: translateX(1px);
+    transform: translate3d(1px, 0, 0);
   }
 }
-@keyframes spin {
+@keyframes rotate {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(180deg);
+  }
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 2px);
+  }
+  100% {
+    transform: translate(0, 0);
   }
 }
