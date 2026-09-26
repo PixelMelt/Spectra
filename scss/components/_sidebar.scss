@@ -1,7 +1,26 @@
 @use "../functions" as *;
 
+$round: v(roundness);
+
+.container__2637a {
+    background-color: transparent;
+}
+
+.flowerStarContainer__3e3b0 {
+    display: none;
+}
+
+.searchBarComponent_e6b769 {
+    border-radius: $round;
+}
+
+.searchBar_e6b769 .button_a22cb0 {
+    background-color: var(--background-tertiary);
+    color: var(--text-muted);
+}
+
 .iconBase_c69b6d {
-    color: v(bg-4) !important;
+    color: v(bg-4);
 }
 
 .modeMuted__2ea32 {
@@ -32,11 +51,8 @@
     }
 }
 
-.notInteractive__2ea32.modeConnected__2ea32,
-.notInteractive__2ea32.modeSelected__2ea32 {
-    .name__2ea32 {
-        color: v(bg-5);
-    }
+.notInteractive__2ea32:is(.modeConnected__2ea32, .modeSelected__2ea32) .name__2ea32 {
+    color: v(bg-5);
 }
 
 .unread__2ea32 {
@@ -65,8 +81,8 @@
     }
 }
 
-.listDefault__07f91 .clickable__07f91.selected__07f91 .username__07f91,
-.usernameSpeaking__07f91 {
+.usernameSpeaking__07f91,
+.listDefault__07f91 .clickable__07f91.selected__07f91 .username__07f91 {
     color: v(gold-vivid);
 }
 
@@ -75,4 +91,22 @@
         inset 0 0 0 2px v(gold-5),
         inset 0 0 0 3px var(--background-secondary);
     border-radius: 50%;
+}
+
+.panels__5e434 {
+    grid-column: guildsEnd / channelsEnd;
+    left: 15px;
+    right: 5px;
+    bottom: 10px;
+    width: auto;
+    border-radius: $round;
+    background-color: v(bg-3);
+}
+
+.container__37e49 .redIcon__37e49 {
+    color: v(gold-3);
+}
+
+.headerName__553a5 {
+    color: v(gold-5);
 }

@@ -173,13 +173,13 @@
   }
 }
 .avatar_c19a55[src*="583750578094735360"] ~ .header_c19a55 .username_c19a55::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "</>";
   background-color: transparent;
   color: white;
 }
 .avatar_c19a55[src*="583750578094735360"] ~ .header_c19a55 .username_c19a55:hover::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "<Get Linux>";
   background-color: transparent;
   color: white;
@@ -189,13 +189,13 @@
 }
 
 .avatar_c19a55[src*="419352542804312066"] ~ .header_c19a55 .username_c19a55::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "</>";
   background-color: transparent;
   color: white;
 }
 .avatar_c19a55[src*="419352542804312066"] ~ .header_c19a55 .username_c19a55:hover::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "<Im in pain>";
   background-color: transparent;
   color: white;
@@ -205,13 +205,13 @@
 }
 
 .avatar_c19a55[src*="258731845267619840"] ~ .header_c19a55 .username_c19a55::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "</>";
   background-color: transparent;
   color: white;
 }
 .avatar_c19a55[src*="258731845267619840"] ~ .header_c19a55 .username_c19a55:hover::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "<Spectra Contributor>";
   background-color: transparent;
   color: white;
@@ -221,13 +221,13 @@
 }
 
 .avatar_c19a55[src*="265924886461939712"] ~ .header_c19a55 .username_c19a55::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "</>";
   background-color: transparent;
   color: white;
 }
 .avatar_c19a55[src*="265924886461939712"] ~ .header_c19a55 .username_c19a55:hover::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "<Spectra Contributor>";
   background-color: transparent;
   color: white;
@@ -237,13 +237,13 @@
 }
 
 .avatar_c19a55[src*="374700424462073857"] ~ .header_c19a55 .username_c19a55::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "</>";
   background-color: transparent;
   color: white;
 }
 .avatar_c19a55[src*="374700424462073857"] ~ .header_c19a55 .username_c19a55:hover::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "<Spectra Beta>";
   background-color: transparent;
   color: white;
@@ -253,13 +253,13 @@
 }
 
 .avatar_c19a55[src*="128707790016348160"] ~ .header_c19a55 .username_c19a55::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "</>";
   background-color: transparent;
   color: white;
 }
 .avatar_c19a55[src*="128707790016348160"] ~ .header_c19a55 .username_c19a55:hover::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "<Spectra Beta>";
   background-color: transparent;
   color: white;
@@ -269,13 +269,13 @@
 }
 
 .avatar_c19a55[src*="556271703139811350"] ~ .header_c19a55 .username_c19a55::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "</>";
   background-color: transparent;
   color: white;
 }
 .avatar_c19a55[src*="556271703139811350"] ~ .header_c19a55 .username_c19a55:hover::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "<Spectra Beta>";
   background-color: transparent;
   color: white;
@@ -285,13 +285,13 @@
 }
 
 .avatar_c19a55[src*="751817881112543363"] ~ .header_c19a55 .username_c19a55::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "</>";
   background-color: transparent;
   color: white;
 }
 .avatar_c19a55[src*="751817881112543363"] ~ .header_c19a55 .username_c19a55:hover::after {
-  line-height: 1rem !important;
+  line-height: 1rem;
   content: "<Spectra Beta>";
   background-color: transparent;
   color: white;

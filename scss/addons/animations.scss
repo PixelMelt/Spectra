@@ -3,9 +3,9 @@ $nudge: -5px;
 $nudge-rows: (".content__07f91", ".layout__91a9d", ".link__2ea32");
 
 $panel-buttons: (
-    "Mute": shakeX,
-    "User Settings": rotate,
-    "Deafen": swing,
+    ".audioButtonParent__5e764:nth-child(1) .audioButtonWithMenu__5e764": shakeX,
+    ".audioButtonParent__5e764:nth-child(2) .audioButtonWithMenu__5e764": swing,
+    "> .button__201d5:last-child": rotate,
 );
 
 .membersWrap_c8ffbb {
@@ -29,8 +29,8 @@ $panel-buttons: (
         animation: swing 1s infinite;
     }
 
-    @each $label, $anim in $panel-buttons {
-        [aria-label="#{$label}"] .contents__201d5:hover {
+    @each $button, $anim in $panel-buttons {
+        .buttons__37e49 #{$button} .contents__201d5:hover {
             animation: $anim 1s infinite;
         }
     }

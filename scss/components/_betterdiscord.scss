@@ -1,0 +1,31 @@
+@use "../functions" as *;
+
+.bd-switch-body {
+    --switch-color: #{v(bg-1)};
+}
+
+.bd-switch input:checked + .bd-switch-body {
+    --switch-color: #{v(gold-3)};
+}
+
+.bd-button.bd-button-filled {
+    &.bd-button-color-brand {
+        background-color: v(gold-3);
+        color: v(gold-1);
+        transition:
+            background-color 0.17s ease,
+            color 0.17s ease;
+
+        &:hover {
+            background-color: v(gold-2);
+        }
+    }
+
+    &.bd-button-color-red {
+        background-color: v(bg-4);
+
+        &:hover {
+            background-color: v(bg-2);
+        }
+    }
+}

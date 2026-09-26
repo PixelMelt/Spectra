@@ -1,5 +1,7 @@
 @use "../functions" as *;
 
+$round: v(roundness);
+
 .quickswitcher_ac6cb0 .input_ac6cb0 {
     border: none;
     border-radius: 8px;
@@ -39,4 +41,63 @@
 .tabBar__06f80 .tab__06f80.selected_aa8da2 {
     color: v(bg-0);
     background-color: v(gold-5);
+}
+
+.menu_c1e9c4 {
+    background: v(bg-2);
+}
+
+.colorDefault_c1e9c4 {
+    &:active:not(.hideInteraction_c1e9c4) {
+        background-color: v(bg-1);
+        color: v(gold-5);
+    }
+
+    &.focused_c1e9c4 {
+        background-color: v(bg-4);
+        color: v(gold-vivid);
+    }
+
+    .checkbox_c1e9c4,
+    .radioSelection_c1e9c4 {
+        color: v(gold-3);
+    }
+}
+
+.colorDanger_c1e9c4 {
+    &,
+    .checkbox_c1e9c4,
+    .radioSelection_c1e9c4 {
+        color: v(gold-vivid);
+    }
+}
+
+.colorPremium_c1e9c4 .icon_c1e9c4 {
+    color: v(gold-vivid);
+}
+
+.contentWrapper__08434,
+.categoryItemDefaultCategory_b9ee0c {
+    border-radius: $round;
+}
+
+.categoryItem_b9ee0c {
+    color: v(gold-3);
+    margin-left: 8px;
+}
+
+.emojiItemDisabled__0800c {
+    filter: grayscale(0%);
+}
+
+.sprite__04eed {
+    filter: grayscale(0%);
+}
+
+.friend_bbd192 {
+    color: v(gold-vivid);
+}
+
+.theme-dark .friendSelected_bbd192 {
+    background-color: v(bg-2);
 }

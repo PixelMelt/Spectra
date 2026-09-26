@@ -15,11 +15,20 @@ $sunrise: "M11.848.047C11.792.072 11.672.163 11.581.248L11.416.403 11.416 3.043 
     }
 }
 
-.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8,
+.childWrapper__6e9f8:hover,
 .wrapper__6e9f8:hover .childWrapper__6e9f8,
-.childWrapper__6e9f8:hover {
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
     color: v(gold-3);
     background-color: v(bg-3);
+}
+
+.guilds__5e434 .tree_ef3116 {
+    box-sizing: border-box;
+    padding-top: 8px;
+}
+
+.item__58105 {
+    background-color: v(gold-vivid);
 }
 
 .folderIconWrapper__48112 {
@@ -27,7 +36,7 @@ $sunrise: "M11.848.047C11.792.072 11.672.163 11.581.248L11.416.403 11.416 3.043 
 }
 
 .folderIcon__48112 svg {
-    color: v(gold-5) !important;
+    color: v(gold-5);
 }
 
 .numberBadge__463b7 {
@@ -39,12 +48,7 @@ $sunrise: "M11.848.047C11.792.072 11.672.163 11.581.248L11.416.403 11.416 3.043 
     background-color: v(bg-3) !important;
 }
 
-.active__24af7 .buttonWrapper__24af7,
-.buttonWrapper__24af7:hover {
+.buttonWrapper__24af7:hover,
+.active__24af7 .buttonWrapper__24af7 {
     color: v(bg-5);
-}
-
-.guilds__5e434 .tree_ef3116 {
-    box-sizing: border-box;
-    padding-top: 8px;
 }

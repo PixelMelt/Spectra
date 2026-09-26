@@ -1,10 +1,23 @@
 @use "../functions" as *;
 
+.membersWrap_c8ffbb,
+.members_c8ffbb {
+    background-color: var(--background-secondary);
+}
+
+.members_c8ffbb {
+    border-radius: v(roundness);
+    margin: 5px;
+}
+
 .clickable__91a9d:active .layout__91a9d {
     background-color: v(bg-3);
 }
-.clickable__91a9d.container__91a9d:active,
-.highlighted__91a9d.container__91a9d,
-.selected__91a9d.container__91a9d {
-    color: v(bg-5);
+
+.container__91a9d {
+    &.clickable__91a9d:active,
+    &.highlighted__91a9d,
+    &.selected__91a9d {
+        color: v(bg-5);
+    }
 }

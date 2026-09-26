@@ -30,14 +30,14 @@
   .clickable__9293f:hover {
     animation: swing 1s infinite;
   }
-  [aria-label=Mute] .contents__201d5:hover {
+  .buttons__37e49 .audioButtonParent__5e764:nth-child(1) .audioButtonWithMenu__5e764 .contents__201d5:hover {
     animation: shakeX 1s infinite;
   }
-  [aria-label="User Settings"] .contents__201d5:hover {
-    animation: rotate 1s infinite;
-  }
-  [aria-label=Deafen] .contents__201d5:hover {
+  .buttons__37e49 .audioButtonParent__5e764:nth-child(2) .audioButtonWithMenu__5e764 .contents__201d5:hover {
     animation: swing 1s infinite;
+  }
+  .buttons__37e49 > .button__201d5:last-child .contents__201d5:hover {
+    animation: rotate 1s infinite;
   }
 }
 @keyframes slide-left {
