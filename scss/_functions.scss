@@ -1,0 +1,22 @@
+// Runtime color helpers. They output color-mix() so they still follow
+// --spectra-* overrides made after compile time.
+
+// Lighten a color: tint(var(--x), 20%) mixes in 20% white
+@function tint($color, $amount) {
+  @return color-mix(in oklab, #{$color}, white #{$amount});
+}
+
+// Darken a color: shade(var(--x), 20%) mixes in 20% black
+@function shade($color, $amount) {
+  @return color-mix(in oklab, #{$color}, black #{$amount});
+}
+
+// Transparent version: alpha(var(--x), 20%) keeps 20% opacity
+@function alpha($color, $amount) {
+  @return color-mix(in oklab, #{$color} #{$amount}, transparent);
+}
+
+// Shorthand for palette variables: v(bg-2) -> var(--spectra-bg-2)
+@function v($name) {
+  @return var(--spectra-#{$name});
+}

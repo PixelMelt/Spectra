@@ -1,0 +1,11 @@
+/*!
+ * Spectra 2.0 - https://github.com/PixelMelt/Spectra
+ * Built from scss/ - do not edit dist/ by hand.
+ */
+@use "palette";
+@use "tokens";
+@use "components/layout";
+
+:root {
+  @include palette.custom-properties;
+}
