@@ -1,0 +1,53 @@
+// User tags: a "</>" after the name of Spectra people that types out a
+// message on hover. Add someone by adding their user id to $tags.
+@use "sass:list";
+@use "sass:string";
+
+$tags: (
+  "583750578094735360": "Get Linux", // Pix
+  "419352542804312066": "Im in pain", // Macro
+  "258731845267619840": "Spectra Contributor",
+  "265924886461939712": "Spectra Contributor",
+  "374700424462073857": "Spectra Beta", // Achi
+  "128707790016348160": "Spectra Beta", // Skittles
+  "556271703139811350": "Spectra Beta", // SatoruX
+  "751817881112543363": "Spectra Beta", // Maxy_Zou
+);
+
+// One keyframe step per character, typing out <text>
+@mixin typing-keyframes($name, $text) {
+  $len: string.length($text);
+  @keyframes #{$name} {
+    0% { content: "</>"; }
+    @for $i from 1 through $len {
+      #{calc(100% * $i / $len)} { content: "<#{string.slice($text, 1, $i)}>"; }
+    }
+  }
+}
+
+// One animation per distinct tag text
+$texts: ();
+@each $id, $text in $tags {
+  @if not list.index($texts, $text) {
+    $texts: list.append($texts, $text);
+    @include typing-keyframes("spectra-tag-#{list.length($texts)}", $text);
+  }
+}
+
+@each $id, $text in $tags {
+  $anim: "spectra-tag-#{list.index($texts, $text)}";
+
+  .avatar_c19a55[src*="#{$id}"] ~ .header_c19a55 .username_c19a55 {
+    &::after {
+      content: "</>";
+      margin-left: 4px;
+      color: var(--spectra-gold-5);
+      font-family: "Courier New", monospace;
+      line-height: 1rem;
+    }
+    &:hover::after {
+      content: "<#{$text}>";
+      animation: #{$anim} 0.5s steps(1) 1;
+    }
+  }
+}

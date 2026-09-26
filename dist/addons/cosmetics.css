@@ -1,1 +1,265 @@
+@keyframes spectra-tag-1 {
+  0% {
+    content: "</>";
+  }
+  11.1111111111% {
+    content: "<G>";
+  }
+  22.2222222222% {
+    content: "<Ge>";
+  }
+  33.3333333333% {
+    content: "<Get>";
+  }
+  44.4444444444% {
+    content: "<Get >";
+  }
+  55.5555555556% {
+    content: "<Get L>";
+  }
+  66.6666666667% {
+    content: "<Get Li>";
+  }
+  77.7777777778% {
+    content: "<Get Lin>";
+  }
+  88.8888888889% {
+    content: "<Get Linu>";
+  }
+  100% {
+    content: "<Get Linux>";
+  }
+}
+@keyframes spectra-tag-2 {
+  0% {
+    content: "</>";
+  }
+  10% {
+    content: "<I>";
+  }
+  20% {
+    content: "<Im>";
+  }
+  30% {
+    content: "<Im >";
+  }
+  40% {
+    content: "<Im i>";
+  }
+  50% {
+    content: "<Im in>";
+  }
+  60% {
+    content: "<Im in >";
+  }
+  70% {
+    content: "<Im in p>";
+  }
+  80% {
+    content: "<Im in pa>";
+  }
+  90% {
+    content: "<Im in pai>";
+  }
+  100% {
+    content: "<Im in pain>";
+  }
+}
+@keyframes spectra-tag-3 {
+  0% {
+    content: "</>";
+  }
+  5.2631578947% {
+    content: "<S>";
+  }
+  10.5263157895% {
+    content: "<Sp>";
+  }
+  15.7894736842% {
+    content: "<Spe>";
+  }
+  21.0526315789% {
+    content: "<Spec>";
+  }
+  26.3157894737% {
+    content: "<Spect>";
+  }
+  31.5789473684% {
+    content: "<Spectr>";
+  }
+  36.8421052632% {
+    content: "<Spectra>";
+  }
+  42.1052631579% {
+    content: "<Spectra >";
+  }
+  47.3684210526% {
+    content: "<Spectra C>";
+  }
+  52.6315789474% {
+    content: "<Spectra Co>";
+  }
+  57.8947368421% {
+    content: "<Spectra Con>";
+  }
+  63.1578947368% {
+    content: "<Spectra Cont>";
+  }
+  68.4210526316% {
+    content: "<Spectra Contr>";
+  }
+  73.6842105263% {
+    content: "<Spectra Contri>";
+  }
+  78.9473684211% {
+    content: "<Spectra Contrib>";
+  }
+  84.2105263158% {
+    content: "<Spectra Contribu>";
+  }
+  89.4736842105% {
+    content: "<Spectra Contribut>";
+  }
+  94.7368421053% {
+    content: "<Spectra Contributo>";
+  }
+  100% {
+    content: "<Spectra Contributor>";
+  }
+}
+@keyframes spectra-tag-4 {
+  0% {
+    content: "</>";
+  }
+  8.3333333333% {
+    content: "<S>";
+  }
+  16.6666666667% {
+    content: "<Sp>";
+  }
+  25% {
+    content: "<Spe>";
+  }
+  33.3333333333% {
+    content: "<Spec>";
+  }
+  41.6666666667% {
+    content: "<Spect>";
+  }
+  50% {
+    content: "<Spectr>";
+  }
+  58.3333333333% {
+    content: "<Spectra>";
+  }
+  66.6666666667% {
+    content: "<Spectra >";
+  }
+  75% {
+    content: "<Spectra B>";
+  }
+  83.3333333333% {
+    content: "<Spectra Be>";
+  }
+  91.6666666667% {
+    content: "<Spectra Bet>";
+  }
+  100% {
+    content: "<Spectra Beta>";
+  }
+}
+.avatar_c19a55[src*="583750578094735360"] ~ .header_c19a55 .username_c19a55::after {
+  content: "</>";
+  margin-left: 4px;
+  color: var(--spectra-gold-5);
+  font-family: "Courier New", monospace;
+  line-height: 1rem;
+}
+.avatar_c19a55[src*="583750578094735360"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Get Linux>";
+  animation: spectra-tag-1 0.5s steps(1) 1;
+}
 
+.avatar_c19a55[src*="419352542804312066"] ~ .header_c19a55 .username_c19a55::after {
+  content: "</>";
+  margin-left: 4px;
+  color: var(--spectra-gold-5);
+  font-family: "Courier New", monospace;
+  line-height: 1rem;
+}
+.avatar_c19a55[src*="419352542804312066"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Im in pain>";
+  animation: spectra-tag-2 0.5s steps(1) 1;
+}
+
+.avatar_c19a55[src*="258731845267619840"] ~ .header_c19a55 .username_c19a55::after {
+  content: "</>";
+  margin-left: 4px;
+  color: var(--spectra-gold-5);
+  font-family: "Courier New", monospace;
+  line-height: 1rem;
+}
+.avatar_c19a55[src*="258731845267619840"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Spectra Contributor>";
+  animation: spectra-tag-3 0.5s steps(1) 1;
+}
+
+.avatar_c19a55[src*="265924886461939712"] ~ .header_c19a55 .username_c19a55::after {
+  content: "</>";
+  margin-left: 4px;
+  color: var(--spectra-gold-5);
+  font-family: "Courier New", monospace;
+  line-height: 1rem;
+}
+.avatar_c19a55[src*="265924886461939712"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Spectra Contributor>";
+  animation: spectra-tag-3 0.5s steps(1) 1;
+}
+
+.avatar_c19a55[src*="374700424462073857"] ~ .header_c19a55 .username_c19a55::after {
+  content: "</>";
+  margin-left: 4px;
+  color: var(--spectra-gold-5);
+  font-family: "Courier New", monospace;
+  line-height: 1rem;
+}
+.avatar_c19a55[src*="374700424462073857"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Spectra Beta>";
+  animation: spectra-tag-4 0.5s steps(1) 1;
+}
+
+.avatar_c19a55[src*="128707790016348160"] ~ .header_c19a55 .username_c19a55::after {
+  content: "</>";
+  margin-left: 4px;
+  color: var(--spectra-gold-5);
+  font-family: "Courier New", monospace;
+  line-height: 1rem;
+}
+.avatar_c19a55[src*="128707790016348160"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Spectra Beta>";
+  animation: spectra-tag-4 0.5s steps(1) 1;
+}
+
+.avatar_c19a55[src*="556271703139811350"] ~ .header_c19a55 .username_c19a55::after {
+  content: "</>";
+  margin-left: 4px;
+  color: var(--spectra-gold-5);
+  font-family: "Courier New", monospace;
+  line-height: 1rem;
+}
+.avatar_c19a55[src*="556271703139811350"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Spectra Beta>";
+  animation: spectra-tag-4 0.5s steps(1) 1;
+}
+
+.avatar_c19a55[src*="751817881112543363"] ~ .header_c19a55 .username_c19a55::after {
+  content: "</>";
+  margin-left: 4px;
+  color: var(--spectra-gold-5);
+  font-family: "Courier New", monospace;
+  line-height: 1rem;
+}
+.avatar_c19a55[src*="751817881112543363"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Spectra Beta>";
+  animation: spectra-tag-4 0.5s steps(1) 1;
+}

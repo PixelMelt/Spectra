@@ -4,7 +4,7 @@
   "private": true,
   "description": "A dark BetterDiscord theme letting the light shine through",
   "scripts": {
-    "build": "sass --no-source-map --style=expanded scss/spectra.scss:dist/spectra.css scss/addons/animations.scss:dist/addons/animations.css scss/addons/cosmetics.scss:dist/addons/cosmetics.css",
+    "build": "sass --no-source-map --no-error-css --style=expanded scss/spectra.scss:dist/spectra.css scss/addons/animations.scss:dist/addons/animations.css scss/addons/cosmetics.scss:dist/addons/cosmetics.css",
     "watch": "npm run build -- --watch",
     "dev": "npm run build && cp spectra.theme.css ~/.config/BetterDiscord/themes/spectra.theme.css"
   },
