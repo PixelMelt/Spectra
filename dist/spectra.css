@@ -277,6 +277,10 @@
   border-radius: var(--spectra-radius);
 }
 
+.buttons__74017 > .container__5287f {
+  display: none;
+}
+
 :root {
   --spectra-bg-0: #12171c;
   --spectra-bg-1: #161c22;

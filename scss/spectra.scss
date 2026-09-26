@@ -5,6 +5,7 @@
 @use "palette";
 @use "tokens";
 @use "components/layout";
+@use "components/chat";
 
 :root {
   @include palette.custom-properties;
