@@ -34,12 +34,12 @@ You can also remove any of the addon imports in that file.
 
 ## Development
 
-The theme is written in SCSS under `scss/` and compiled to `dist/`:
+The theme is written in SCSS under `scss/` and compiled to `dist/` with [Bun](https://bun.sh). `build` compiles once and `watch` recompiles on change:
 
 ```sh
-npm install
-npm run build   # compile scss/ -> dist/
-npm run watch   # recompile on change
+bun install
+bun run build
+bun run watch
 ```
 
 - `scss/_palette.scss` holds every color. `scss/_tokens.scss` maps them onto Discord's CSS variables, which is how most of the theme works.

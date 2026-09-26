@@ -3,9 +3,9 @@ name: Build
 on:
     push:
         branches: [main]
-        paths: ["scss/**", "package.json", "package-lock.json", ".github/workflows/build.yml"]
+        paths: ["scss/**", "package.json", "bun.lock", ".github/workflows/build.yml"]
     pull_request:
-        paths: ["scss/**", "package.json", "package-lock.json", ".github/workflows/build.yml"]
+        paths: ["scss/**", "package.json", "bun.lock", ".github/workflows/build.yml"]
     workflow_dispatch:
 
 permissions:
@@ -21,14 +21,11 @@ jobs:
         steps:
             - uses: actions/checkout@v4
 
-            - uses: actions/setup-node@v4
-              with:
-                  node-version: 22
-                  cache: npm
+            - uses: oven-sh/setup-bun@v2
 
-            - run: npm ci
+            - run: bun install --frozen-lockfile
 
-            - run: npm run build
+            - run: bun run build
 
             - name: Commit dist and publish
               if: github.event_name != 'pull_request'
