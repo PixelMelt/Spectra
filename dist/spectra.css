@@ -268,9 +268,10 @@
 }
 
 .panels__5e434 {
-  left: 5px;
-  right: 0;
-  bottom: 5px;
+  grid-column: guildsEnd/channelsEnd;
+  left: 15px;
+  right: 5px;
+  bottom: 10px;
   width: auto;
   border-radius: var(--spectra-roundness);
   background-color: var(--spectra-bg-3);
