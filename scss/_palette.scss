@@ -1,35 +1,18 @@
-// Spectra palette. The only place raw colors live.
-// Everything else derives from these via color-mix(), so overriding a
-// --spectra-* variable in your theme file recolors the whole theme.
-
-// Slate backgrounds, darkest to lightest
 $bg: (
-    // app frame, server list
     0: #12171c,
-    // sidebars
     1: #161c22,
-    // chat
     2: #1b2229,
-    // cards, inputs, popouts
     3: #1f2933,
-    // raised / selected
     4: #2c3a48,
-    // banners, strong borders
-    5: #3e4e5f
+    5: #3e4e5f,
 );
 
-// Gold text and accents, dimmest to brightest
 $gold: (
-    // faint
     1: #7a6010,
-    // muted
     2: #c39a13,
-    // body text
     3: #efbe1c,
-    // accent
     4: #fdd651,
-    // headings, strong
-    5: #ffe89b
+    5: #ffe89b,
 );
 
 $status: (
@@ -38,7 +21,6 @@ $status: (
     info: #6cb4ee,
 );
 
-// Emits the palette as --spectra-* custom properties
 @mixin custom-properties {
     @each $k, $v in $bg {
         --spectra-bg-#{$k}: #{$v};

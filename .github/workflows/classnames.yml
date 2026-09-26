@@ -1,5 +1,3 @@
-# Checks Discord's current class names daily and opens a PR when any
-# used in scss/ have changed. Merging the PR triggers the Build workflow.
 name: Update class names
 
 on:

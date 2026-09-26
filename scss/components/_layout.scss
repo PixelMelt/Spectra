@@ -1,15 +1,12 @@
-// Floating rounded panels (formerly the Roundite addon)
 @use "../functions" as *;
 
 $gap: v(gap);
 $radius: v(radius);
 
-// App background shows through the gaps
 .base__5e434 {
     background: v(bg-0);
 }
 
-// Channel list
 .sidebarList__5e434 {
     margin: 0 0 $gap $gap;
     border-radius: $radius;
@@ -18,8 +15,6 @@ $radius: v(radius);
     border: none;
 }
 
-// Chat / page area. Discord sizes it 100%/100%, auto lets the grid
-// cell stretch it inside the margins
 .page__5e434 {
     width: auto;
     height: auto;
@@ -30,27 +25,23 @@ $radius: v(radius);
     border: none;
 }
 
-// User panel at the bottom of the sidebar
 .panels__5e434 {
     border-radius: $radius;
     background: v(bg-3);
     border: 1px solid alpha(v(bg-5), 50%);
 }
 
-// Member list
 .container_c8ffbb,
 .membersWrap_c8ffbb,
 .members_c8ffbb {
     background: v(bg-1);
 }
 
-// Channel header
 .title_f75fb0 {
     background: v(bg-2);
     border-bottom: 1px solid alpha(v(bg-5), 50%);
 }
 
-// Chat input
 .channelTextArea_f75fb0 {
     border-radius: $radius;
 }

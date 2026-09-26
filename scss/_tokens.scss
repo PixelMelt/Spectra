@@ -1,7 +1,3 @@
-// Maps the Spectra palette onto Discord's variables.
-// Discord defines these on .theme-* classes, which also get nested on
-// popouts and layers, so we override on the same selectors. Spectra is
-// dark-only; light theme and custom profile themes are left alone.
 @use "sass:map";
 @use "sass:math";
 @use "sass:string";
@@ -9,7 +5,6 @@
 
 $dark-themes: ".theme-dark, .theme-darker, .theme-midnight";
 
-// Brand ramp: 500 is the accent, lower steps tint toward white, higher shade toward black
 $brand-steps: 100, 130, 160, 200, 230, 260, 300, 330, 345, 360, 400, 430, 460, 500, 530, 560, 600, 630, 660, 700, 730, 760, 800, 830, 860, 900;
 
 @mixin brand-ramp {
@@ -29,7 +24,6 @@ $brand-steps: 100, 130, 160, 200, 230, 260, 300, 330, 345, 360, 400, 430, 460, 5
     }
 }
 
-// Primary ramp: Discord's neutral scale. Light end is gold text, dark end is slate.
 $primary: (
     100: tint(v(gold-5), 60%),
     130: tint(v(gold-5), 40%),
@@ -67,7 +61,6 @@ $primary: (
 }
 
 @mixin semantic {
-    // Backgrounds (visual refresh)
     --app-frame-background: #{v(bg-0)};
     --app-frame-border: transparent;
     --background-base-lowest: #{v(bg-0)};
@@ -80,7 +73,6 @@ $primary: (
     --bg-surface-overlay: #{v(bg-3)};
     --background-brand: #{v(accent)};
 
-    // Backgrounds (legacy names, still read by some components)
     --background-primary: #{v(bg-2)};
     --background-secondary: #{v(bg-1)};
     --background-secondary-alt: #{v(bg-3)};
@@ -88,13 +80,11 @@ $primary: (
     --background-floating: #{v(bg-3)};
     --background-accent: #{v(bg-4)};
 
-    // Hover/selected washes
     --background-mod-muted: #{alpha(v(bg-5), 25%)};
     --background-mod-subtle: #{alpha(v(bg-5), 40%)};
     --background-mod-normal: #{alpha(v(bg-5), 55%)};
     --background-mod-strong: #{alpha(v(bg-5), 75%)};
 
-    // Surfaces
     --chat-background: #{v(bg-2)};
     --chat-background-default: #{v(bg-2)};
     --chat-border: #{alpha(v(bg-5), 50%)};
@@ -116,14 +106,12 @@ $primary: (
     --spoiler-hidden-background-hover: #{v(bg-5)};
     --spoiler-revealed-background: #{v(bg-3)};
 
-    // Borders
     --border-muted: #{alpha(v(bg-5), 25%)};
     --border-subtle: #{alpha(v(bg-5), 50%)};
     --border-normal: #{alpha(v(bg-5), 80%)};
     --border-strong: #{v(bg-5)};
     --border-focus: #{v(accent)};
 
-    // Text
     --text-strong: #{v(gold-5)};
     --text-default: #{v(gold-3)};
     --text-subtle: #{color-mix(in oklab, v(gold-3), v(gold-2))};
@@ -143,7 +131,6 @@ $primary: (
     --text-feedback-positive: #{v(success)};
     --text-feedback-info: #{v(info)};
 
-    // Icons
     --icon-strong: #{v(gold-5)};
     --icon-default: #{v(gold-3)};
     --icon-subtle: #{v(gold-2)};
@@ -153,7 +140,6 @@ $primary: (
     --icon-invert: #{v(bg-2)};
     --logo-primary: #{v(accent)};
 
-    // Interactive (channel list, tabs, toolbar buttons)
     --interactive-normal: #{v(gold-3)};
     --interactive-hover: #{v(gold-5)};
     --interactive-active: #{v(gold-5)};
@@ -173,7 +159,6 @@ $primary: (
     --interactive-accent-background-active: #{alpha(v(accent), 30%)};
     --interactive-accent-background-selected: #{alpha(v(accent), 25%)};
 
-    // Inputs
     --input-background-default: #{v(bg-3)};
     --input-border-default: #{alpha(v(bg-5), 60%)};
     --input-border-hover: #{v(bg-5)};
@@ -182,7 +167,6 @@ $primary: (
     --input-placeholder-text-default: #{v(gold-2)};
     --input-icon-default: #{v(gold-2)};
 
-    // Messages
     --message-background-hover: #{alpha(v(bg-5), 20%)};
     --message-highlight-background-default: #{alpha(v(accent), 10%)};
     --message-highlight-background-hover: #{alpha(v(accent), 8%)};
@@ -191,7 +175,6 @@ $primary: (
     --mention-background: #{alpha(v(accent), 20%)};
     --mention-foreground: #{v(gold-5)};
 
-    // Buttons
     --control-brand-foreground: #{v(accent)};
     --control-brand-foreground-new: #{v(accent)};
     --control-primary-background-default: #{v(accent)};
@@ -227,7 +210,6 @@ $primary: (
     --control-icon-only-background-hover: #{alpha(v(bg-5), 40%)};
     --control-icon-only-background-active: #{alpha(v(bg-5), 60%)};
 
-    // Checkboxes, badges, scrollbars
     --checkbox-background-selected-default: #{v(accent)};
     --checkbox-background-selected-hover: #{tint(v(accent), 20%)};
     --checkbox-border-selected-default: #{v(accent)};

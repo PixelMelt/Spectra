@@ -9,35 +9,7 @@
  * @authorId     583750578094735360
  */
 
-/* The theme itself. Loaded from GitHub so it updates automatically. */
-@import url("https://pixelmelt.github.io/Spectra/dist/spectra.css");
-
-/* Optional addons, comment out any you don't want */
-@import url("https://pixelmelt.github.io/Spectra/dist/addons/animations.css"); /* hover animations */
-@import url("https://pixelmelt.github.io/Spectra/dist/addons/cosmetics.css"); /* Spectra user tags */
-@import url("https://raw.githack.com/NYRI4/Discolored/master/main.css"); /* colored Discord SVGs */
-
-/* Customize: uncomment and change any of these */
-:root {
-    /* Backgrounds, darkest to lightest */
-    /* --spectra-bg-0: #12171c; */
-    /* --spectra-bg-1: #161c22; */
-    /* --spectra-bg-2: #1b2229; */
-    /* --spectra-bg-3: #1f2933; */
-    /* --spectra-bg-4: #2c3a48; */
-    /* --spectra-bg-5: #3e4e5f; */
-
-    /* Text, dimmest to brightest */
-    /* --spectra-gold-1: #7a6010; */
-    /* --spectra-gold-2: #c39a13; */
-    /* --spectra-gold-3: #efbe1c; */
-    /* --spectra-gold-4: #fdd651; */
-    /* --spectra-gold-5: #ffe89b; */
-
-    /* Buttons, links, highlights */
-    /* --spectra-accent: #fdd651; */
-
-    /* Panel rounding and spacing */
-    /* --spectra-radius: 12px; */
-    /* --spectra-gap: 8px; */
-}
+@import url("https://pixelmelt.github.io/Spectra/dist/spectra.css"); /* the theme */
+@import url("https://pixelmelt.github.io/Spectra/dist/addons/animations.css"); /* extra animations */
+@import url("https://pixelmelt.github.io/Spectra/dist/addons/cosmetics.css"); /* user cosmetics */
+@import url("https://raw.githack.com/NYRI4/Discolored/master/main.css"); /* colored discord SVGs */

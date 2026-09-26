@@ -1,5 +1,3 @@
-# Compiles scss/ into dist/ and publishes it. Every client imports
-# dist/ from GitHub Pages, so a push here updates everyone's theme.
 name: Build
 
 on:
@@ -30,7 +28,6 @@ jobs:
 
             - run: npm ci
 
-            # Fails the job on any Sass error, so a broken build never reaches dist/
             - run: npm run build
 
             - name: Commit dist and publish
@@ -47,5 +44,4 @@ jobs:
                   git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
                   git commit -m "build dist"
                   git push
-                  # pushes made with GITHUB_TOKEN don't always trigger a Pages build
                   gh api -X POST "repos/${{ github.repository }}/pages/builds"

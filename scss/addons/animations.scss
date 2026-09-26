@@ -1,21 +1,7 @@
-// Extra animations (formerly Animcord). Skipped entirely when the OS asks
-// for reduced motion.
-
 $nudge: -5px;
 
-// Hover nudge for list rows
-$rows: (
-    // channel list
-    ".link__2ea32",
-    // DM list
-    ".dm__972a0 .layout__20a53",
-    // member list
-    ".memberInner__5d473",
-    // friends list
-    ".peopleListItem_cc6179"
-);
+$rows: (".link__2ea32", ".dm__972a0 .layout__20a53", ".memberInner__5d473", ".peopleListItem_cc6179");
 
-// User panel button wiggles, keyed by aria-label
 $panel-buttons: (
     "Mute": shake-x,
     "Unmute": shake-x,

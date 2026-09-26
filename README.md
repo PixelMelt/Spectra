@@ -18,7 +18,19 @@ The file you download is a small loader: the theme itself is fetched from this r
 
 ## Customizing
 
-Open `spectra.theme.css` and uncomment any of the `--spectra-*` variables at the bottom. Every other color is derived from these, so changing the accent or a background recolors everything that uses it. You can also comment out any of the optional addons there.
+Add a `:root` block to the end of `spectra.theme.css` with any of these variables. Backgrounds go from `--spectra-bg-0` (darkest) to `--spectra-bg-5`, and text from `--spectra-gold-1` (dimmest) to `--spectra-gold-5`. Every other color is derived from them, so changing the accent or a background recolors everything that uses it.
+
+```css
+:root {
+    --spectra-bg-0: #12171c;
+    --spectra-gold-1: #7a6010;
+    --spectra-accent: #fdd651;
+    --spectra-radius: 12px;
+    --spectra-gap: 8px;
+}
+```
+
+You can also remove any of the addon imports in that file.
 
 ## Development
 

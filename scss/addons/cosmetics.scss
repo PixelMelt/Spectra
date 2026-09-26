@@ -1,26 +1,23 @@
-// User tags: a "</>" after the name of Spectra people that types out a
-// message on hover. Add someone by adding their user id to $tags.
 @use "sass:list";
 @use "sass:string";
 
 $tags: (
-    // Pix
+    // Pix#7008
     "583750578094735360": "Get Linux",
-    // Macro
+    // Macro#9389
     "419352542804312066": "Im in pain",
     "258731845267619840": "Spectra Contributor",
     "265924886461939712": "Spectra Contributor",
-    // Achi
+    // Achi™#9761
     "374700424462073857": "Spectra Beta",
-    // Skittles
+    // Skittles#8027
     "128707790016348160": "Spectra Beta",
-    // SatoruX
+    // SatoruX#4065
     "556271703139811350": "Spectra Beta",
-    // Maxy_Zou
+    // Maxy_Zou#8281
     "751817881112543363": "Spectra Beta"
 );
 
-// One keyframe step per character, typing out <text>
 @mixin typing-keyframes($name, $text) {
     $len: string.length($text);
     @keyframes #{$name} {
@@ -35,7 +32,6 @@ $tags: (
     }
 }
 
-// One animation per distinct tag text
 $texts: ();
 @each $id, $text in $tags {
     @if not list.index($texts, $text) {
