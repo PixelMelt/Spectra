@@ -12,8 +12,6 @@
 
 The file you download is a small loader: the theme itself is fetched from this repo, so you get fixes automatically without reinstalling.
 
-Upgrading from 1.x? Old installs keep working and now load 2.0, but grab the new file to get the customization options.
-
 ## Customizing ##
 Open `spectra.theme.css` and uncomment any of the `--spectra-*` variables at the bottom. Every other color is derived from these, so changing the accent or a background recolors everything that uses it. You can also comment out any of the optional addons there.
 
@@ -30,7 +28,6 @@ npm run watch   # recompile on change
 - `scss/components/` holds the few rules that need Discord class names.
 - Pushing to `main` runs the **Build** workflow, which compiles and commits `dist/` and publishes it to GitHub Pages. Every install picks it up the next time Discord reloads.
 - The **Update class names** workflow checks Discord's class names daily and opens a PR when any used here change.
-- `legacy/` has the 1.x source for reference. The old file URLs are now small shims that load 2.0.
 
 ---
 ![Preview](/assets/Template.png)
