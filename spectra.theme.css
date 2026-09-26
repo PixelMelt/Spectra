@@ -1,32 +1,43 @@
 /**
  * @name         Spectra
- * @description  A dark theme letting the light shine through! Spectra is a visability focused theme that is still light on your eyes.
+ * @description  A dark theme letting the light shine through! Spectra is a visibility focused theme that is still light on your eyes.
  * @author       Pix
- * @version      1.1
+ * @version      2.0
  * @website      http://pixelmelt.xyz
  * @source       https://github.com/PixelMelt/Spectra
  * @invite       2MucdZyQsb
  * @authorId     583750578094735360
  */
 
-/* if you really need to change the colors try https://raw.githubusercontent.com/PixelMelt/Spectra/main/spectraV2.theme.css . Its not 100% finished */
-/* but you should be able to change the colors */
+/* The theme itself. Loaded from GitHub so it updates automatically. */
+@import url("https://pixelmelt.github.io/Spectra/dist/spectra.css");
 
-@import url("https://pixelmelt.github.io/Spectra/spectrafull.css"); /* the theme */
+/* Optional addons, comment out any you don't want */
+@import url("https://pixelmelt.github.io/Spectra/dist/addons/animations.css"); /* hover animations */
+@import url("https://pixelmelt.github.io/Spectra/dist/addons/cosmetics.css"); /* Spectra user tags */
+@import url("https://raw.githack.com/NYRI4/Discolored/master/main.css"); /* colored Discord SVGs */
 
-@import url('https://mr-miner1.github.io/Better-Badges/src/badges.css'); /* animated badges */
-/*@import url('https://pixelmelt.github.io/Spectra/src/oldpop.css'); /*old user popouts <- kinda dead but sorta works */
-@import url('https://pixelmelt.github.io/Spectra/src/animcord.css'); /* extra animations */
-@import url('https://pixelmelt.github.io/Spectra/src/roundite.css'); /* rounded gui */
-@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css'); /* user backgrounds */
-@import url("https://pixelmelt.github.io/Spectra/src/cosmetics.css"); /* user cosmetics */
-@import url("https://raw.githack.com/NYRI4/Discolored/master/main.css"); /* colored discord SVGs */
-@import url('https://p0rtl6.github.io/BD-AnimatedSpeakingRings/src/base.css'); /* The base speaking rings */
-@import url('https://p0rtl6.github.io/BD-AnimatedSpeakingRings/src/voiceconnectedpanel.css'); /* The voice connected panel */
-@import url('https://p0rtl6.github.io/BD-AnimatedSpeakingRings/src/bigusers.css'); /* The fullscreen user panels */
+/* Customize: uncomment and change any of these */
+:root {
+  /* Backgrounds, darkest to lightest */
+  /* --spectra-bg-0: #12171c; */
+  /* --spectra-bg-1: #161c22; */
+  /* --spectra-bg-2: #1b2229; */
+  /* --spectra-bg-3: #1f2933; */
+  /* --spectra-bg-4: #2c3a48; */
+  /* --spectra-bg-5: #3e4e5f; */
 
-/* Hello Friends! Enjoy my theme! */
-/* Feel free to message me if you have any issues */
-/* Pix#7008 */
+  /* Text, dimmest to brightest */
+  /* --spectra-gold-1: #7a6010; */
+  /* --spectra-gold-2: #c39a13; */
+  /* --spectra-gold-3: #efbe1c; */
+  /* --spectra-gold-4: #fdd651; */
+  /* --spectra-gold-5: #ffe89b; */
 
-/* p0rtL#6592 was here :) */
+  /* Buttons, links, highlights */
+  /* --spectra-accent: #fdd651; */
+
+  /* Panel rounding and spacing */
+  /* --spectra-radius: 12px; */
+  /* --spectra-gap: 8px; */
+}
