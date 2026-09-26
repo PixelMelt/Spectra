@@ -341,6 +341,10 @@
   display: none;
 }
 
+.container__2637a {
+  background-color: transparent;
+}
+
 [data-list-item-id=guildsnav___home] .childWrapper__6e9f8 {
   background-color: var(--background-primary);
 }
@@ -557,12 +561,17 @@
   background-color: var(--spectra-gold-5);
 }
 
-.selected__9293f .icon__9293f {
-  color: var(--spectra-gold-5);
+.icon__9293f,
+.clickable__9293f .icon__9293f,
+.iconWrapper__9293f,
+.bar_c38106 .clickable__81391 {
+  color: var(--spectra-gold-4);
 }
 
-.icon__9293f {
-  color: var(--spectra-gold-4);
+.selected__9293f .icon__9293f,
+.clickable__9293f.selected__9293f .icon__9293f,
+.iconWrapper__9293f.selected__9293f {
+  color: var(--spectra-gold-5);
 }
 
 .topic__6ec1a {
