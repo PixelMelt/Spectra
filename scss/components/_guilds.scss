@@ -6,8 +6,7 @@ $sunrise: "M11.848.047C11.792.072 11.672.163 11.581.248L11.416.403 11.416 3.043 
     background-color: var(--background-primary);
 
     svg {
-        width: 36px;
-        height: 36px;
+        transform: scale(calc(4 / 3));
     }
 
     path {
