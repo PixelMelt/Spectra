@@ -385,6 +385,11 @@
   color: var(--spectra-bg-5);
 }
 
+.guilds__5e434 .tree_ef3116 {
+  box-sizing: border-box;
+  padding-top: 8px;
+}
+
 .iconBase_c69b6d {
   color: var(--spectra-bg-4) !important;
 }
@@ -563,15 +568,10 @@
 
 .icon__9293f,
 .clickable__9293f .icon__9293f,
+.clickable__9293f.selected__9293f .icon__9293f,
 .iconWrapper__9293f,
 .bar_c38106 .clickable__81391 {
   color: var(--spectra-gold-4);
-}
-
-.selected__9293f .icon__9293f,
-.clickable__9293f.selected__9293f .icon__9293f,
-.iconWrapper__9293f.selected__9293f {
-  color: var(--spectra-gold-5);
 }
 
 .topic__6ec1a {
