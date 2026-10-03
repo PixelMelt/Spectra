@@ -1,0 +1,17 @@
+{
+    "name": "spectra",
+    "version": "2.0.0",
+    "private": true,
+    "description": "A dark BetterDiscord theme letting the light shine through",
+    "scripts": {
+        "build": "bun build.js",
+        "watch": "bun run build --watch",
+        "dev": "bun run build && cp dist/spectra.css ~/.config/BetterDiscord/themes/spectra.theme.css",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "devDependencies": {
+        "prettier": "^3.9.9",
+        "sass": "^1.105.0"
+    }
+}

@@ -1,0 +1,24 @@
+@use "../functions" as *;
+
+.children__9293f {
+    border-radius: v(roundness);
+}
+
+.topic__6ec1a {
+    color: v(gold-4);
+}
+
+.iconWrapper__9293f,
+.clickable__9293f .icon__9293f,
+.clickable__9293f.selected__9293f .icon__9293f,
+.bar_c38106 .clickable__81391 {
+    color: v(gold-4);
+}
+
+.iconBadge__9293f {
+    background-color: v(gold-5);
+}
+
+.bar_c38106 .anchor__14d82 {
+    display: none;
+}

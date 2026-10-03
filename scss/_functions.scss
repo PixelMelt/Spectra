@@ -1,0 +1,15 @@
+@function tint($color, $amount) {
+    @return color-mix(in oklab, #{$color}, white #{$amount});
+}
+
+@function shade($color, $amount) {
+    @return color-mix(in oklab, #{$color}, black #{$amount});
+}
+
+@function alpha($color, $amount) {
+    @return color-mix(in oklab, #{$color} #{$amount}, transparent);
+}
+
+@function v($name) {
+    @return var(--spectra-#{$name});
+}

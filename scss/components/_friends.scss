@@ -1,0 +1,65 @@
+@use "../functions" as *;
+
+.container__133bf {
+    border-radius: v(roundness);
+    margin: 5px;
+}
+
+.peopleColumn__133bf,
+.peopleList__5ec2f,
+.peopleListItem_cc6179,
+.friendsEmpty_c7ea19,
+.addFriendInputWrapper__72ba7 {
+    background-color: v(bg-2);
+}
+
+.addFriend__133bf {
+    --white: #{v(gold-4)};
+    --status-positive-text: #{v(bg-3)};
+    --opacity-blurple-16: #{v(bg-4)};
+}
+
+.item_aa8da2 {
+    &:is(.brand_aa8da2, .themed_aa8da2):hover {
+        color: v(gold-3);
+    }
+
+    &:is(.brand_aa8da2, .themed_aa8da2):active {
+        color: v(gold-4);
+    }
+
+    &.selected_aa8da2 {
+        &,
+        &:hover {
+            cursor: default;
+            color: v(gold-3);
+        }
+    }
+}
+
+.top_aa8da2 .themed_aa8da2.item_aa8da2:is(.selected_aa8da2, :active) {
+    border-bottom-color: v(gold-5);
+}
+
+.theme-dark .activeButton_d6b206 {
+    &,
+    &:hover {
+        color: v(bg-3);
+        background-color: v(gold-5);
+    }
+}
+
+.activityName__2ef49,
+.nameNormal__2ef49,
+.nameWrap__2ef49 {
+    color: v(gold-3);
+}
+
+.activityVoiceChannel__2ef49 .details__2ef49,
+.activityStreamPreview__2ef49 :is(.activityName__2ef49, .content__2ef49, .details__2ef49, .name__2ef49, .nameNormal__2ef49) {
+    color: v(gold-5);
+}
+
+:is(.emptyStateHeader__7641b, .emptyStateSubtext__7641b) {
+    color: v(gold-5);
+}

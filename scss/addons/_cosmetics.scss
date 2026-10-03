@@ -1,0 +1,50 @@
+@use "sass:list";
+@use "sass:string";
+
+$tags: (
+    "583750578094735360": "Meow",
+    "419352542804312066": "Im in pain",
+    "258731845267619840": "Spectra Contributor",
+    "265924886461939712": "Spectra Contributor",
+);
+
+@mixin typing-keyframes($name, $text) {
+    $len: string.length($text);
+    @keyframes #{$name} {
+        0% {
+            content: "</>";
+            font-family: "Courier New";
+        }
+        @for $i from 1 through $len {
+            #{calc(100% * $i / $len)} {
+                content: "<#{string.slice($text, 1, $i)}>";
+            }
+        }
+    }
+}
+
+$texts: ();
+@each $id, $text in $tags {
+    @if not list.index($texts, $text) {
+        $texts: list.append($texts, $text);
+        @include typing-keyframes("spectra-tag-#{list.length($texts)}", $text);
+    }
+}
+
+@each $id, $text in $tags {
+    $anim: "spectra-tag-#{list.index($texts, $text)}";
+
+    .avatar_c19a55[src*="#{$id}"] ~ .header_c19a55 .username_c19a55 {
+        &::after {
+            line-height: 1rem;
+            content: "</>";
+            color: white;
+        }
+
+        &:hover::after {
+            content: "<#{$text}>";
+            animation: #{$anim} 0.5s linear 1;
+            font-family: "Courier New", "monospace";
+        }
+    }
+}

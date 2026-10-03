@@ -1,0 +1,15 @@
+@use "../functions" as *;
+
+.membersWrap_c8ffbb {
+    background-color: var(--background-secondary);
+    min-width: unset;
+}
+
+.members_c8ffbb {
+    border-radius: v(roundness);
+    margin: 5px;
+}
+
+.clickable__91a9d:active .layout__91a9d {
+    background-color: v(bg-3);
+}

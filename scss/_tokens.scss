@@ -1,0 +1,265 @@
+@use "sass:math";
+@use "sass:string";
+@use "functions" as *;
+
+$dark-themes: ".theme-dark, .theme-darker, .theme-midnight";
+
+$brand-steps: 100, 130, 160, 200, 230, 260, 300, 330, 345, 360, 400, 430, 460, 500, 530, 560, 600, 630, 660, 700, 730, 760, 800, 830, 860, 900;
+
+@mixin brand-ramp {
+    @each $step in $brand-steps {
+        @if $step < 500 {
+            --brand-#{$step}: #{tint(v(accent), math.percentage(math.div(500 - $step, 400) * 0.85))};
+        } @else if $step == 500 {
+            --brand-500: #{v(accent)};
+        } @else {
+            --brand-#{$step}: #{shade(v(accent), math.percentage(math.div($step - 500, 400) * 0.85))};
+        }
+    }
+    @for $i from 1 through 19 {
+        $a: $i * 5;
+        $name: string.slice("0#{$a}", -2);
+        --brand-#{$name}a: #{alpha(v(accent), $a * 1%)};
+    }
+}
+
+$primary: (
+    100: tint(v(gold-5), 60%),
+    130: tint(v(gold-5), 40%),
+    160: tint(v(gold-5), 20%),
+    200: v(gold-5),
+    230: color-mix(in oklab, v(gold-5), v(gold-4)),
+    260: v(gold-4),
+    300: color-mix(in oklab, v(gold-4), v(gold-3)),
+    330: v(gold-3),
+    345: color-mix(in oklab, v(gold-3), v(gold-2)),
+    360: v(gold-2),
+    400: color-mix(in oklab, v(gold-2), v(bg-5)),
+    430: color-mix(in oklab, v(gold-1), v(bg-5)),
+    460: tint(v(bg-5), 15%),
+    500: v(bg-5),
+    530: color-mix(in oklab, v(bg-5), v(bg-4)),
+    560: tint(v(bg-4), 5%),
+    600: v(bg-4),
+    630: v(bg-3),
+    645: color-mix(in oklab, v(bg-3), v(bg-2)),
+    660: v(bg-2),
+    700: v(bg-1),
+    730: color-mix(in oklab, v(bg-1), v(bg-0)),
+    760: v(bg-0),
+    800: shade(v(bg-0), 20%),
+    830: shade(v(bg-0), 35%),
+    860: shade(v(bg-0), 50%),
+    900: shade(v(bg-0), 65%),
+);
+
+@mixin primary-ramp {
+    @each $step, $value in $primary {
+        --primary-#{$step}: #{$value};
+    }
+}
+
+@mixin semantic {
+    --app-frame-background: #{v(bg-0)};
+    --app-frame-border: transparent;
+    --background-base-lowest: #{v(bg-0)};
+    --background-base-lower: #{v(bg-1)};
+    --background-base-low: #{v(bg-2)};
+    --background-surface-high: #{v(bg-3)};
+    --background-surface-higher: #{v(bg-3)};
+    --background-surface-highest: #{v(bg-3)};
+    --bg-surface-raised: #{v(bg-3)};
+    --bg-surface-overlay: #{v(bg-3)};
+    --background-brand: #{v(accent)};
+
+    --background-primary: #{v(bg-2)};
+    --background-secondary: #{v(bg-1)};
+    --background-secondary-alt: #{v(bg-3)};
+    --background-tertiary: #{v(bg-0)};
+    --background-floating: #{v(bg-3)};
+    --background-accent: #{v(bg-1)};
+    --background-modifier-hover: #{v(bg-2)};
+    --background-modifier-selected: #{v(bg-3)};
+    --background-modifier-active: #{v(bg-3)};
+
+    --background-scrim: #{alpha(v(bg-0), 85%)};
+    --background-scrim-lightbox: #{alpha(v(bg-0), 92%)};
+
+    --background-mod-subtle: #{v(bg-2)};
+    --background-mod-muted: #{v(bg-3)};
+    --background-mod-normal: #{v(bg-3)};
+    --background-mod-strong: #{v(bg-4)};
+
+    --chat-background: #{v(bg-2)};
+    --chat-background-default: #{v(bg-2)};
+    --chat-border: #{v(bg-0)};
+    --home-background: #{v(bg-2)};
+    --panel-bg: #{v(bg-1)};
+    --modal-background: #{v(bg-3)};
+    --modal-footer-background: #{v(bg-3)};
+    --card-background-default: #{v(bg-3)};
+    --card-border-default: transparent;
+    --card-secondary-bg: #{v(bg-3)};
+    --card-primary-pressed-bg: #{v(bg-2)};
+    --card-secondary-pressed-bg: #{v(bg-2)};
+    --embed-background: #{v(bg-3)};
+    --embed-background-alternate: #{v(bg-3)};
+    --channeltextarea-background: #{v(bg-3)};
+    --user-profile-toolbar-background: #{v(bg-4)};
+    --user-profile-toolbar-border: transparent;
+    --user-profile-overlay-background: #{v(bg-3)};
+    --user-profile-overlay-background-hover: #{v(bg-2)};
+    --user-profile-activity-toolbar-background: #{v(bg-4)};
+    --spoiler-hidden-background: #{v(gold-2)};
+    --spoiler-hidden-background-hover: #{v(bg-5)};
+    --spoiler-revealed-background: #{v(bg-3)};
+
+    --border-muted: #{v(bg-0)};
+    --border-subtle: #{v(bg-0)};
+    --border-normal: #{v(bg-0)};
+    --border-strong: #{v(bg-4)};
+    --border-focus: #{v(gold-5)};
+
+    --text-strong: #{v(gold-5)};
+    --text-default: #{v(gold-3)};
+    --text-subtle: #{v(gold-2)};
+    --text-muted: #{v(gold-2)};
+    --text-brand: #{v(gold-5)};
+    --text-link: #{v(gold-4)};
+    --text-invert: #{v(bg-3)};
+    --text-normal: #{v(gold-3)};
+    --header-primary: #{v(gold-5)};
+    --header-secondary: #{v(gold-5)};
+    --channels-default: #{v(gold-4)};
+    --channel-icon: #{v(gold-4)};
+    --chat-text-muted: #{v(gold-2)};
+    --channel-text-area-placeholder: #{v(gold-2)};
+    --textbox-markdown-syntax: #{v(gold-2)};
+
+    --icon-strong: #{v(gold-5)};
+    --icon-default: #{v(gold-5)};
+    --icon-subtle: #{v(gold-4)};
+    --icon-muted: #{v(gold-2)};
+    --icon-brand: #{v(gold-5)};
+    --icon-link: #{v(gold-4)};
+    --icon-invert: #{v(bg-3)};
+    --logo-primary: #{v(gold-5)};
+
+    --interactive-normal: #{v(gold-5)};
+    --interactive-hover: #{v(bg-5)};
+    --interactive-active: #{v(gold-5)};
+    --interactive-muted: #{v(gold-1)};
+    --interactive-text-default: #{v(gold-4)};
+    --interactive-text-hover: #{v(bg-5)};
+    --interactive-text-active: #{v(bg-5)};
+    --interactive-icon-default: #{v(gold-4)};
+    --interactive-icon-hover: #{v(bg-5)};
+    --interactive-icon-active: #{v(bg-5)};
+    --interactive-background-default: transparent;
+    --interactive-background-hover: #{v(bg-2)};
+    --interactive-background-active: #{v(bg-3)};
+    --interactive-background-selected: #{v(bg-3)};
+    --interactive-accent-background-default: #{v(bg-3)};
+    --interactive-accent-background-hover: #{v(gold-5)};
+    --interactive-accent-background-active: #{v(gold-5)};
+    --interactive-accent-background-selected: #{v(gold-5)};
+
+    --input-background-default: #{v(bg-3)};
+    --input-border-default: transparent;
+    --input-border-hover: #{v(bg-4)};
+    --input-border-active: #{v(gold-5)};
+    --input-text-default: #{v(gold-4)};
+    --input-placeholder-text-default: #{v(gold-2)};
+    --input-icon-default: #{v(gold-4)};
+
+    --message-background-hover: #{v(bg-1)};
+    --message-highlight-background-default: #{alpha(v(gold-5), 8%)};
+    --message-highlight-background-hover: #{alpha(v(gold-5), 8%)};
+    --message-mentioned-background-default: #{alpha(v(gold-5), 8%)};
+    --message-mentioned-background-hover: #{alpha(v(gold-5), 8%)};
+    --mention-background: #{alpha(v(gold-5), 15%)};
+    --mention-foreground: #{v(gold-5)};
+
+    --control-brand-foreground: #{v(accent)};
+    --control-brand-foreground-new: #{v(accent)};
+    --control-primary-background-default: #{v(bg-3)};
+    --control-primary-background-hover: #{v(gold-4)};
+    --control-primary-background-active: #{v(gold-4)};
+    --control-primary-border-default: transparent;
+    --control-primary-border-hover: transparent;
+    --control-primary-border-active: transparent;
+    --control-primary-text-default: #{v(gold-4)};
+    --control-primary-text-hover: #{v(bg-3)};
+    --control-primary-text-active: #{v(bg-3)};
+    --control-primary-icon-default: #{v(gold-4)};
+    --control-primary-icon-hover: #{v(bg-3)};
+    --control-primary-icon-active: #{v(bg-3)};
+    --control-secondary-background-default: #{v("khaki")};
+    --control-secondary-background-hover: #{v(gold-2)};
+    --control-secondary-background-active: #{v(gold-2)};
+    --control-secondary-border-default: transparent;
+    --control-secondary-border-hover: transparent;
+    --control-secondary-border-active: transparent;
+    --control-secondary-text-default: #{v(bg-2)};
+    --control-secondary-text-hover: #{v(bg-2)};
+    --control-secondary-text-active: #{v(bg-2)};
+    --control-secondary-icon-default: #{v(bg-2)};
+    --control-secondary-icon-hover: #{v(bg-2)};
+    --control-secondary-icon-active: #{v(bg-2)};
+    --control-connected-background-default: #{v("khaki")};
+    --control-connected-background-hover: #{v("khaki")};
+    --control-connected-background-active: #{v("khaki")};
+    --control-critical-primary-background-default: #{v(bg-4)};
+    --control-critical-primary-background-hover: #{v(gold-4)};
+    --control-critical-primary-background-active: #{v(gold-4)};
+    --control-critical-primary-text-default: #{v(gold-4)};
+    --control-critical-primary-text-hover: #{v(bg-4)};
+    --control-critical-primary-text-active: #{v(bg-4)};
+    --control-critical-primary-icon-default: #{v(gold-4)};
+    --control-critical-primary-icon-hover: #{v(bg-4)};
+    --control-critical-primary-icon-active: #{v(bg-4)};
+    --control-icon-only-icon-default: #{v(gold-4)};
+    --control-icon-only-icon-hover: #{v(bg-5)};
+    --control-icon-only-icon-active: #{v(bg-5)};
+
+    --checkbox-background-default: #{v(bg-3)};
+    --checkbox-border-default: #{v(gold-5)};
+    --checkbox-background-selected-default: #{v(gold-5)};
+    --checkbox-background-selected-hover: #{v(gold-5)};
+    --checkbox-border-selected-default: #{v(gold-5)};
+    --checkbox-border-selected-hover: #{v(gold-5)};
+    --checkbox-icon-active: #{v(bg-3)};
+    --radio-background-default: #{v(bg-3)};
+    --radio-background-hover: #{v(bg-3)};
+    --radio-border-default: #{v(gold-2)};
+    --radio-border-hover: #{v(gold-4)};
+    --radio-background-selected-default: #{v(gold-5)};
+    --radio-background-selected-hover: #{v(gold-5)};
+    --radio-border-selected-default: #{v(gold-5)};
+    --radio-border-selected-hover: #{v(gold-5)};
+    --radio-thumb-background-active: #{v(bg-3)};
+    --badge-notification-background: #{v(gold-2)};
+    --badge-expressive-background-default: #{v(gold-5)};
+    --badge-expressive-text-default: #{v(bg-3)};
+    --icon-overlay-dark: #{v(bg-3)};
+    --icon-overlay-light: #{v(gold-5)};
+    --badge-background-brand: #{v(gold-5)};
+    --badge-text-brand: #{v(bg-3)};
+    --scrollbar-auto-thumb: #{v(scroll)};
+    --scrollbar-auto-track: #{v(bg-1)};
+    --scrollbar-auto-scrollbar-color-thumb: #{v(scroll)};
+    --scrollbar-auto-scrollbar-color-track: #{v(bg-1)};
+    --scrollbar-thin-thumb: #{v(scroll)};
+    --scrollbar-thin-track: transparent;
+    --bd-brand: #{v(gold-3)};
+}
+
+:root,
+.visual-refresh {
+    @include brand-ramp;
+}
+
+#{$dark-themes} {
+    @include primary-ramp;
+    @include semantic;
+}

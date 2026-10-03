@@ -1,0 +1,21 @@
+@use "palette";
+@use "tokens";
+@use "components/app";
+@use "components/guilds";
+@use "components/sidebar";
+@use "components/header";
+@use "components/chat";
+@use "components/members";
+@use "components/friends";
+@use "components/profiles";
+@use "components/voice";
+@use "components/popouts";
+@use "components/controls";
+@use "components/modals";
+@use "components/settings";
+@use "components/betterdiscord";
+@use "addons/cosmetics";
+
+:root {
+    @include palette.custom-properties;
+}

@@ -1,0 +1,1294 @@
+/**
+ * @name         Spectra
+ * @description  A dark theme letting the light shine through! Spectra is a visibility focused theme that is still light on your eyes.
+ * @author       Pix
+ * @version      3.0
+ * @website      http://pixelmelt.xyz
+ * @source       https://github.com/PixelMelt/Spectra
+ * @invite       2MucdZyQsb
+ * @authorId     583750578094735360
+ */
+
+:root,
+.visual-refresh {
+  --brand-100: color-mix(in oklab, var(--spectra-accent), white 85%);
+  --brand-130: color-mix(in oklab, var(--spectra-accent), white 78.625%);
+  --brand-160: color-mix(in oklab, var(--spectra-accent), white 72.25%);
+  --brand-200: color-mix(in oklab, var(--spectra-accent), white 63.75%);
+  --brand-230: color-mix(in oklab, var(--spectra-accent), white 57.375%);
+  --brand-260: color-mix(in oklab, var(--spectra-accent), white 51%);
+  --brand-300: color-mix(in oklab, var(--spectra-accent), white 42.5%);
+  --brand-330: color-mix(in oklab, var(--spectra-accent), white 36.125%);
+  --brand-345: color-mix(in oklab, var(--spectra-accent), white 32.9375%);
+  --brand-360: color-mix(in oklab, var(--spectra-accent), white 29.75%);
+  --brand-400: color-mix(in oklab, var(--spectra-accent), white 21.25%);
+  --brand-430: color-mix(in oklab, var(--spectra-accent), white 14.875%);
+  --brand-460: color-mix(in oklab, var(--spectra-accent), white 8.5%);
+  --brand-500: var(--spectra-accent);
+  --brand-530: color-mix(in oklab, var(--spectra-accent), black 6.375%);
+  --brand-560: color-mix(in oklab, var(--spectra-accent), black 12.75%);
+  --brand-600: color-mix(in oklab, var(--spectra-accent), black 21.25%);
+  --brand-630: color-mix(in oklab, var(--spectra-accent), black 27.625%);
+  --brand-660: color-mix(in oklab, var(--spectra-accent), black 34%);
+  --brand-700: color-mix(in oklab, var(--spectra-accent), black 42.5%);
+  --brand-730: color-mix(in oklab, var(--spectra-accent), black 48.875%);
+  --brand-760: color-mix(in oklab, var(--spectra-accent), black 55.25%);
+  --brand-800: color-mix(in oklab, var(--spectra-accent), black 63.75%);
+  --brand-830: color-mix(in oklab, var(--spectra-accent), black 70.125%);
+  --brand-860: color-mix(in oklab, var(--spectra-accent), black 76.5%);
+  --brand-900: color-mix(in oklab, var(--spectra-accent), black 85%);
+  --brand-05a: color-mix(in oklab, var(--spectra-accent) 5%, transparent);
+  --brand-10a: color-mix(in oklab, var(--spectra-accent) 10%, transparent);
+  --brand-15a: color-mix(in oklab, var(--spectra-accent) 15%, transparent);
+  --brand-20a: color-mix(in oklab, var(--spectra-accent) 20%, transparent);
+  --brand-25a: color-mix(in oklab, var(--spectra-accent) 25%, transparent);
+  --brand-30a: color-mix(in oklab, var(--spectra-accent) 30%, transparent);
+  --brand-35a: color-mix(in oklab, var(--spectra-accent) 35%, transparent);
+  --brand-40a: color-mix(in oklab, var(--spectra-accent) 40%, transparent);
+  --brand-45a: color-mix(in oklab, var(--spectra-accent) 45%, transparent);
+  --brand-50a: color-mix(in oklab, var(--spectra-accent) 50%, transparent);
+  --brand-55a: color-mix(in oklab, var(--spectra-accent) 55%, transparent);
+  --brand-60a: color-mix(in oklab, var(--spectra-accent) 60%, transparent);
+  --brand-65a: color-mix(in oklab, var(--spectra-accent) 65%, transparent);
+  --brand-70a: color-mix(in oklab, var(--spectra-accent) 70%, transparent);
+  --brand-75a: color-mix(in oklab, var(--spectra-accent) 75%, transparent);
+  --brand-80a: color-mix(in oklab, var(--spectra-accent) 80%, transparent);
+  --brand-85a: color-mix(in oklab, var(--spectra-accent) 85%, transparent);
+  --brand-90a: color-mix(in oklab, var(--spectra-accent) 90%, transparent);
+  --brand-95a: color-mix(in oklab, var(--spectra-accent) 95%, transparent);
+}
+
+.theme-dark, .theme-darker, .theme-midnight {
+  --primary-100: color-mix(in oklab, var(--spectra-gold-5), white 60%);
+  --primary-130: color-mix(in oklab, var(--spectra-gold-5), white 40%);
+  --primary-160: color-mix(in oklab, var(--spectra-gold-5), white 20%);
+  --primary-200: var(--spectra-gold-5);
+  --primary-230: color-mix(in oklab, var(--spectra-gold-5), var(--spectra-gold-4));
+  --primary-260: var(--spectra-gold-4);
+  --primary-300: color-mix(in oklab, var(--spectra-gold-4), var(--spectra-gold-3));
+  --primary-330: var(--spectra-gold-3);
+  --primary-345: color-mix(in oklab, var(--spectra-gold-3), var(--spectra-gold-2));
+  --primary-360: var(--spectra-gold-2);
+  --primary-400: color-mix(in oklab, var(--spectra-gold-2), var(--spectra-bg-5));
+  --primary-430: color-mix(in oklab, var(--spectra-gold-1), var(--spectra-bg-5));
+  --primary-460: color-mix(in oklab, var(--spectra-bg-5), white 15%);
+  --primary-500: var(--spectra-bg-5);
+  --primary-530: color-mix(in oklab, var(--spectra-bg-5), var(--spectra-bg-4));
+  --primary-560: color-mix(in oklab, var(--spectra-bg-4), white 5%);
+  --primary-600: var(--spectra-bg-4);
+  --primary-630: var(--spectra-bg-3);
+  --primary-645: color-mix(in oklab, var(--spectra-bg-3), var(--spectra-bg-2));
+  --primary-660: var(--spectra-bg-2);
+  --primary-700: var(--spectra-bg-1);
+  --primary-730: color-mix(in oklab, var(--spectra-bg-1), var(--spectra-bg-0));
+  --primary-760: var(--spectra-bg-0);
+  --primary-800: color-mix(in oklab, var(--spectra-bg-0), black 20%);
+  --primary-830: color-mix(in oklab, var(--spectra-bg-0), black 35%);
+  --primary-860: color-mix(in oklab, var(--spectra-bg-0), black 50%);
+  --primary-900: color-mix(in oklab, var(--spectra-bg-0), black 65%);
+  --app-frame-background: var(--spectra-bg-0);
+  --app-frame-border: transparent;
+  --background-base-lowest: var(--spectra-bg-0);
+  --background-base-lower: var(--spectra-bg-1);
+  --background-base-low: var(--spectra-bg-2);
+  --background-surface-high: var(--spectra-bg-3);
+  --background-surface-higher: var(--spectra-bg-3);
+  --background-surface-highest: var(--spectra-bg-3);
+  --bg-surface-raised: var(--spectra-bg-3);
+  --bg-surface-overlay: var(--spectra-bg-3);
+  --background-brand: var(--spectra-accent);
+  --background-primary: var(--spectra-bg-2);
+  --background-secondary: var(--spectra-bg-1);
+  --background-secondary-alt: var(--spectra-bg-3);
+  --background-tertiary: var(--spectra-bg-0);
+  --background-floating: var(--spectra-bg-3);
+  --background-accent: var(--spectra-bg-1);
+  --background-modifier-hover: var(--spectra-bg-2);
+  --background-modifier-selected: var(--spectra-bg-3);
+  --background-modifier-active: var(--spectra-bg-3);
+  --background-scrim: color-mix(in oklab, var(--spectra-bg-0) 85%, transparent);
+  --background-scrim-lightbox: color-mix(in oklab, var(--spectra-bg-0) 92%, transparent);
+  --background-mod-subtle: var(--spectra-bg-2);
+  --background-mod-muted: var(--spectra-bg-3);
+  --background-mod-normal: var(--spectra-bg-3);
+  --background-mod-strong: var(--spectra-bg-4);
+  --chat-background: var(--spectra-bg-2);
+  --chat-background-default: var(--spectra-bg-2);
+  --chat-border: var(--spectra-bg-0);
+  --home-background: var(--spectra-bg-2);
+  --panel-bg: var(--spectra-bg-1);
+  --modal-background: var(--spectra-bg-3);
+  --modal-footer-background: var(--spectra-bg-3);
+  --card-background-default: var(--spectra-bg-3);
+  --card-border-default: transparent;
+  --card-secondary-bg: var(--spectra-bg-3);
+  --card-primary-pressed-bg: var(--spectra-bg-2);
+  --card-secondary-pressed-bg: var(--spectra-bg-2);
+  --embed-background: var(--spectra-bg-3);
+  --embed-background-alternate: var(--spectra-bg-3);
+  --channeltextarea-background: var(--spectra-bg-3);
+  --user-profile-toolbar-background: var(--spectra-bg-4);
+  --user-profile-toolbar-border: transparent;
+  --user-profile-overlay-background: var(--spectra-bg-3);
+  --user-profile-overlay-background-hover: var(--spectra-bg-2);
+  --user-profile-activity-toolbar-background: var(--spectra-bg-4);
+  --spoiler-hidden-background: var(--spectra-gold-2);
+  --spoiler-hidden-background-hover: var(--spectra-bg-5);
+  --spoiler-revealed-background: var(--spectra-bg-3);
+  --border-muted: var(--spectra-bg-0);
+  --border-subtle: var(--spectra-bg-0);
+  --border-normal: var(--spectra-bg-0);
+  --border-strong: var(--spectra-bg-4);
+  --border-focus: var(--spectra-gold-5);
+  --text-strong: var(--spectra-gold-5);
+  --text-default: var(--spectra-gold-3);
+  --text-subtle: var(--spectra-gold-2);
+  --text-muted: var(--spectra-gold-2);
+  --text-brand: var(--spectra-gold-5);
+  --text-link: var(--spectra-gold-4);
+  --text-invert: var(--spectra-bg-3);
+  --text-normal: var(--spectra-gold-3);
+  --header-primary: var(--spectra-gold-5);
+  --header-secondary: var(--spectra-gold-5);
+  --channels-default: var(--spectra-gold-4);
+  --channel-icon: var(--spectra-gold-4);
+  --chat-text-muted: var(--spectra-gold-2);
+  --channel-text-area-placeholder: var(--spectra-gold-2);
+  --textbox-markdown-syntax: var(--spectra-gold-2);
+  --icon-strong: var(--spectra-gold-5);
+  --icon-default: var(--spectra-gold-5);
+  --icon-subtle: var(--spectra-gold-4);
+  --icon-muted: var(--spectra-gold-2);
+  --icon-brand: var(--spectra-gold-5);
+  --icon-link: var(--spectra-gold-4);
+  --icon-invert: var(--spectra-bg-3);
+  --logo-primary: var(--spectra-gold-5);
+  --interactive-normal: var(--spectra-gold-5);
+  --interactive-hover: var(--spectra-bg-5);
+  --interactive-active: var(--spectra-gold-5);
+  --interactive-muted: var(--spectra-gold-1);
+  --interactive-text-default: var(--spectra-gold-4);
+  --interactive-text-hover: var(--spectra-bg-5);
+  --interactive-text-active: var(--spectra-bg-5);
+  --interactive-icon-default: var(--spectra-gold-4);
+  --interactive-icon-hover: var(--spectra-bg-5);
+  --interactive-icon-active: var(--spectra-bg-5);
+  --interactive-background-default: transparent;
+  --interactive-background-hover: var(--spectra-bg-2);
+  --interactive-background-active: var(--spectra-bg-3);
+  --interactive-background-selected: var(--spectra-bg-3);
+  --interactive-accent-background-default: var(--spectra-bg-3);
+  --interactive-accent-background-hover: var(--spectra-gold-5);
+  --interactive-accent-background-active: var(--spectra-gold-5);
+  --interactive-accent-background-selected: var(--spectra-gold-5);
+  --input-background-default: var(--spectra-bg-3);
+  --input-border-default: transparent;
+  --input-border-hover: var(--spectra-bg-4);
+  --input-border-active: var(--spectra-gold-5);
+  --input-text-default: var(--spectra-gold-4);
+  --input-placeholder-text-default: var(--spectra-gold-2);
+  --input-icon-default: var(--spectra-gold-4);
+  --message-background-hover: var(--spectra-bg-1);
+  --message-highlight-background-default: color-mix(in oklab, var(--spectra-gold-5) 8%, transparent);
+  --message-highlight-background-hover: color-mix(in oklab, var(--spectra-gold-5) 8%, transparent);
+  --message-mentioned-background-default: color-mix(in oklab, var(--spectra-gold-5) 8%, transparent);
+  --message-mentioned-background-hover: color-mix(in oklab, var(--spectra-gold-5) 8%, transparent);
+  --mention-background: color-mix(in oklab, var(--spectra-gold-5) 15%, transparent);
+  --mention-foreground: var(--spectra-gold-5);
+  --control-brand-foreground: var(--spectra-accent);
+  --control-brand-foreground-new: var(--spectra-accent);
+  --control-primary-background-default: var(--spectra-bg-3);
+  --control-primary-background-hover: var(--spectra-gold-4);
+  --control-primary-background-active: var(--spectra-gold-4);
+  --control-primary-border-default: transparent;
+  --control-primary-border-hover: transparent;
+  --control-primary-border-active: transparent;
+  --control-primary-text-default: var(--spectra-gold-4);
+  --control-primary-text-hover: var(--spectra-bg-3);
+  --control-primary-text-active: var(--spectra-bg-3);
+  --control-primary-icon-default: var(--spectra-gold-4);
+  --control-primary-icon-hover: var(--spectra-bg-3);
+  --control-primary-icon-active: var(--spectra-bg-3);
+  --control-secondary-background-default: var(--spectra-khaki);
+  --control-secondary-background-hover: var(--spectra-gold-2);
+  --control-secondary-background-active: var(--spectra-gold-2);
+  --control-secondary-border-default: transparent;
+  --control-secondary-border-hover: transparent;
+  --control-secondary-border-active: transparent;
+  --control-secondary-text-default: var(--spectra-bg-2);
+  --control-secondary-text-hover: var(--spectra-bg-2);
+  --control-secondary-text-active: var(--spectra-bg-2);
+  --control-secondary-icon-default: var(--spectra-bg-2);
+  --control-secondary-icon-hover: var(--spectra-bg-2);
+  --control-secondary-icon-active: var(--spectra-bg-2);
+  --control-connected-background-default: var(--spectra-khaki);
+  --control-connected-background-hover: var(--spectra-khaki);
+  --control-connected-background-active: var(--spectra-khaki);
+  --control-critical-primary-background-default: var(--spectra-bg-4);
+  --control-critical-primary-background-hover: var(--spectra-gold-4);
+  --control-critical-primary-background-active: var(--spectra-gold-4);
+  --control-critical-primary-text-default: var(--spectra-gold-4);
+  --control-critical-primary-text-hover: var(--spectra-bg-4);
+  --control-critical-primary-text-active: var(--spectra-bg-4);
+  --control-critical-primary-icon-default: var(--spectra-gold-4);
+  --control-critical-primary-icon-hover: var(--spectra-bg-4);
+  --control-critical-primary-icon-active: var(--spectra-bg-4);
+  --control-icon-only-icon-default: var(--spectra-gold-4);
+  --control-icon-only-icon-hover: var(--spectra-bg-5);
+  --control-icon-only-icon-active: var(--spectra-bg-5);
+  --checkbox-background-default: var(--spectra-bg-3);
+  --checkbox-border-default: var(--spectra-gold-5);
+  --checkbox-background-selected-default: var(--spectra-gold-5);
+  --checkbox-background-selected-hover: var(--spectra-gold-5);
+  --checkbox-border-selected-default: var(--spectra-gold-5);
+  --checkbox-border-selected-hover: var(--spectra-gold-5);
+  --checkbox-icon-active: var(--spectra-bg-3);
+  --radio-background-default: var(--spectra-bg-3);
+  --radio-background-hover: var(--spectra-bg-3);
+  --radio-border-default: var(--spectra-gold-2);
+  --radio-border-hover: var(--spectra-gold-4);
+  --radio-background-selected-default: var(--spectra-gold-5);
+  --radio-background-selected-hover: var(--spectra-gold-5);
+  --radio-border-selected-default: var(--spectra-gold-5);
+  --radio-border-selected-hover: var(--spectra-gold-5);
+  --radio-thumb-background-active: var(--spectra-bg-3);
+  --badge-notification-background: var(--spectra-gold-2);
+  --badge-expressive-background-default: var(--spectra-gold-5);
+  --badge-expressive-text-default: var(--spectra-bg-3);
+  --icon-overlay-dark: var(--spectra-bg-3);
+  --icon-overlay-light: var(--spectra-gold-5);
+  --badge-background-brand: var(--spectra-gold-5);
+  --badge-text-brand: var(--spectra-bg-3);
+  --scrollbar-auto-thumb: var(--spectra-scroll);
+  --scrollbar-auto-track: var(--spectra-bg-1);
+  --scrollbar-auto-scrollbar-color-thumb: var(--spectra-scroll);
+  --scrollbar-auto-scrollbar-color-track: var(--spectra-bg-1);
+  --scrollbar-thin-thumb: var(--spectra-scroll);
+  --scrollbar-thin-track: transparent;
+  --bd-brand: var(--spectra-gold-3);
+}
+
+.base__5e434,
+.layer__960e4.baseLayer__960e4 {
+  background-color: var(--spectra-bg-4);
+}
+
+.bg__960e4,
+.bar_c38106 {
+  background-color: var(--spectra-bg-3);
+}
+
+.guilds__5e434 {
+  border: 2px solid var(--spectra-bg-0);
+  margin: 5px;
+  margin-right: -1px;
+  border-radius: var(--spectra-roundness);
+}
+
+.sidebar__5e434::after {
+  display: none;
+}
+
+.sidebarList__5e434 {
+  border-radius: var(--spectra-roundness);
+  margin: 5px 0 5px 10px;
+  background-color: var(--spectra-bg-1);
+  border: none;
+}
+
+.page__5e434 {
+  width: auto;
+  height: auto;
+  border-radius: var(--spectra-roundness);
+  margin: 5px 10px;
+  overflow: hidden;
+}
+
+.noticeWrapper__35939 {
+  background-color: var(--spectra-bg-4);
+}
+
+.notice_c5cd6a {
+  border-radius: var(--spectra-roundness);
+  margin: 10px 10px 5px;
+  background-color: var(--spectra-bg-3);
+  color: var(--spectra-gold-4);
+}
+
+.button_c5cd6a:hover {
+  background-color: var(--spectra-bg-4);
+}
+
+.notice__6e2b9 {
+  --custom-notice-text: var(--spectra-gold-4);
+  --custom-notice-button-hover: var(--spectra-gold-5);
+  border-radius: var(--spectra-roundness);
+  margin: 10px;
+}
+.notice__6e2b9:not(.colorDanger__6e2b9, .colorWarning__6e2b9) {
+  --custom-notice-background: var(--spectra-bg-3);
+}
+
+.theme-dark .button__6e2b9 {
+  background-color: transparent;
+}
+.theme-dark .button__6e2b9:hover {
+  background-color: var(--spectra-bg-3);
+}
+
+.container_a2f514 {
+  background-color: var(--spectra-bg-3);
+}
+
+.tip_a2f514,
+.path__46696,
+.path2__46696 {
+  stroke: var(--spectra-gold-5);
+}
+
+.theme-dark.authBox__921c5 {
+  color: var(--spectra-gold-5);
+  background: var(--spectra-bg-3);
+}
+
+.title__1472a,
+.header_c6e099 {
+  color: var(--spectra-gold-5);
+}
+
+.listRow__1add6 {
+  border-radius: var(--spectra-roundness);
+}
+
+.scroller__7d20c {
+  border-left: 0;
+}
+
+.outer_bf1984.interactive_bf1984:hover,
+.theme-dark .outer_bf1984.active_bf1984 {
+  background-color: var(--spectra-bg-2);
+}
+
+.theme-dark .inset_bf1984 {
+  background-color: var(--spectra-bg-4);
+}
+
+[data-list-item-id=guildsnav___home] .childWrapper__6e9f8 svg {
+  transform: scale(1.3333333333);
+}
+[data-list-item-id=guildsnav___home] .childWrapper__6e9f8 path {
+  d: path("M11.848.047C11.792.072 11.672.163 11.581.248L11.416.403 11.416 3.043 11.416 5.683 11.594 5.871C11.834 6.123 11.871 6.141 12.16 6.141 12.45 6.141 12.49 6.122 12.727 5.868L12.904 5.678 12.904 3.04 12.904.403 12.739.248C12.47-.003 12.128-.08 11.848.047M3.832 3.369C3.414 3.518 3.189 4.055 3.417 4.358 3.866 4.954 6.747 7.849 7.085 8.043 7.621 8.351 8.345 7.711 8.106 7.139 7.976 6.827 5.2 4.006 4.469 3.442 4.305 3.315 4.062 3.288 3.832 3.369M19.915 3.389C19.731 3.485 19.492 3.709 18.338 4.863 17.113 6.088 16.616 6.607 16.339 6.95L16.193 7.131 16.193 7.356C16.193 7.871 16.67 8.244 17.134 8.091 17.449 7.987 20.713 4.721 20.937 4.286 21.098 3.973 20.901 3.509 20.554 3.386 20.42 3.338 20.009 3.34 19.915 3.389M11.424 6.875C10.256 6.998 8.989 7.693 8.146 8.673 6.844 10.187 6.491 12.296 7.232 14.134 7.281 14.255 7.321 14.357 7.321 14.361 7.321 14.365 6.704 14.369 5.95 14.369 2.807 14.37 1.3 14.444.898 14.617.697 14.704.67 14.753.67 15.032.67 15.702.508 15.693 13.19 15.677 18.972 15.67 21.592 15.658 21.913 15.638 23.503 15.54 23.675 15.48 23.675 15.021L23.675 14.784 23.589 14.704C23.328 14.457 21.97 14.37 18.356 14.369L16.996 14.369 17.013 14.313C17.023 14.282 17.046 14.226 17.066 14.187 17.649 13.041 17.61 11.204 16.973 9.882 15.951 7.758 13.85 6.619 11.424 6.875M12.904 8.425C15.491 9.008 16.788 11.999 15.374 14.122L15.21 14.369 12.153 14.363 9.097 14.356 9.004 14.216C7.508 11.956 8.845 8.904 11.552 8.402 11.822 8.351 12.64 8.366 12.904 8.425M1.514 11.392C.409 11.413.394 11.415.212 11.598-.002 11.811-.06 12.122.052 12.454.193 12.871.26 12.879 3.552 12.879L5.727 12.88 5.874 12.737C6.253 12.368 6.247 11.714 5.862 11.518 5.585 11.376 4.307 11.339 1.514 11.392M18.816 11.417C18.148 11.484 17.941 12.176 18.43 12.704L18.592 12.88 20.47 12.879C22.402 12.879 23.784 12.849 23.95 12.805 24.394 12.685 24.445 11.94 24.036 11.54L23.896 11.403 21.459 11.4C20.119 11.398 18.929 11.405 18.816 11.417");
+  transform: translateY(4px);
+}
+
+.childWrapper__6e9f8:hover,
+.wrapper__6e9f8:hover .childWrapper__6e9f8,
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
+  color: var(--spectra-gold-3);
+  background-color: var(--spectra-bg-3);
+}
+
+.guilds__5e434 .tree_ef3116 {
+  box-sizing: border-box;
+  padding-top: 8px;
+}
+
+.item__58105 {
+  background-color: var(--spectra-gold-vivid);
+}
+
+.iconBadge__650eb {
+  --white: var(--spectra-gold-5);
+}
+
+.folderIconWrapper__48112 {
+  background-color: var(--spectra-bg-3);
+}
+
+.folderIcon__48112 svg {
+  color: var(--spectra-gold-5);
+}
+
+.numberBadge__463b7 {
+  color: var(--spectra-bg-3);
+}
+
+.textBadge__463b7 {
+  background-color: var(--spectra-bg-3) !important;
+}
+
+.container__2637a {
+  background-color: transparent;
+}
+
+.flowerStarContainer__3e3b0 {
+  display: none;
+}
+
+.searchBarComponent_e6b769 {
+  border-radius: var(--spectra-roundness);
+}
+
+.searchBar_e6b769 .button_a22cb0 {
+  background-color: var(--background-tertiary);
+  color: var(--text-muted);
+}
+
+.iconBase_c69b6d {
+  color: var(--spectra-bg-4);
+}
+
+.modeMuted__2ea32 .icon__2ea32,
+.modeMuted__2ea32 .name__2ea32 {
+  color: var(--spectra-gold-1);
+}
+
+.modeSelected__2ea32 .icon__2ea32, .modeSelected__2ea32:hover .icon__2ea32,
+.modeUnreadImportant__2ea32 .icon__2ea32,
+.modeUnreadImportant__2ea32:hover .icon__2ea32 {
+  color: var(--spectra-bg-5);
+}
+
+.modeConnected__2ea32 .name__2ea32, .modeConnected__2ea32:hover .name__2ea32,
+.modeSelected__2ea32 .name__2ea32,
+.modeSelected__2ea32:hover .name__2ea32,
+.modeUnreadImportant__2ea32 .name__2ea32,
+.modeUnreadImportant__2ea32:hover .name__2ea32 {
+  color: var(--spectra-bg-5);
+}
+
+.notInteractive__2ea32:is(.modeConnected__2ea32, .modeSelected__2ea32) .name__2ea32 {
+  color: var(--spectra-bg-5);
+}
+
+.unread__2ea32 {
+  background-color: var(--spectra-gold-5);
+}
+
+.numberBadge__2ea32 {
+  color: var(--spectra-bg-3);
+}
+
+.unread__3b95d {
+  background-color: var(--spectra-bg-4);
+  opacity: 0.9;
+}
+
+.mention__3b95d {
+  background-color: var(--spectra-gold-3);
+}
+.mention__3b95d:active {
+  background-color: var(--spectra-bg-4);
+}
+
+.usernameSpeaking__07f91,
+.listDefault__07f91 .clickable__07f91.selected__07f91 .username__07f91 {
+  color: var(--spectra-gold-vivid);
+}
+
+.voiceUser__07f91:has(.usernameSpeaking__07f91) .avatar__07f91 {
+  box-shadow: inset 0 0 0 2px var(--spectra-gold-5), inset 0 0 0 3px var(--background-secondary);
+  border-radius: 50%;
+}
+
+.panels__5e434 {
+  grid-column: guildsEnd/channelsEnd;
+  left: 15px;
+  right: 5px;
+  bottom: 10px;
+  width: auto;
+  border-radius: var(--spectra-roundness);
+  background-color: var(--spectra-bg-3);
+}
+
+.container__37e49 .redIcon__37e49 {
+  color: var(--spectra-gold-3);
+}
+
+.buttons__37e49 > button {
+  --control-secondary-background-hover: var(--interactive-background-selected);
+}
+
+.headerName__553a5 {
+  color: var(--spectra-gold-5);
+}
+
+.children__9293f {
+  border-radius: var(--spectra-roundness);
+}
+
+.topic__6ec1a {
+  color: var(--spectra-gold-4);
+}
+
+.iconWrapper__9293f,
+.clickable__9293f .icon__9293f,
+.clickable__9293f.selected__9293f .icon__9293f,
+.bar_c38106 .clickable__81391 {
+  color: var(--spectra-gold-4);
+}
+
+.iconBadge__9293f {
+  background-color: var(--spectra-gold-5);
+}
+
+.bar_c38106 .anchor__14d82 {
+  display: none;
+}
+
+.jumpToPresentBar__0f481 {
+  background-color: var(--spectra-bg-1);
+}
+
+.newMessagesBar__0f481 {
+  background-color: var(--spectra-bg-4);
+}
+
+.barButtonBase__0f481 {
+  color: var(--spectra-cream);
+}
+
+.description__00de6 {
+  color: var(--spectra-gold-3);
+}
+
+.emptyChannelIcon__00de6 {
+  background-color: var(--spectra-bg-3);
+}
+
+.replying__5126c {
+  background-color: color-mix(in oklab, var(--spectra-gold-5) 8%, transparent);
+}
+.replying__5126c:before {
+  background-color: var(--spectra-gold-5);
+}
+
+.message__5126c:is(.ephemeral__5126c, .replying__5126c).selected__5126c,
+.mouse-mode.full__823e1 :is(.ephemeral__5126c, .replying__5126c):hover {
+  background-color: color-mix(in oklab, var(--spectra-gold-5) 8%, transparent);
+}
+
+.repliedMessage_c19a55 {
+  color: var(--spectra-gold-4);
+}
+
+:is(.applicationName_c19a55, .commandName_c19a55, .username_c19a55).clickable_c19a55:hover {
+  text-decoration: none;
+}
+
+.botTagRegular__82f07,
+.botTagInvert__82f07 {
+  --white: var(--spectra-bg-3);
+}
+
+.botTagInvert__82f07 {
+  background: var(--spectra-gold-4);
+  color: var(--spectra-bg-3);
+}
+
+.reaction_f8896c.reactionMe_f8896c {
+  background-color: var(--spectra-bg-3);
+  border-color: var(--spectra-gold-5);
+}
+
+.spoilerContent__299eb.hidden__299eb {
+  background-color: var(--spectra-gold-2);
+}
+
+.strikethrough_ada32f {
+  color: var(--spectra-steel);
+}
+
+.message_fd14e0 {
+  background-color: var(--spectra-bg-3);
+}
+
+.audioControls_cf09d8,
+.videoControls_cf09d8 {
+  background-color: color-mix(in oklab, var(--spectra-bg-3) 73%, transparent);
+}
+
+.metadata_cf09d8 {
+  background-image: linear-gradient(to top, transparent, color-mix(in oklab, var(--spectra-bg-3) 73%, transparent));
+}
+
+.metadataIcon_cf09d8 {
+  color: var(--spectra-gold-vivid);
+}
+
+.mediaBarInteraction_b26b79:hover .mediaBarGrabber_b26b79 {
+  background-color: var(--spectra-gold-4);
+}
+
+.buffer_b26b79, .buffer_b26b79:after, .buffer_b26b79:before {
+  background-color: var(--spectra-bg-3);
+}
+
+.mediaBarGrabber_b26b79,
+.mediaBarProgress_b26b79,
+.mediaBarProgress_b26b79:after,
+.mediaBarProgress_b26b79:before {
+  background-color: var(--spectra-gold-5);
+}
+
+.channelTextArea__74017,
+.scrollableContainer__74017,
+.textArea__74017 {
+  background-color: var(--spectra-bg-3);
+}
+
+.scrollableContainer__74017 {
+  border-radius: var(--spectra-roundness);
+}
+
+.attachButtonInner__0923f {
+  margin-left: -4px;
+}
+
+.sansAttachButton__74017 {
+  margin-left: 10px;
+  padding: 4px;
+}
+
+.buttons__74017 > .container__5287f {
+  display: none;
+}
+
+.contentTitle__13533 strong {
+  color: var(--spectra-gold-5);
+}
+
+.cooldownWrapper_b21699 {
+  color: var(--spectra-gold-5);
+}
+
+.uploadModalIn_b78547 .uploadDropModal_b78547 .bgScale_b78547 {
+  background: var(--spectra-bg-3);
+  color: var(--spectra-bg-3);
+}
+
+.uploadModal_dae93f {
+  background-color: var(--spectra-bg-3);
+}
+
+.searchResultsWrap_a98f3b {
+  border-radius: var(--spectra-roundness);
+  margin: 5px 5px 5px 0;
+}
+
+.membersWrap_c8ffbb {
+  background-color: var(--background-secondary);
+  min-width: unset;
+}
+
+.members_c8ffbb {
+  border-radius: var(--spectra-roundness);
+  margin: 5px;
+}
+
+.clickable__91a9d:active .layout__91a9d {
+  background-color: var(--spectra-bg-3);
+}
+
+.container__133bf {
+  border-radius: var(--spectra-roundness);
+  margin: 5px;
+}
+
+.peopleColumn__133bf,
+.peopleList__5ec2f,
+.peopleListItem_cc6179,
+.friendsEmpty_c7ea19,
+.addFriendInputWrapper__72ba7 {
+  background-color: var(--spectra-bg-2);
+}
+
+.addFriend__133bf {
+  --white: var(--spectra-gold-4);
+  --status-positive-text: var(--spectra-bg-3);
+  --opacity-blurple-16: var(--spectra-bg-4);
+}
+
+.item_aa8da2:is(.brand_aa8da2, .themed_aa8da2):hover {
+  color: var(--spectra-gold-3);
+}
+.item_aa8da2:is(.brand_aa8da2, .themed_aa8da2):active {
+  color: var(--spectra-gold-4);
+}
+.item_aa8da2.selected_aa8da2, .item_aa8da2.selected_aa8da2:hover {
+  cursor: default;
+  color: var(--spectra-gold-3);
+}
+
+.top_aa8da2 .themed_aa8da2.item_aa8da2:is(.selected_aa8da2, :active) {
+  border-bottom-color: var(--spectra-gold-5);
+}
+
+.theme-dark .activeButton_d6b206, .theme-dark .activeButton_d6b206:hover {
+  color: var(--spectra-bg-3);
+  background-color: var(--spectra-gold-5);
+}
+
+.activityName__2ef49,
+.nameNormal__2ef49,
+.nameWrap__2ef49 {
+  color: var(--spectra-gold-3);
+}
+
+.activityVoiceChannel__2ef49 .details__2ef49,
+.activityStreamPreview__2ef49 :is(.activityName__2ef49, .content__2ef49, .details__2ef49, .name__2ef49, .nameNormal__2ef49) {
+  color: var(--spectra-gold-5);
+}
+
+:is(.emptyStateHeader__7641b, .emptyStateSubtext__7641b) {
+  color: var(--spectra-gold-5);
+}
+
+:is(.user-profile-popout, .user-profile-modal, .user-profile-sidebar):not(.custom-user-profile-theme) {
+  background-color: var(--spectra-bg-4);
+}
+
+.banner__68edb {
+  background-color: var(--spectra-bg-5) !important;
+}
+
+.headerTop_f602ce {
+  background-color: var(--spectra-bg-5);
+}
+
+.username__05e81 {
+  color: var(--spectra-gold-5);
+}
+
+.discriminator__0a06e,
+.text__19b6d {
+  color: var(--spectra-gold-4);
+}
+
+.subtext_beaa93 {
+  color: var(--spectra-gold-3);
+}
+
+.controlIcon_f1ceac {
+  color: var(--spectra-gold-4);
+}
+.controlIcon_f1ceac.active_f1ceac, .controlIcon_f1ceac:hover {
+  color: var(--spectra-bg-4);
+}
+
+.colorable_f1ceac:is(.primaryDark_f1ceac, .white_f1ceac, .red_f1ceac) {
+  background: var(--spectra-bg-5);
+}
+.colorable_f1ceac:is(.primaryDark_f1ceac, .white_f1ceac, .red_f1ceac),
+.colorable_f1ceac:is(.primaryDark_f1ceac, .white_f1ceac, .red_f1ceac) .centerIcon_f1ceac {
+  color: var(--spectra-gold-5);
+}
+.colorable_f1ceac:is(.primaryDark_f1ceac, .white_f1ceac, .red_f1ceac).active_f1ceac, .colorable_f1ceac:is(.primaryDark_f1ceac, .white_f1ceac, .red_f1ceac):hover {
+  background: var(--spectra-bg-4);
+}
+
+.button_e131a9.buttonColor_e131a9.buttonActive_e131a9,
+.button_e131a9 .buttonColor_e131a9.buttonActive_e131a9 {
+  background-color: var(--spectra-bg-3);
+  color: var(--spectra-gold-4);
+}
+.button_e131a9.buttonColor_e131a9.buttonActive_e131a9:hover,
+.button_e131a9 .buttonColor_e131a9.buttonActive_e131a9:hover {
+  background-color: var(--spectra-gold-4);
+}
+
+.tile__90dc5 {
+  background-color: var(--spectra-bg-3);
+}
+
+.live_a7acae {
+  color: var(--spectra-gold-5);
+}
+
+.iconLive__46869 {
+  --green-360: var(--spectra-gold-5);
+}
+
+.quickswitcher_ac6cb0 .input_ac6cb0 {
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px;
+  background: var(--spectra-cream);
+  color: var(--spectra-bg-3);
+}
+
+.container__16eb0 .groupHeader__971b5 {
+  color: var(--spectra-gold-5);
+}
+.container__16eb0 .item__971b5 {
+  color: var(--spectra-gold-5);
+}
+.container__16eb0 .item__971b5 .nonText__971b5,
+.container__16eb0 .item__971b5 strong {
+  color: var(--spectra-gold-4);
+}
+.container__16eb0 .item__971b5:hover, .container__16eb0 .item__971b5[aria-selected=true] {
+  background-color: var(--spectra-bg-2);
+}
+.container__16eb0 .filterPill__971b5,
+.container__16eb0 .answerPill__971b5 {
+  color: var(--spectra-gold-5);
+  background-color: var(--spectra-bg-4);
+}
+
+.tabBar__06f80 .tab__06f80.selected_aa8da2 {
+  color: var(--spectra-bg-0);
+  background-color: var(--spectra-gold-5);
+}
+
+.menu_c1e9c4 {
+  background: var(--spectra-bg-2);
+}
+
+.colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4) {
+  background-color: var(--spectra-bg-1);
+  color: var(--spectra-gold-5);
+}
+.colorDefault_c1e9c4.focused_c1e9c4 {
+  background-color: var(--spectra-bg-4);
+  color: var(--spectra-gold-vivid);
+}
+.colorDefault_c1e9c4 .checkbox_c1e9c4,
+.colorDefault_c1e9c4 .radioSelection_c1e9c4 {
+  color: var(--spectra-gold-3);
+}
+
+.colorDanger_c1e9c4,
+.colorDanger_c1e9c4 .checkbox_c1e9c4,
+.colorDanger_c1e9c4 .radioSelection_c1e9c4 {
+  color: var(--spectra-gold-vivid);
+}
+
+.colorPremium_c1e9c4 .icon_c1e9c4 {
+  color: var(--spectra-gold-vivid);
+}
+
+.contentWrapper__08434,
+.categoryItemDefaultCategory_b9ee0c {
+  border-radius: var(--spectra-roundness);
+}
+
+.categoryItem_b9ee0c {
+  color: var(--spectra-gold-3);
+  margin-left: 8px;
+}
+
+.categoryText_d02962 {
+  --white: var(--spectra-gold-5);
+}
+
+.categoryFadeBlurple_d02962 ~ .categoryText_d02962 {
+  --white: var(--spectra-bg-3);
+  text-shadow: none;
+}
+
+.emojiItemDisabled__0800c {
+  filter: grayscale(0%);
+}
+
+.sprite__04eed {
+  filter: grayscale(0%);
+}
+
+.friend_bbd192 {
+  color: var(--spectra-gold-vivid);
+}
+
+.lookFilled__201d5.colorBrand__201d5:disabled {
+  background-color: var(--spectra-bg-4);
+}
+.lookFilled__201d5.colorBrand__201d5:hover {
+  color: var(--spectra-bg-3);
+}
+.lookFilled__201d5.colorGreen__201d5 {
+  color: var(--spectra-bg-3);
+}
+.lookFilled__201d5.colorRed__201d5 {
+  color: var(--spectra-gold-4);
+}
+.lookFilled__201d5.colorRed__201d5:hover {
+  color: var(--spectra-bg-4);
+}
+
+.lookOutlined__201d5.colorBrand__201d5 {
+  color: var(--spectra-gold-4);
+  border-color: var(--spectra-gold-5);
+}
+.lookOutlined__201d5.colorGreen__201d5 {
+  border-color: var(--spectra-gold-4);
+}
+.lookOutlined__201d5.colorWhite__201d5 {
+  color: var(--spectra-gold-3);
+  border-color: var(--spectra-gold-4);
+}
+
+.lookLink__201d5.colorBrand__201d5 {
+  color: var(--spectra-gold-3);
+}
+.theme-dark .lookLink__201d5.colorPrimary__201d5 {
+  color: var(--spectra-gold-5);
+}
+
+.lookBlank__201d5 {
+  color: var(--spectra-gold-3);
+}
+
+.circleIconButton__5bc7e {
+  color: var(--spectra-gold-2);
+  background-color: var(--spectra-bg-3);
+}
+.circleIconButton__5bc7e.selected__5bc7e {
+  color: var(--spectra-bg-4);
+  background-color: var(--spectra-gold-5);
+}
+
+.input__0ed4f {
+  color: var(--spectra-gold-4);
+}
+.input__0ed4f.focused__0ed4f, .input__0ed4f:focus {
+  border-color: var(--spectra-gold-5);
+}
+
+.switchIndicator_a28278 {
+  background-color: var(--spectra-bg-4) !important;
+}
+
+.container_a28278:has(input:checked) .switchIndicator_a28278 {
+  background-color: var(--spectra-gold-3) !important;
+}
+
+.radioIconForeground__88a69 {
+  color: var(--spectra-gold-5);
+}
+
+.item__88a69:hover:not([aria-checked=true]), .item__88a69[aria-checked=true] {
+  background-color: var(--spectra-bg-3);
+}
+.item__88a69[aria-checked=true] {
+  color: var(--spectra-gold-vivid);
+}
+
+.select_a16aea {
+  background-color: var(--spectra-bg-3);
+  color: var(--spectra-gold-5);
+}
+.select_a16aea, .select_a16aea:hover {
+  border-color: transparent;
+}
+
+.popout_a16aea {
+  color: var(--spectra-gold-5);
+  border-radius: 0;
+}
+
+.value_a16aea,
+.option_a16aea {
+  color: var(--spectra-gold-vivid);
+}
+
+.grabber__4c059 {
+  background-color: var(--spectra-bg-4);
+  border: 1px solid transparent;
+}
+
+.barFill__4c059 {
+  background: var(--spectra-gold-5);
+}
+
+.theme-dark .markDash__4c059 {
+  background: var(--spectra-bg-3);
+}
+
+.theme-dark .markValue__4c059 {
+  color: var(--spectra-gold-vivid);
+}
+
+.defaultValue__4c059 .markValue__4c059 {
+  color: var(--spectra-gold-5);
+}
+
+.barInner_c8b06d {
+  background-color: var(--spectra-gold-3);
+}
+
+.keybindShortcut_ea79f0 span {
+  background-color: var(--spectra-bg-4);
+  color: var(--spectra-gold-5);
+}
+
+.theme-dark .calendarPicker_d27f17 .react-datepicker__current-month {
+  border-bottom-color: color-mix(in oklab, var(--spectra-gold-5) 18%, transparent);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day-name {
+  color: var(--spectra-gold-5);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker__navigation.react-datepicker__navigation--next, .theme-dark .calendarPicker_d27f17 .react-datepicker__navigation.react-datepicker__navigation--previous {
+  border-color: var(--spectra-gold-5);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day--disabled,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day--outside-month,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled:hover {
+  background-color: var(--spectra-bg-4);
+  color: var(--spectra-gold-5);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day:hover,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--selected:hover {
+  color: var(--spectra-bg-3);
+  background-color: var(--spectra-gold-5);
+}
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--selected:after {
+  background-color: var(--spectra-gold-5);
+}
+
+.cardPrimary_b5dd01 {
+  background-color: var(--spectra-bg-3);
+}
+
+.selectorButtonSelected__0907c {
+  background-color: var(--spectra-khaki);
+}
+
+.root__49fc1 {
+  border-radius: var(--spectra-roundness);
+}
+
+.keybind_c2b141 {
+  color: var(--spectra-gold-5);
+}
+
+.theme-dark .closeButton_c2b141 {
+  border-color: var(--spectra-gold-5);
+}
+
+.activeBreadcrumb__75013 {
+  color: color-mix(in oklab, var(--spectra-gold-5) 88%, transparent);
+}
+
+.breadcrumbWrapper__75013 {
+  color: color-mix(in oklab, var(--spectra-gold-5) 53%, transparent);
+}
+
+.h5_b717a1,
+.required_b717a1,
+.required__5a838 {
+  color: var(--spectra-gold-5);
+}
+
+.bd-switch-body {
+  --switch-color: var(--spectra-bg-1);
+}
+
+.bd-switch input:checked + .bd-switch-body {
+  --switch-color: var(--spectra-gold-3);
+}
+
+.bd-button.bd-button-filled.bd-button-color-brand:not(.bd-button-recovery, .bd-error-toggle) {
+  background-color: var(--spectra-gold-3);
+  color: var(--spectra-gold-1);
+  transition: background-color 0.17s ease, color 0.17s ease;
+}
+.bd-button.bd-button-filled.bd-button-color-brand:not(.bd-button-recovery, .bd-error-toggle):hover {
+  background-color: var(--spectra-gold-2);
+}
+.bd-button.bd-button-filled.bd-button-color-red, .bd-button.bd-button-filled.bd-button-recovery {
+  --red-new-50: var(--spectra-bg-4);
+  background-color: var(--spectra-bg-4);
+  color: var(--spectra-gold-4);
+}
+.bd-button.bd-button-filled.bd-button-color-red:hover, .bd-button.bd-button-filled.bd-button-recovery:hover {
+  background-color: var(--spectra-bg-2);
+}
+
+.bd-error-toggle {
+  --white-500: var(--spectra-gold-2);
+}
+
+@keyframes spectra-tag-1 {
+  0% {
+    content: "</>";
+    font-family: "Courier New";
+  }
+  25% {
+    content: "<M>";
+  }
+  50% {
+    content: "<Me>";
+  }
+  75% {
+    content: "<Meo>";
+  }
+  100% {
+    content: "<Meow>";
+  }
+}
+@keyframes spectra-tag-2 {
+  0% {
+    content: "</>";
+    font-family: "Courier New";
+  }
+  10% {
+    content: "<I>";
+  }
+  20% {
+    content: "<Im>";
+  }
+  30% {
+    content: "<Im >";
+  }
+  40% {
+    content: "<Im i>";
+  }
+  50% {
+    content: "<Im in>";
+  }
+  60% {
+    content: "<Im in >";
+  }
+  70% {
+    content: "<Im in p>";
+  }
+  80% {
+    content: "<Im in pa>";
+  }
+  90% {
+    content: "<Im in pai>";
+  }
+  100% {
+    content: "<Im in pain>";
+  }
+}
+@keyframes spectra-tag-3 {
+  0% {
+    content: "</>";
+    font-family: "Courier New";
+  }
+  5.2631578947% {
+    content: "<S>";
+  }
+  10.5263157895% {
+    content: "<Sp>";
+  }
+  15.7894736842% {
+    content: "<Spe>";
+  }
+  21.0526315789% {
+    content: "<Spec>";
+  }
+  26.3157894737% {
+    content: "<Spect>";
+  }
+  31.5789473684% {
+    content: "<Spectr>";
+  }
+  36.8421052632% {
+    content: "<Spectra>";
+  }
+  42.1052631579% {
+    content: "<Spectra >";
+  }
+  47.3684210526% {
+    content: "<Spectra C>";
+  }
+  52.6315789474% {
+    content: "<Spectra Co>";
+  }
+  57.8947368421% {
+    content: "<Spectra Con>";
+  }
+  63.1578947368% {
+    content: "<Spectra Cont>";
+  }
+  68.4210526316% {
+    content: "<Spectra Contr>";
+  }
+  73.6842105263% {
+    content: "<Spectra Contri>";
+  }
+  78.9473684211% {
+    content: "<Spectra Contrib>";
+  }
+  84.2105263158% {
+    content: "<Spectra Contribu>";
+  }
+  89.4736842105% {
+    content: "<Spectra Contribut>";
+  }
+  94.7368421053% {
+    content: "<Spectra Contributo>";
+  }
+  100% {
+    content: "<Spectra Contributor>";
+  }
+}
+.avatar_c19a55[src*="583750578094735360"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem;
+  content: "</>";
+  color: white;
+}
+.avatar_c19a55[src*="583750578094735360"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Meow>";
+  animation: spectra-tag-1 0.5s linear 1;
+  font-family: "Courier New", "monospace";
+}
+
+.avatar_c19a55[src*="419352542804312066"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem;
+  content: "</>";
+  color: white;
+}
+.avatar_c19a55[src*="419352542804312066"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Im in pain>";
+  animation: spectra-tag-2 0.5s linear 1;
+  font-family: "Courier New", "monospace";
+}
+
+.avatar_c19a55[src*="258731845267619840"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem;
+  content: "</>";
+  color: white;
+}
+.avatar_c19a55[src*="258731845267619840"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Spectra Contributor>";
+  animation: spectra-tag-3 0.5s linear 1;
+  font-family: "Courier New", "monospace";
+}
+
+.avatar_c19a55[src*="265924886461939712"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem;
+  content: "</>";
+  color: white;
+}
+.avatar_c19a55[src*="265924886461939712"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Spectra Contributor>";
+  animation: spectra-tag-3 0.5s linear 1;
+  font-family: "Courier New", "monospace";
+}
+
+:root {
+  --spectra-bg-0: #13181d;
+  --spectra-bg-1: #181f26;
+  --spectra-bg-2: #1b2229;
+  --spectra-bg-3: #1f2933;
+  --spectra-bg-4: #2a3744;
+  --spectra-bg-5: #3e4e5f;
+  --spectra-scroll: #343a40;
+  --spectra-steel: #6685a5;
+  --spectra-khaki: #737066;
+  --spectra-cream: #f1e1ad;
+  --spectra-gold-1: #796d0f;
+  --spectra-gold-2: #c39a13;
+  --spectra-gold-3: #efbe1c;
+  --spectra-gold-4: #fdd653;
+  --spectra-gold-5: #ffe89b;
+  --spectra-gold-vivid: #ffc914;
+  --spectra-accent: var(--spectra-gold-4);
+  --spectra-roundness: 15px;
+}

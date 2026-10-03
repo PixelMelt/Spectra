@@ -8,6 +8,3 @@
  * @invite       2MucdZyQsb
  * @authorId     583750578094735360
  */
-
-@import url("https://pixelmelt.github.io/Spectra/dist/spectra.css"); /* the theme */
-@import url("https://raw.githack.com/NYRI4/Discolored/master/main.css"); /* colored discord SVGs */

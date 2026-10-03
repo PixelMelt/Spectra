@@ -1,0 +1,38 @@
+@use "../functions" as *;
+
+.bd-switch-body {
+    --switch-color: #{v(bg-1)};
+}
+
+.bd-switch input:checked + .bd-switch-body {
+    --switch-color: #{v(gold-3)};
+}
+
+.bd-button.bd-button-filled {
+    &.bd-button-color-brand:not(.bd-button-recovery, .bd-error-toggle) {
+        background-color: v(gold-3);
+        color: v(gold-1);
+        transition:
+            background-color 0.17s ease,
+            color 0.17s ease;
+
+        &:hover {
+            background-color: v(gold-2);
+        }
+    }
+
+    &.bd-button-color-red,
+    &.bd-button-recovery {
+        --red-new-50: #{v(bg-4)};
+        background-color: v(bg-4);
+        color: v(gold-4);
+
+        &:hover {
+            background-color: v(bg-2);
+        }
+    }
+}
+
+.bd-error-toggle {
+    --white-500: #{v(gold-2)};
+}

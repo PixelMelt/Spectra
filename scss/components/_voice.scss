@@ -1,0 +1,46 @@
+@use "../functions" as *;
+
+.controlIcon_f1ceac {
+    color: v(gold-4);
+
+    &.active_f1ceac,
+    &:hover {
+        color: v(bg-4);
+    }
+}
+
+.colorable_f1ceac:is(.primaryDark_f1ceac, .white_f1ceac, .red_f1ceac) {
+    background: v(bg-5);
+
+    &,
+    .centerIcon_f1ceac {
+        color: v(gold-5);
+    }
+
+    &.active_f1ceac,
+    &:hover {
+        background: v(bg-4);
+    }
+}
+
+.button_e131a9.buttonColor_e131a9.buttonActive_e131a9,
+.button_e131a9 .buttonColor_e131a9.buttonActive_e131a9 {
+    background-color: v(bg-3);
+    color: v(gold-4);
+
+    &:hover {
+        background-color: v(gold-4);
+    }
+}
+
+.tile__90dc5 {
+    background-color: v(bg-3);
+}
+
+.live_a7acae {
+    color: v(gold-5);
+}
+
+.iconLive__46869 {
+    --green-360: #{v(gold-5)};
+}

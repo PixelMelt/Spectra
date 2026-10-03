@@ -1,0 +1,26 @@
+$colors: (
+    bg-0: #13181d,
+    bg-1: #181f26,
+    bg-2: #1b2229,
+    bg-3: #1f2933,
+    bg-4: #2a3744,
+    bg-5: #3e4e5f,
+    scroll: #343a40,
+    steel: #6685a5,
+    "khaki": #737066,
+    cream: #f1e1ad,
+    gold-1: #796d0f,
+    gold-2: #c39a13,
+    gold-3: #efbe1c,
+    gold-4: #fdd653,
+    gold-5: #ffe89b,
+    gold-vivid: #ffc914,
+);
+
+@mixin custom-properties {
+    @each $name, $value in $colors {
+        --spectra-#{$name}: #{$value};
+    }
+    --spectra-accent: var(--spectra-gold-4);
+    --spectra-roundness: 15px;
+}
