@@ -1,8 +1,8 @@
 @use "../functions" as *;
 
-.membersWrap_c8ffbb,
-.members_c8ffbb {
+.membersWrap_c8ffbb {
     background-color: var(--background-secondary);
+    min-width: unset;
 }
 
 .members_c8ffbb {
@@ -12,12 +12,4 @@
 
 .clickable__91a9d:active .layout__91a9d {
     background-color: v(bg-3);
-}
-
-.container__91a9d {
-    &.clickable__91a9d:active,
-    &.highlighted__91a9d,
-    &.selected__91a9d {
-        color: v(bg-5);
-    }
 }

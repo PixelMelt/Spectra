@@ -17,7 +17,6 @@ $round: v(roundness);
     margin: 5px;
     margin-right: -1px;
     border-radius: $round;
-    background-color: v(bg-0);
 }
 
 .sidebar__5e434::after {
@@ -37,7 +36,6 @@ $round: v(roundness);
     border-radius: $round;
     margin: 5px 10px;
     overflow: hidden;
-    border: none;
 }
 
 .noticeWrapper__35939 {
@@ -57,8 +55,13 @@ $round: v(roundness);
 
 .notice__6e2b9 {
     --custom-notice-text: #{v(gold-4)};
+    --custom-notice-button-hover: #{v(gold-5)};
     border-radius: $round;
     margin: 10px;
+
+    &:not(.colorDanger__6e2b9, .colorWarning__6e2b9) {
+        --custom-notice-background: #{v(bg-3)};
+    }
 }
 
 .button__6e2b9 {
@@ -76,10 +79,6 @@ $round: v(roundness);
 }
 
 .tip_a2f514,
-.tipTitle_a2f514 {
-    color: v(gold-5);
-}
-
 .path__46696,
 .path2__46696 {
     stroke: v(gold-5);
@@ -103,13 +102,9 @@ $round: v(roundness);
     border-left: 0;
 }
 
-.outer_bf1984 {
-    background-color: v(bg-3);
-
-    &.interactive_bf1984:hover,
-    .theme-dark &.active_bf1984 {
-        background-color: v(bg-2);
-    }
+.outer_bf1984.interactive_bf1984:hover,
+.theme-dark .outer_bf1984.active_bf1984 {
+    background-color: v(bg-2);
 }
 
 .theme-dark .inset_bf1984 {

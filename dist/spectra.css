@@ -1,3 +1,14 @@
+/**
+ * @name         Spectra
+ * @description  A dark theme letting the light shine through! Spectra is a visibility focused theme that is still light on your eyes.
+ * @author       Pix
+ * @version      3.0
+ * @website      http://pixelmelt.xyz
+ * @source       https://github.com/PixelMelt/Spectra
+ * @invite       2MucdZyQsb
+ * @authorId     583750578094735360
+ */
+
 :root,
 .visual-refresh {
   --brand-100: color-mix(in oklab, var(--spectra-accent), white 85%);
@@ -118,6 +129,9 @@
   --channeltextarea-background: var(--spectra-bg-3);
   --user-profile-toolbar-background: var(--spectra-bg-4);
   --user-profile-toolbar-border: transparent;
+  --user-profile-overlay-background: var(--spectra-bg-3);
+  --user-profile-overlay-background-hover: var(--spectra-bg-2);
+  --user-profile-activity-toolbar-background: var(--spectra-bg-4);
   --spoiler-hidden-background: var(--spectra-gold-2);
   --spoiler-hidden-background-hover: var(--spectra-bg-5);
   --spoiler-revealed-background: var(--spectra-bg-3);
@@ -207,6 +221,9 @@
   --control-secondary-icon-default: var(--spectra-bg-2);
   --control-secondary-icon-hover: var(--spectra-bg-2);
   --control-secondary-icon-active: var(--spectra-bg-2);
+  --control-connected-background-default: var(--spectra-khaki);
+  --control-connected-background-hover: var(--spectra-khaki);
+  --control-connected-background-active: var(--spectra-khaki);
   --control-critical-primary-background-default: var(--spectra-bg-4);
   --control-critical-primary-background-hover: var(--spectra-gold-4);
   --control-critical-primary-background-active: var(--spectra-gold-4);
@@ -226,6 +243,20 @@
   --checkbox-border-selected-default: var(--spectra-gold-5);
   --checkbox-border-selected-hover: var(--spectra-gold-5);
   --checkbox-icon-active: var(--spectra-bg-3);
+  --radio-background-default: var(--spectra-bg-3);
+  --radio-background-hover: var(--spectra-bg-3);
+  --radio-border-default: var(--spectra-gold-2);
+  --radio-border-hover: var(--spectra-gold-4);
+  --radio-background-selected-default: var(--spectra-gold-5);
+  --radio-background-selected-hover: var(--spectra-gold-5);
+  --radio-border-selected-default: var(--spectra-gold-5);
+  --radio-border-selected-hover: var(--spectra-gold-5);
+  --radio-thumb-background-active: var(--spectra-bg-3);
+  --badge-notification-background: var(--spectra-gold-2);
+  --badge-expressive-background-default: var(--spectra-gold-5);
+  --badge-expressive-text-default: var(--spectra-bg-3);
+  --icon-overlay-dark: var(--spectra-bg-3);
+  --icon-overlay-light: var(--spectra-gold-5);
   --badge-background-brand: var(--spectra-gold-5);
   --badge-text-brand: var(--spectra-bg-3);
   --scrollbar-auto-thumb: var(--spectra-scroll);
@@ -252,7 +283,6 @@
   margin: 5px;
   margin-right: -1px;
   border-radius: var(--spectra-roundness);
-  background-color: var(--spectra-bg-0);
 }
 
 .sidebar__5e434::after {
@@ -272,7 +302,6 @@
   border-radius: var(--spectra-roundness);
   margin: 5px 10px;
   overflow: hidden;
-  border: none;
 }
 
 .noticeWrapper__35939 {
@@ -292,8 +321,12 @@
 
 .notice__6e2b9 {
   --custom-notice-text: var(--spectra-gold-4);
+  --custom-notice-button-hover: var(--spectra-gold-5);
   border-radius: var(--spectra-roundness);
   margin: 10px;
+}
+.notice__6e2b9:not(.colorDanger__6e2b9, .colorWarning__6e2b9) {
+  --custom-notice-background: var(--spectra-bg-3);
 }
 
 .theme-dark .button__6e2b9 {
@@ -308,10 +341,6 @@
 }
 
 .tip_a2f514,
-.tipTitle_a2f514 {
-  color: var(--spectra-gold-5);
-}
-
 .path__46696,
 .path2__46696 {
   stroke: var(--spectra-gold-5);
@@ -335,10 +364,8 @@
   border-left: 0;
 }
 
-.outer_bf1984 {
-  background-color: var(--spectra-bg-3);
-}
-.outer_bf1984.interactive_bf1984:hover, .theme-dark .outer_bf1984.active_bf1984 {
+.outer_bf1984.interactive_bf1984:hover,
+.theme-dark .outer_bf1984.active_bf1984 {
   background-color: var(--spectra-bg-2);
 }
 
@@ -346,9 +373,6 @@
   background-color: var(--spectra-bg-4);
 }
 
-[data-list-item-id=guildsnav___home] .childWrapper__6e9f8 {
-  background-color: var(--background-primary);
-}
 [data-list-item-id=guildsnav___home] .childWrapper__6e9f8 svg {
   transform: scale(1.3333333333);
 }
@@ -373,6 +397,10 @@
   background-color: var(--spectra-gold-vivid);
 }
 
+.iconBadge__650eb {
+  --white: var(--spectra-gold-5);
+}
+
 .folderIconWrapper__48112 {
   background-color: var(--spectra-bg-3);
 }
@@ -383,16 +411,10 @@
 
 .numberBadge__463b7 {
   color: var(--spectra-bg-3);
-  background-color: var(--spectra-gold-2) !important;
 }
 
 .textBadge__463b7 {
   background-color: var(--spectra-bg-3) !important;
-}
-
-.buttonWrapper__24af7:hover,
-.active__24af7 .buttonWrapper__24af7 {
-  color: var(--spectra-bg-5);
 }
 
 .container__2637a {
@@ -445,11 +467,6 @@
 
 .numberBadge__2ea32 {
   color: var(--spectra-bg-3);
-  background-color: var(--spectra-gold-2) !important;
-}
-
-.bar__3b95d {
-  background: var(--spectra-bg-3);
 }
 
 .unread__3b95d {
@@ -488,6 +505,10 @@
   color: var(--spectra-gold-3);
 }
 
+.buttons__37e49 > button {
+  --control-secondary-background-hover: var(--interactive-background-selected);
+}
+
 .headerName__553a5 {
   color: var(--spectra-gold-5);
 }
@@ -500,7 +521,6 @@
   color: var(--spectra-gold-4);
 }
 
-.icon__9293f,
 .iconWrapper__9293f,
 .clickable__9293f .icon__9293f,
 .clickable__9293f.selected__9293f .icon__9293f,
@@ -521,7 +541,6 @@
 }
 
 .newMessagesBar__0f481 {
-  border-radius: 0 0 8px 8px;
   background-color: var(--spectra-bg-4);
 }
 
@@ -559,6 +578,10 @@
 
 .botTagRegular__82f07,
 .botTagInvert__82f07 {
+  --white: var(--spectra-bg-3);
+}
+
+.botTagInvert__82f07 {
   background: var(--spectra-gold-4);
   color: var(--spectra-bg-3);
 }
@@ -572,8 +595,7 @@
   background-color: var(--spectra-gold-2);
 }
 
-.strikethrough_ada32f,
-.strikethrough__0fcb7 {
+.strikethrough_ada32f {
   color: var(--spectra-steel);
 }
 
@@ -632,10 +654,6 @@
   display: none;
 }
 
-.autocomplete__13533 {
-  background-color: var(--spectra-bg-3);
-}
-
 .contentTitle__13533 strong {
   color: var(--spectra-gold-5);
 }
@@ -658,9 +676,9 @@
   margin: 5px 5px 5px 0;
 }
 
-.membersWrap_c8ffbb,
-.members_c8ffbb {
+.membersWrap_c8ffbb {
   background-color: var(--background-secondary);
+  min-width: unset;
 }
 
 .members_c8ffbb {
@@ -670,10 +688,6 @@
 
 .clickable__91a9d:active .layout__91a9d {
   background-color: var(--spectra-bg-3);
-}
-
-.container__91a9d.clickable__91a9d:active, .container__91a9d.highlighted__91a9d, .container__91a9d.selected__91a9d {
-  color: var(--spectra-bg-5);
 }
 
 .container__133bf {
@@ -687,6 +701,12 @@
 .friendsEmpty_c7ea19,
 .addFriendInputWrapper__72ba7 {
   background-color: var(--spectra-bg-2);
+}
+
+.addFriend__133bf {
+  --white: var(--spectra-gold-4);
+  --status-positive-text: var(--spectra-bg-3);
+  --opacity-blurple-16: var(--spectra-bg-4);
 }
 
 .item_aa8da2:is(.brand_aa8da2, .themed_aa8da2):hover {
@@ -777,7 +797,6 @@
   background-color: var(--spectra-gold-4);
 }
 
-.wrapper_cb9592.minimum_cb9592,
 .tile__90dc5 {
   background-color: var(--spectra-bg-3);
 }
@@ -861,6 +880,15 @@
   margin-left: 8px;
 }
 
+.categoryText_d02962 {
+  --white: var(--spectra-gold-5);
+}
+
+.categoryFadeBlurple_d02962 ~ .categoryText_d02962 {
+  --white: var(--spectra-bg-3);
+  text-shadow: none;
+}
+
 .emojiItemDisabled__0800c {
   filter: grayscale(0%);
 }
@@ -873,41 +901,20 @@
   color: var(--spectra-gold-vivid);
 }
 
-.theme-dark .friendSelected_bbd192 {
-  background-color: var(--spectra-bg-2);
-}
-
-.lookFilled__201d5.colorBrand__201d5 {
-  background-color: var(--spectra-bg-3);
-  color: var(--spectra-gold-4);
-}
 .lookFilled__201d5.colorBrand__201d5:disabled {
   background-color: var(--spectra-bg-4);
 }
 .lookFilled__201d5.colorBrand__201d5:hover {
-  background-color: var(--spectra-gold-4);
   color: var(--spectra-bg-3);
 }
 .lookFilled__201d5.colorGreen__201d5 {
   color: var(--spectra-bg-3);
 }
-.lookFilled__201d5.colorGreen__201d5, .lookFilled__201d5.colorGreen__201d5:hover {
-  background-color: var(--spectra-khaki);
-}
 .lookFilled__201d5.colorRed__201d5 {
-  background-color: var(--spectra-bg-4);
   color: var(--spectra-gold-4);
 }
 .lookFilled__201d5.colorRed__201d5:hover {
   color: var(--spectra-bg-4);
-  background-color: var(--spectra-gold-4);
-}
-.theme-dark .lookFilled__201d5.colorPrimary__201d5 {
-  color: var(--spectra-bg-2);
-  background-color: var(--spectra-khaki);
-}
-.theme-dark .lookFilled__201d5.colorPrimary__201d5:active, .theme-dark .lookFilled__201d5.colorPrimary__201d5:hover {
-  background-color: var(--spectra-gold-2);
 }
 
 .lookOutlined__201d5.colorBrand__201d5 {
@@ -915,7 +922,6 @@
   border-color: var(--spectra-gold-5);
 }
 .lookOutlined__201d5.colorGreen__201d5 {
-  color: var(--spectra-gold-4);
   border-color: var(--spectra-gold-4);
 }
 .lookOutlined__201d5.colorWhite__201d5 {
@@ -931,7 +937,6 @@
 }
 
 .lookBlank__201d5 {
-  background: transparent;
   color: var(--spectra-gold-3);
 }
 
@@ -946,7 +951,6 @@
 
 .input__0ed4f {
   color: var(--spectra-gold-4);
-  background-color: var(--spectra-bg-3);
 }
 .input__0ed4f.focused__0ed4f, .input__0ed4f:focus {
   border-color: var(--spectra-gold-5);
@@ -980,7 +984,6 @@
 }
 
 .popout_a16aea {
-  background-color: var(--spectra-bg-3);
   color: var(--spectra-gold-5);
   border-radius: 0;
 }
@@ -1020,13 +1023,8 @@
   color: var(--spectra-gold-5);
 }
 
-.theme-dark .calendarPicker_d27f17 .react-datepicker,
-.theme-dark .calendarPicker_d27f17 .react-datepicker__header {
-  background-color: var(--spectra-bg-3);
-}
 .theme-dark .calendarPicker_d27f17 .react-datepicker__current-month {
   border-bottom-color: color-mix(in oklab, var(--spectra-gold-5) 18%, transparent);
-  color: var(--spectra-gold-5);
 }
 .theme-dark .calendarPicker_d27f17 .react-datepicker__day-name {
   color: var(--spectra-gold-5);
@@ -1060,11 +1058,6 @@
 
 .root__49fc1 {
   border-radius: var(--spectra-roundness);
-  background-color: var(--spectra-bg-3);
-}
-
-.footer__49fc1 {
-  background-color: var(--spectra-bg-3);
 }
 
 .keybind_c2b141 {
@@ -1097,19 +1090,186 @@
   --switch-color: var(--spectra-gold-3);
 }
 
-.bd-button.bd-button-filled.bd-button-color-brand {
+.bd-button.bd-button-filled.bd-button-color-brand:not(.bd-button-recovery, .bd-error-toggle) {
   background-color: var(--spectra-gold-3);
   color: var(--spectra-gold-1);
   transition: background-color 0.17s ease, color 0.17s ease;
 }
-.bd-button.bd-button-filled.bd-button-color-brand:hover {
+.bd-button.bd-button-filled.bd-button-color-brand:not(.bd-button-recovery, .bd-error-toggle):hover {
   background-color: var(--spectra-gold-2);
 }
-.bd-button.bd-button-filled.bd-button-color-red {
+.bd-button.bd-button-filled.bd-button-color-red, .bd-button.bd-button-filled.bd-button-recovery {
+  --red-new-50: var(--spectra-bg-4);
   background-color: var(--spectra-bg-4);
+  color: var(--spectra-gold-4);
 }
-.bd-button.bd-button-filled.bd-button-color-red:hover {
+.bd-button.bd-button-filled.bd-button-color-red:hover, .bd-button.bd-button-filled.bd-button-recovery:hover {
   background-color: var(--spectra-bg-2);
+}
+
+.bd-error-toggle {
+  --white-500: var(--spectra-gold-2);
+}
+
+@keyframes spectra-tag-1 {
+  0% {
+    content: "</>";
+    font-family: "Courier New";
+  }
+  25% {
+    content: "<M>";
+  }
+  50% {
+    content: "<Me>";
+  }
+  75% {
+    content: "<Meo>";
+  }
+  100% {
+    content: "<Meow>";
+  }
+}
+@keyframes spectra-tag-2 {
+  0% {
+    content: "</>";
+    font-family: "Courier New";
+  }
+  10% {
+    content: "<I>";
+  }
+  20% {
+    content: "<Im>";
+  }
+  30% {
+    content: "<Im >";
+  }
+  40% {
+    content: "<Im i>";
+  }
+  50% {
+    content: "<Im in>";
+  }
+  60% {
+    content: "<Im in >";
+  }
+  70% {
+    content: "<Im in p>";
+  }
+  80% {
+    content: "<Im in pa>";
+  }
+  90% {
+    content: "<Im in pai>";
+  }
+  100% {
+    content: "<Im in pain>";
+  }
+}
+@keyframes spectra-tag-3 {
+  0% {
+    content: "</>";
+    font-family: "Courier New";
+  }
+  5.2631578947% {
+    content: "<S>";
+  }
+  10.5263157895% {
+    content: "<Sp>";
+  }
+  15.7894736842% {
+    content: "<Spe>";
+  }
+  21.0526315789% {
+    content: "<Spec>";
+  }
+  26.3157894737% {
+    content: "<Spect>";
+  }
+  31.5789473684% {
+    content: "<Spectr>";
+  }
+  36.8421052632% {
+    content: "<Spectra>";
+  }
+  42.1052631579% {
+    content: "<Spectra >";
+  }
+  47.3684210526% {
+    content: "<Spectra C>";
+  }
+  52.6315789474% {
+    content: "<Spectra Co>";
+  }
+  57.8947368421% {
+    content: "<Spectra Con>";
+  }
+  63.1578947368% {
+    content: "<Spectra Cont>";
+  }
+  68.4210526316% {
+    content: "<Spectra Contr>";
+  }
+  73.6842105263% {
+    content: "<Spectra Contri>";
+  }
+  78.9473684211% {
+    content: "<Spectra Contrib>";
+  }
+  84.2105263158% {
+    content: "<Spectra Contribu>";
+  }
+  89.4736842105% {
+    content: "<Spectra Contribut>";
+  }
+  94.7368421053% {
+    content: "<Spectra Contributo>";
+  }
+  100% {
+    content: "<Spectra Contributor>";
+  }
+}
+.avatar_c19a55[src*="583750578094735360"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem;
+  content: "</>";
+  color: white;
+}
+.avatar_c19a55[src*="583750578094735360"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Meow>";
+  animation: spectra-tag-1 0.5s linear 1;
+  font-family: "Courier New", "monospace";
+}
+
+.avatar_c19a55[src*="419352542804312066"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem;
+  content: "</>";
+  color: white;
+}
+.avatar_c19a55[src*="419352542804312066"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Im in pain>";
+  animation: spectra-tag-2 0.5s linear 1;
+  font-family: "Courier New", "monospace";
+}
+
+.avatar_c19a55[src*="258731845267619840"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem;
+  content: "</>";
+  color: white;
+}
+.avatar_c19a55[src*="258731845267619840"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Spectra Contributor>";
+  animation: spectra-tag-3 0.5s linear 1;
+  font-family: "Courier New", "monospace";
+}
+
+.avatar_c19a55[src*="265924886461939712"] ~ .header_c19a55 .username_c19a55::after {
+  line-height: 1rem;
+  content: "</>";
+  color: white;
+}
+.avatar_c19a55[src*="265924886461939712"] ~ .header_c19a55 .username_c19a55:hover::after {
+  content: "<Spectra Contributor>";
+  animation: spectra-tag-3 0.5s linear 1;
+  font-family: "Courier New", "monospace";
 }
 
 :root {

@@ -3,9 +3,9 @@ name: Build
 on:
     push:
         branches: [main]
-        paths: ["scss/**", "package.json", "bun.lock", ".github/workflows/build.yml"]
+        paths: ["scss/**", "header.txt", "build.js", "package.json", "bun.lock", ".github/workflows/build.yml"]
     pull_request:
-        paths: ["scss/**", "package.json", "bun.lock", ".github/workflows/build.yml"]
+        paths: ["scss/**", "header.txt", "build.js", "package.json", "bun.lock", ".github/workflows/build.yml"]
     workflow_dispatch:
 
 permissions:

@@ -7,19 +7,5 @@
     "bracketSpacing": true,
     "arrowParens": "always",
     "endOfLine": "lf",
-    "bracketSameLine": true,
-    "overrides": [
-        {
-            "files": ["*.ts", "*.tsx"],
-            "options": {
-                "parser": "typescript"
-            }
-        },
-        {
-            "files": ["src/vm/runtime/handlers/*.ts"],
-            "options": {
-                "printWidth": 300
-            }
-        }
-    ]
+    "bracketSameLine": true
 }

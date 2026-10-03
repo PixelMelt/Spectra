@@ -61,11 +61,6 @@ $round: v(roundness);
 
 .numberBadge__2ea32 {
     color: v(bg-3);
-    background-color: v(gold-2) !important;
-}
-
-.bar__3b95d {
-    background: v(bg-3);
 }
 
 .unread__3b95d {
@@ -105,6 +100,10 @@ $round: v(roundness);
 
 .container__37e49 .redIcon__37e49 {
     color: v(gold-3);
+}
+
+.buttons__37e49 > button {
+    --control-secondary-background-hover: var(--interactive-background-selected);
 }
 
 .headerName__553a5 {

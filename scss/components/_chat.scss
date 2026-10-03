@@ -7,7 +7,6 @@ $round: v(roundness);
 }
 
 .newMessagesBar__0f481 {
-    border-radius: 0 0 8px 8px;
     background-color: v(bg-4);
 }
 
@@ -46,6 +45,10 @@ $round: v(roundness);
 
 .botTagRegular__82f07,
 .botTagInvert__82f07 {
+    --white: #{v(bg-3)};
+}
+
+.botTagInvert__82f07 {
     background: v(gold-4);
     color: v(bg-3);
 }
@@ -59,8 +62,7 @@ $round: v(roundness);
     background-color: v(gold-2);
 }
 
-.strikethrough_ada32f,
-.strikethrough__0fcb7 {
+.strikethrough_ada32f {
     color: v(steel);
 }
 
@@ -121,10 +123,6 @@ $round: v(roundness);
 
 .buttons__74017 > .container__5287f {
     display: none;
-}
-
-.autocomplete__13533 {
-    background-color: v(bg-3);
 }
 
 .contentTitle__13533 strong {

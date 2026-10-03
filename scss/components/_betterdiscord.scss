@@ -9,7 +9,7 @@
 }
 
 .bd-button.bd-button-filled {
-    &.bd-button-color-brand {
+    &.bd-button-color-brand:not(.bd-button-recovery, .bd-error-toggle) {
         background-color: v(gold-3);
         color: v(gold-1);
         transition:
@@ -21,11 +21,18 @@
         }
     }
 
-    &.bd-button-color-red {
+    &.bd-button-color-red,
+    &.bd-button-recovery {
+        --red-new-50: #{v(bg-4)};
         background-color: v(bg-4);
+        color: v(gold-4);
 
         &:hover {
             background-color: v(bg-2);
         }
     }
+}
+
+.bd-error-toggle {
+    --white-500: #{v(gold-2)};
 }

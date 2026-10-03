@@ -1,4 +1,3 @@
-@use "sass:map";
 @use "sass:math";
 @use "sass:string";
 @use "functions" as *;
@@ -108,6 +107,9 @@ $primary: (
     --channeltextarea-background: #{v(bg-3)};
     --user-profile-toolbar-background: #{v(bg-4)};
     --user-profile-toolbar-border: transparent;
+    --user-profile-overlay-background: #{v(bg-3)};
+    --user-profile-overlay-background-hover: #{v(bg-2)};
+    --user-profile-activity-toolbar-background: #{v(bg-4)};
     --spoiler-hidden-background: #{v(gold-2)};
     --spoiler-hidden-background-hover: #{v(bg-5)};
     --spoiler-revealed-background: #{v(bg-3)};
@@ -204,6 +206,9 @@ $primary: (
     --control-secondary-icon-default: #{v(bg-2)};
     --control-secondary-icon-hover: #{v(bg-2)};
     --control-secondary-icon-active: #{v(bg-2)};
+    --control-connected-background-default: #{v("khaki")};
+    --control-connected-background-hover: #{v("khaki")};
+    --control-connected-background-active: #{v("khaki")};
     --control-critical-primary-background-default: #{v(bg-4)};
     --control-critical-primary-background-hover: #{v(gold-4)};
     --control-critical-primary-background-active: #{v(gold-4)};
@@ -224,6 +229,20 @@ $primary: (
     --checkbox-border-selected-default: #{v(gold-5)};
     --checkbox-border-selected-hover: #{v(gold-5)};
     --checkbox-icon-active: #{v(bg-3)};
+    --radio-background-default: #{v(bg-3)};
+    --radio-background-hover: #{v(bg-3)};
+    --radio-border-default: #{v(gold-2)};
+    --radio-border-hover: #{v(gold-4)};
+    --radio-background-selected-default: #{v(gold-5)};
+    --radio-background-selected-hover: #{v(gold-5)};
+    --radio-border-selected-default: #{v(gold-5)};
+    --radio-border-selected-hover: #{v(gold-5)};
+    --radio-thumb-background-active: #{v(bg-3)};
+    --badge-notification-background: #{v(gold-2)};
+    --badge-expressive-background-default: #{v(gold-5)};
+    --badge-expressive-text-default: #{v(bg-3)};
+    --icon-overlay-dark: #{v(bg-3)};
+    --icon-overlay-light: #{v(gold-5)};
     --badge-background-brand: #{v(gold-5)};
     --badge-text-brand: #{v(bg-3)};
     --scrollbar-auto-thumb: #{v(scroll)};

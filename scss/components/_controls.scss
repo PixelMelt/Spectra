@@ -2,45 +2,24 @@
 
 .lookFilled__201d5 {
     &.colorBrand__201d5 {
-        background-color: v(bg-3);
-        color: v(gold-4);
-
         &:disabled {
             background-color: v(bg-4);
         }
 
         &:hover {
-            background-color: v(gold-4);
             color: v(bg-3);
         }
     }
 
     &.colorGreen__201d5 {
         color: v(bg-3);
-
-        &,
-        &:hover {
-            background-color: v("khaki");
-        }
     }
 
     &.colorRed__201d5 {
-        background-color: v(bg-4);
         color: v(gold-4);
 
         &:hover {
             color: v(bg-4);
-            background-color: v(gold-4);
-        }
-    }
-
-    .theme-dark &.colorPrimary__201d5 {
-        color: v(bg-2);
-        background-color: v("khaki");
-
-        &:active,
-        &:hover {
-            background-color: v(gold-2);
         }
     }
 }
@@ -52,7 +31,6 @@
     }
 
     &.colorGreen__201d5 {
-        color: v(gold-4);
         border-color: v(gold-4);
     }
 
@@ -73,7 +51,6 @@
 }
 
 .lookBlank__201d5 {
-    background: transparent;
     color: v(gold-3);
 }
 
@@ -89,7 +66,6 @@
 
 .input__0ed4f {
     color: v(gold-4);
-    background-color: v(bg-3);
 
     &.focused__0ed4f,
     &:focus {
@@ -131,7 +107,6 @@
 }
 
 .popout_a16aea {
-    background-color: v(bg-3);
     color: v(gold-5);
     border-radius: 0;
 }
@@ -172,14 +147,8 @@
 }
 
 .theme-dark .calendarPicker_d27f17 {
-    .react-datepicker,
-    .react-datepicker__header {
-        background-color: v(bg-3);
-    }
-
     .react-datepicker__current-month {
         border-bottom-color: alpha(v(gold-5), 18%);
-        color: v(gold-5);
     }
 
     .react-datepicker__day-name {

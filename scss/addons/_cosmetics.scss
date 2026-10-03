@@ -2,20 +2,10 @@
 @use "sass:string";
 
 $tags: (
-    // Pix#7008
-    "583750578094735360": "Get Linux",
-    // Macro#9389
+    "583750578094735360": "Meow",
     "419352542804312066": "Im in pain",
     "258731845267619840": "Spectra Contributor",
     "265924886461939712": "Spectra Contributor",
-    // Achi™#9761
-    "374700424462073857": "Spectra Beta",
-    // Skittles#8027
-    "128707790016348160": "Spectra Beta",
-    // SatoruX#4065
-    "556271703139811350": "Spectra Beta",
-    // Maxy_Zou#8281
-    "751817881112543363": "Spectra Beta"
 );
 
 @mixin typing-keyframes($name, $text) {
@@ -48,17 +38,12 @@ $texts: ();
         &::after {
             line-height: 1rem;
             content: "</>";
-            background-color: transparent;
             color: white;
         }
 
         &:hover::after {
-            line-height: 1rem;
             content: "<#{$text}>";
-            background-color: transparent;
-            color: white;
             animation: #{$anim} 0.5s linear 1;
-            transition: content 1s ease;
             font-family: "Courier New", "monospace";
         }
     }

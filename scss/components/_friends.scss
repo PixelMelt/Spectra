@@ -13,6 +13,12 @@
     background-color: v(bg-2);
 }
 
+.addFriend__133bf {
+    --white: #{v(gold-4)};
+    --status-positive-text: #{v(bg-3)};
+    --opacity-blurple-16: #{v(bg-4)};
+}
+
 .item_aa8da2 {
     &:is(.brand_aa8da2, .themed_aa8da2):hover {
         color: v(gold-3);
